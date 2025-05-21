@@ -1,0 +1,151 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{datetime}				%makes your life with dates easier
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{framed}					%used for framing of code listing in appendix
+\usepackage{color}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{caption}					%centering captions
+\usepackage[acronyms, nonumberlist, nomain]{glossaries}
+\usepackage{microtype}				%nicer spacing and fixes badboxes in bibliography
+\usepackage{minted}
+\usepackage{csquotes}
+%%%%%%%%%%%%%%%%%title%%%%%%%%%%%%%%%
+
+\newdate{lessondate}{7}{6}{2018}
+
+
+\makeglossaries
+
+%%%%%%%%%%%%%listins%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[svgnames]{xcolor}
+\definecolor{diffstart}{named}{Grey}
+\definecolor{diffincl}{named}{Green}
+\definecolor{diffrem}{named}{OrangeRed}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{
+	backgroundcolor=\color{white},   % choose the background color
+	basicstyle=\footnotesize\ttfamily,        % size of fonts used for the code
+	breaklines=true,                 % automatic line breaking only at whitespace
+	captionpos=b,                    % sets the caption-position to bottom
+	commentstyle=\color{mygreen},    % comment style
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	keywordstyle=\color{blue},       % keyword style
+	stringstyle=\color{mymauve},	   % string literal style
+	frame=single,
+	float,
+	stepnumber=1,
+	numbers=left,
+}
+%%%%%%%%listing language for Patches
+\lstdefinelanguage{diff}{ 
+	basicstyle=\ttfamily\small,
+	morecomment=[f][\color{diffstart}]{@@},
+	morecomment=[f][\color{diffincl}]{+},
+	morecomment=[f][\color{diffrem}]{-},
+}
+
+%%%%%%%%%%%%%%%%%%bibliography
+\usepackage[backend=bibtex,bibencoding=ascii, style=ieee]{biblatex}
+\bibliography{resources/main.bib} 
+
+\setcounter{biburllcpenalty}{7000}
+\setcounter{biburlucpenalty}{8000}
+
+\glsaddall
+%TODO: check RFC citation style
+
+
+
+\begin{document}
+	\pagenumbering{roman}
+	%\maketitle
+	\begin{titlepage} 
+		\begin{centering}
+			
+			% Header
+			\begin{figure}[!h]
+				% TU Logo
+				\begin{minipage}{0.4\linewidth}
+					\begin{center}
+						\includegraphics[scale=0.8]{resources/images/tu-logo.eps} 
+					\end{center}  
+				\end{minipage}
+				\hfill
+				% KBS Logo
+				\begin{minipage}{0.45\linewidth} 
+					\begin{center}
+						\includegraphics[scale=0.1]{resources/images/inet-logo.png} 
+					\end{center}    
+				\end{minipage}
+			\end{figure}
+			
+			% vertikaler Zwischenraum
+			\vspace{7mm}
+			
+			% Titel der Arbeit
+			\LARGE
+			
+			Bachelorthesis
+			
+			\textbf{ Evaluating Dual-Stack against NAT64 deployment schemes with DNS64 and CLAT}\\[2.5cm]
+			
+			
+			\large
+			% Name des Verfassers
+			Wodke, Daniel Jin\\
+			21. Mai 2025\\[3.2cm]
+			
+			% Betreuer
+			\begin{minipage}{\linewidth} 
+				\begin{tabbing}
+					Gutachter:\quad \=Prof. Dr. Stefan Schmid\\
+					\> ...\\
+					Betreuerin:       \> ...\\
+					Matrikelnr.: \> Your Matrikel Number\\
+				\end{tabbing}
+			\end{minipage}
+			
+			% vertikaler Zwischenraum
+			\vfill
+			
+			\normalsize
+			{Technische Universität Berlin}\\
+			{Faklutät IV - Elektrotechnik und Informatik}\\
+			{Institut für Telekommunikationssysteme}\\
+			{Fachgebiet Intelligent Networks}\\
+		\end{centering}
+	\end{titlepage}
+	
+	\newpage
+	\include{section/Erklaerung}
+	\newpage
+	\include{section/abstract-de}
+	\newpage
+	\include{section/abstract}
+	\tableofcontents
+	\newpage
+	\clearpage
+	\printglossaries
+	
+	\newpage
+	\pagenumbering{arabic}
+	\include{section/Background}
+	\include{section/Analysis}
+	\include{section/Implementation}
+	\include{section/RelatedWork}
+	\include{section/Conclusion}
+	\include{section/Appendix}
+
+	
+	
+	
+\end{document}
