@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.14)  20 AUG 2025 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.14)  20 AUG 2025 17:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -801,7 +801,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux) (./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux) (./section/RelatedWork.aux) (./section/Implementation.aux) (./section/Analysis.aux) (./section/Conclusion.aux) (./section/References.aux) (./section/Appendix.aux))
+ (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux) (./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux) (./section/RelatedWork.aux) (./section/Implementation.aux) (./section/Results.aux) (./section/Evaluation.aux) (./section/Conclusion.aux) (./section/References.aux) (./section/Appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -980,53 +980,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--129
 
 
 
-] (./main.toc)
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
-
+] (./main.toc
 
 [4
 
 
 
-]
+])
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+
+
+[5]
 No file main.acr.
 
 
-[5
+[6
 
 ]
 \openout2 = `section/Introduction.aux'.
 
- (./section/Introduction.tex)
+ (./section/Introduction.tex
+Chapter 1.
+)
 
 [1
+
 
 ]
 \openout2 = `section/Background.aux'.
 
  (./section/Background.tex
-Chapter 1.
-
+Chapter 2.
+)
 
 [2
 
 
 
 
-])
-
-[3]
-
-[4]
+]
 \openout2 = `section/RelatedWork.aux'.
 
  (./section/RelatedWork.tex
-Chapter 2.
+Chapter 3.
 )
 
-[5
+[3
 
 
 
@@ -1035,7 +1036,31 @@ Chapter 2.
 \openout2 = `section/Implementation.aux'.
 
  (./section/Implementation.tex
-Chapter 3.
+Chapter 4.
+)
+
+[4
+
+
+
+
+]
+\openout2 = `section/Results.aux'.
+
+ (./section/Results.tex
+Chapter 5.
+)
+
+[5
+
+
+
+
+]
+\openout2 = `section/Evaluation.aux'.
+
+ (./section/Evaluation.tex
+Chapter 6.
 )
 
 [6
@@ -1044,10 +1069,10 @@ Chapter 3.
 
 
 ]
-\openout2 = `section/Analysis.aux'.
+\openout2 = `section/Conclusion.aux'.
 
- (./section/Analysis.tex
-Chapter 4.
+ (./section/Conclusion.tex
+Chapter 7.
 )
 
 [7
@@ -1056,25 +1081,13 @@ Chapter 4.
 
 
 ]
-\openout2 = `section/Conclusion.aux'.
-
- (./section/Conclusion.tex
-Chapter 5.
-)
-
-[8
-
-
-
-
-]
 \openout2 = `section/References.aux'.
 
  (./section/References.tex
-Chapter 6.
+Chapter 8.
 )
 
-[9
+[8
 
 
 
@@ -1084,19 +1097,14 @@ Chapter 6.
 
  (./section/Appendix.tex
 
-[10
+LaTeX Warning: Empty bibliography on input line 5.
 
 
 
-
-]
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+[9
 
 
-[11
+
 
 ] (./main.lof)
 \tf@lof=\write8
@@ -1104,7 +1112,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 
-[12
+[10
 
 ] (./main.lol)
 \tf@lol=\write9
@@ -1112,42 +1120,33 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 
-[13
+[11
 
 ])
-runsystem(latexminted cleantemp  --timestamp 20250820171727 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
+runsystem(latexminted cleantemp  --timestamp 20250820172909 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
 
- (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux) (./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux) (./section/RelatedWork.aux) (./section/Implementation.aux) (./section/Analysis.aux) (./section/Conclusion.aux) (./section/References.aux) (./section/Appendix.aux))
+ (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux) (./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux) (./section/RelatedWork.aux) (./section/Implementation.aux) (./section/Results.aux) (./section/Evaluation.aux) (./section/Conclusion.aux) (./section/References.aux) (./section/Appendix.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30064 strings out of 473190
- 617812 string characters out of 5715800
- 1709844 words of memory out of 5000000
- 52782 multiletter control sequences out of 15000+600000
- 575694 words of font info for 119 fonts, out of 8000000 for 9000
+ 29867 strings out of 473190
+ 614059 string characters out of 5715800
+ 1714584 words of memory out of 5000000
+ 52582 multiletter control sequences out of 15000+600000
+ 574535 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,9n,117p,2465b,1904s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (20 pages, 759652 bytes).
+ 85i,9n,117p,2465b,1958s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on main.pdf (19 pages, 717016 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 35339 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 32779 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -16,11 +16,5 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global/global}
-  \entry{loremipsum}{misc}{}{}
-    \field{labeltitlesource}{title}
-    \field{note}{\url{http://www.loremipsum.de/}}
-    \field{title}{{Lorem ipsum}}
-  \endentry
-\enddatalist
+\datalist[entry]{none/global//global/global/global}\enddatalist
 \endinput
