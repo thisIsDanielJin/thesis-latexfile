@@ -18,6 +18,9 @@
 \contentsline {section}{\numberline {3.2}Studies Focused on Kubernetes and Cloud-Native Contexts}{3}{}%
 \contentsline {section}{\numberline {3.3}Identified Research Gap}{3}{}%
 \contentsline {chapter}{\numberline {4}Implementation}{4}{}%
+\contentsline {section}{\numberline {4.1}AWS}{4}{}%
+\contentsline {section}{\numberline {4.2}Single Local}{4}{}%
+\contentsline {section}{\numberline {4.3}Double Local}{4}{}%
 \contentsline {chapter}{\numberline {5}Results}{5}{}%
 \contentsline {chapter}{\numberline {6}Evaluation}{6}{}%
 \contentsline {chapter}{\numberline {7}Conclusion}{7}{}%

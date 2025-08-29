@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.14)  20 AUG 2025 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  29 AUG 2025 18:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/I750579/Documents/thesisTemplate/main.tex
-(/Users/I750579/Documents/thesisTemplate/main.tex
+**/Users/danielwodke/Documents/thesis-latexfile/main.tex
+(/Users/danielwodke/Documents/thesis-latexfile/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
@@ -919,10 +919,10 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 68.
 Package biblatex Info: Reference segment=0 on input line 68.
 Package epstopdf Info: Source file: <resources/images/tu-logo.eps>
-(epstopdf)                    date: 2023-03-29 09:12:08
+(epstopdf)                    date: 2025-08-29 17:58:41
 (epstopdf)                    size: 257422 bytes
 (epstopdf)             Output file: <resources/images/tu-logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-03-29 09:12:08
+(epstopdf)                    date: 2025-08-29 17:58:41
 (epstopdf)                    size: 15630 bytes
 (epstopdf)             Command: <repstopdf --outfile=resources/images/tu-logo-eps-converted-to.pdf resources/images/tu-logo.eps>
 (epstopdf)             \includegraphics on input line 79.
@@ -1123,7 +1123,7 @@ LaTeX Warning: Empty bibliography on input line 5.
 [11
 
 ])
-runsystem(latexminted cleantemp  --timestamp 20250820172909 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
+runsystem(latexminted cleantemp  --timestamp 20250829180134 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
 
  (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux) (./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux) (./section/RelatedWork.aux) (./section/Implementation.aux) (./section/Results.aux) (./section/Evaluation.aux) (./section/Conclusion.aux) (./section/References.aux) (./section/Appendix.aux))
  ***********
@@ -1135,15 +1135,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29867 strings out of 473190
- 614059 string characters out of 5715800
- 1714584 words of memory out of 5000000
+ 29865 strings out of 473190
+ 614055 string characters out of 5715800
+ 1715584 words of memory out of 5000000
  52582 multiletter control sequences out of 15000+600000
- 574535 words of font info for 116 fonts, out of 8000000 for 9000
+ 574476 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,9n,117p,2465b,1958s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,9n,117p,2471b,1991s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on main.pdf (19 pages, 717016 bytes).
+Output written on main.pdf (19 pages, 715966 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
