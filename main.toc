@@ -20,8 +20,8 @@
 \contentsline {chapter}{\numberline {4}Implementation}{12}{}%
 \contentsline {section}{\numberline {4.1}Setup}{12}{}%
 \contentsline {section}{\numberline {4.2}AWS}{12}{}%
-\contentsline {section}{\numberline {4.3}Single Ubuntu Local}{12}{}%
-\contentsline {section}{\numberline {4.4}Double Ubuntu Local}{12}{}%
+\contentsline {section}{\numberline {4.3}Single Ubuntu Local Setup}{12}{}%
+\contentsline {section}{\numberline {4.4}Double Ubuntu Local Setup}{12}{}%
 \contentsline {section}{\numberline {4.5}Test Workloads and Traffic Patterns}{12}{}%
 \contentsline {section}{\numberline {4.6}Implementation Challenges and Solutions}{12}{}%
 \contentsline {chapter}{\numberline {5}Results}{13}{}%
