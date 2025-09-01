@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  31 AUG 2025 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  31 AUG 2025 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1003,31 +1003,47 @@ No file main.acr.
 
  (./section/Introduction.tex
 Chapter 1.
-)
+
 
 [1
 
 
-]
+])
+
+[2]
+
+[3]
 \openout2 = `section/Background.aux'.
 
  (./section/Background.tex
 Chapter 2.
-)
 
-[2
+
+[4
 
 
 
 
 ]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+[9])
+
+[10]
 \openout2 = `section/RelatedWork.aux'.
 
  (./section/RelatedWork.tex
 Chapter 3.
 )
 
-[3
+[11
 
 
 
@@ -1039,7 +1055,7 @@ Chapter 3.
 Chapter 4.
 )
 
-[4
+[12
 
 
 
@@ -1051,7 +1067,7 @@ Chapter 4.
 Chapter 5.
 )
 
-[5
+[13
 
 
 
@@ -1063,7 +1079,7 @@ Chapter 5.
 Chapter 6.
 )
 
-[6
+[14
 
 
 
@@ -1075,7 +1091,7 @@ Chapter 6.
 Chapter 7.
 )
 
-[7
+[15
 
 
 
@@ -1087,7 +1103,7 @@ Chapter 7.
 Chapter 8.
 )
 
-[8
+[16
 
 
 
@@ -1101,7 +1117,7 @@ LaTeX Warning: Empty bibliography on input line 5.
 
 
 
-[9
+[17
 
 
 
@@ -1112,7 +1128,7 @@ LaTeX Warning: Empty bibliography on input line 5.
 
 
 
-[10
+[18
 
 ] (./main.lol)
 \tf@lol=\write9
@@ -1120,10 +1136,10 @@ LaTeX Warning: Empty bibliography on input line 5.
 
 
 
-[11
+[19
 
 ])
-runsystem(latexminted cleantemp  --timestamp 20250831151352 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
+runsystem(latexminted cleantemp  --timestamp 20250831164946 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
 
  (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux) (./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux) (./section/RelatedWork.aux) (./section/Implementation.aux) (./section/Results.aux) (./section/Evaluation.aux) (./section/Conclusion.aux) (./section/References.aux) (./section/Appendix.aux))
  ***********
@@ -1135,18 +1151,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29865 strings out of 473190
- 614055 string characters out of 5715800
- 1715584 words of memory out of 5000000
+ 29899 strings out of 473190
+ 614413 string characters out of 5715800
+ 1716592 words of memory out of 5000000
  52582 multiletter control sequences out of 15000+600000
- 574476 words of font info for 115 fonts, out of 8000000 for 9000
+ 575479 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,9n,117p,2471b,1958s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on main.pdf (19 pages, 719906 bytes).
+ 85i,9n,117p,2471b,1991s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on main.pdf (27 pages, 777814 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  32779 words of extra memory for PDF output out of 35830 (max. 10000000)
 
