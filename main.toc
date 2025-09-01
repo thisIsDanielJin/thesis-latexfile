@@ -1,39 +1,43 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}Motivation}{1}{}%
-\contentsline {section}{\numberline {1.2}Problem Statement}{1}{}%
-\contentsline {section}{\numberline {1.3}Objectives and Scope}{2}{}%
-\contentsline {section}{\numberline {1.4}Cooperation with SAP SE}{2}{}%
-\contentsline {chapter}{\numberline {2}Background}{4}{}%
-\contentsline {section}{\numberline {2.1}Overview of IPv4 Exhaustion and IPv6 Adoption}{4}{}%
-\contentsline {section}{\numberline {2.2}IPv6 Transition Mechanisms}{5}{}%
-\contentsline {subsection}{\numberline {2.2.1}Dual-Stack Architecture}{5}{}%
-\contentsline {subsection}{\numberline {2.2.2}NAT64/DNS64 Principles}{6}{}%
-\contentsline {subsection}{\numberline {2.2.3}464XLAT: Combining NAT64 and CLAT}{7}{}%
-\contentsline {section}{\numberline {2.3}Kubernetes Networking}{8}{}%
-\contentsline {subsection}{\numberline {2.3.1}Networking Model}{8}{}%
-\contentsline {subsection}{\numberline {2.3.2}Container Network Interface (CNI) Plugins}{9}{}%
-\contentsline {section}{\numberline {2.4}SAP Gardener}{10}{}%
-\contentsline {chapter}{\numberline {3}Related Work}{11}{}%
-\contentsline {section}{\numberline {3.1}Existing Studies on IPv6 Transition}{11}{}%
-\contentsline {section}{\numberline {3.2}Identified Research Gap}{11}{}%
-\contentsline {chapter}{\numberline {4}Implementation}{12}{}%
-\contentsline {section}{\numberline {4.1}Setup}{12}{}%
-\contentsline {section}{\numberline {4.2}AWS}{12}{}%
-\contentsline {section}{\numberline {4.3}Single Ubuntu Local Setup}{12}{}%
-\contentsline {section}{\numberline {4.4}Dual Ubuntu Local Setup}{12}{}%
-\contentsline {section}{\numberline {4.5}Test Workloads and Traffic Patterns}{12}{}%
-\contentsline {section}{\numberline {4.6}Implementation Challenges and Solutions}{12}{}%
-\contentsline {chapter}{\numberline {5}Results}{13}{}%
-\contentsline {section}{\numberline {5.1}Performance Metrics}{13}{}%
-\contentsline {chapter}{\numberline {6}Evaluation}{14}{}%
-\contentsline {section}{\numberline {6.1}RTT}{14}{}%
-\contentsline {section}{\numberline {6.2}Throughput}{14}{}%
-\contentsline {section}{\numberline {6.3}TSC vs HPET Clocksource Difference}{14}{}%
-\contentsline {chapter}{\numberline {7}Conclusion}{15}{}%
-\contentsline {section}{\numberline {7.1}Summary of Key findings}{15}{}%
-\contentsline {section}{\numberline {7.2}Limitations and Future Work}{15}{}%
-\contentsline {chapter}{\numberline {8}References}{16}{}%
-\contentsline {chapter}{Appendix}{17}{}%
-\contentsline {section}{Bibliography}{17}{}%
-\contentsline {section}{Source Code/ Additional Graphs/ Listings etc.}{18}{}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{2}{}%
+\contentsline {section}{\numberline {1.3}Objectives and Scope}{3}{}%
+\contentsline {subsection}{\numberline {1.3.1}Primary Objectives}{3}{}%
+\contentsline {subsection}{\numberline {1.3.2}Experimental Scope}{3}{}%
+\contentsline {subsection}{\numberline {1.3.3}Measurement Focus}{3}{}%
+\contentsline {subsection}{\numberline {1.3.4}Scope Limitations}{4}{}%
+\contentsline {section}{\numberline {1.4}Cooperation with SAP SE}{4}{}%
+\contentsline {chapter}{\numberline {2}Background}{5}{}%
+\contentsline {section}{\numberline {2.1}Overview of IPv4 Exhaustion and IPv6 Adoption}{5}{}%
+\contentsline {section}{\numberline {2.2}IPv6 Transition Mechanisms}{6}{}%
+\contentsline {subsection}{\numberline {2.2.1}Dual-Stack Architecture}{6}{}%
+\contentsline {subsection}{\numberline {2.2.2}NAT64/DNS64 Principles}{7}{}%
+\contentsline {subsection}{\numberline {2.2.3}464XLAT: Combining NAT64 and CLAT}{8}{}%
+\contentsline {section}{\numberline {2.3}Kubernetes Networking}{9}{}%
+\contentsline {subsection}{\numberline {2.3.1}Networking Model}{9}{}%
+\contentsline {subsection}{\numberline {2.3.2}Container Network Interface (CNI) Plugins}{10}{}%
+\contentsline {section}{\numberline {2.4}SAP Gardener}{11}{}%
+\contentsline {chapter}{\numberline {3}Related Work}{12}{}%
+\contentsline {section}{\numberline {3.1}Existing Studies on IPv6 Transition}{12}{}%
+\contentsline {section}{\numberline {3.2}Identified Research Gap}{12}{}%
+\contentsline {chapter}{\numberline {4}Implementation}{13}{}%
+\contentsline {section}{\numberline {4.1}Setup}{13}{}%
+\contentsline {section}{\numberline {4.2}AWS}{13}{}%
+\contentsline {section}{\numberline {4.3}Single Ubuntu Local Setup}{13}{}%
+\contentsline {section}{\numberline {4.4}Dual Ubuntu Local Setup}{13}{}%
+\contentsline {section}{\numberline {4.5}Test Workloads and Traffic Patterns}{13}{}%
+\contentsline {section}{\numberline {4.6}Implementation Challenges and Solutions}{13}{}%
+\contentsline {chapter}{\numberline {5}Results}{14}{}%
+\contentsline {section}{\numberline {5.1}Performance Metrics}{14}{}%
+\contentsline {chapter}{\numberline {6}Evaluation}{15}{}%
+\contentsline {section}{\numberline {6.1}RTT}{15}{}%
+\contentsline {section}{\numberline {6.2}Throughput}{15}{}%
+\contentsline {section}{\numberline {6.3}TSC vs HPET Clocksource Difference}{15}{}%
+\contentsline {chapter}{\numberline {7}Conclusion}{16}{}%
+\contentsline {section}{\numberline {7.1}Summary of Key findings}{16}{}%
+\contentsline {section}{\numberline {7.2}Limitations and Future Work}{16}{}%
+\contentsline {chapter}{\numberline {8}References}{17}{}%
+\contentsline {chapter}{Appendix}{18}{}%
+\contentsline {section}{Bibliography}{18}{}%
+\contentsline {section}{Source Code/ Additional Graphs/ Listings etc.}{19}{}%
