@@ -56,13 +56,21 @@
 
 %%%%%%%%%%%%%%%%%%bibliography
 \usepackage[backend=bibtex,bibencoding=ascii, style=ieee]{biblatex}
-\bibliography{resources/references.bib} 
+% Make citations appear as superscripts
+%\DeclareCiteCommand{\cite}[\mkbibsuperscript]
+  %{\usebibmacro{prenote}} 
+ % {\usebibmacro{citeindex}%
+ %  \usebibmacro{cite}}
+ % {\multicitedelim}
+%  {\usebibmacro{postnote}}
+
+\bibliography{references} 
 
 \setcounter{biburllcpenalty}{7000}
 \setcounter{biburlucpenalty}{8000}
 
 \glsaddall
-%TODO: check RFC citation style
+
 
 
 
@@ -147,7 +155,6 @@
 
 	\include{section/Implementation}
 	\include{section/Results}
-	\include{section/Evaluation}
 	
 	\include{section/Conclusion}
 	\include{section/References}

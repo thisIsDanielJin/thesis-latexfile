@@ -84,6 +84,377 @@
     \field{year}{2014}
   \endentry
 
+  \entry{rfc4213}{misc}{}{}
+    \name{author}{2}{}{%
+      {{hash=GRE}{%
+         family={Gilligan},
+         familyi={G\bibinitperiod},
+         given={Robert\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=NE}{%
+         family={Nordmark},
+         familyi={N\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{GRENE1}
+    \strng{fullhash}{GRENE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document specifies IPv4 compatibility mechanisms that can be implemented by IPv6 hosts and routers. Two mechanisms are specified, dual stack and configured tunneling. Dual stack implies providing complete implementations of both versions of the Internet Protocol (IPv4 and IPv6), and configured tunneling provides a means to carry IPv6 packets over unmodified IPv4 routing infrastructures. This document obsoletes RFC 2893. {[}STANDARDS-TRACK{]}%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC4213
+    \endverb
+    \field{howpublished}{RFC 4213}
+    \field{number}{4213}
+    \field{pagetotal}{27}
+    \field{series}{Request for Comments}
+    \field{title}{{Basic Transition Mechanisms for IPv6 Hosts and Routers}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc4213
+    \endverb
+    \field{month}{10}
+    \field{year}{2005}
+  \endentry
+
+  \entry{rfc6146}{misc}{}{}
+    \name{author}{3}{}{%
+      {{hash=MP}{%
+         family={Matthews},
+         familyi={M\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=vBI}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Beijnum},
+         familyi={B\bibinitperiod},
+         given={Iljitsch},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bagnulo},
+         familyi={B\bibinitperiod},
+         given={Marcelo},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{MP+1}
+    \strng{fullhash}{MPBIvBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document describes stateful NAT64 translation, which allows IPv6-only clients to contact IPv4 servers using unicast UDP, TCP, or ICMP. One or more public IPv4 addresses assigned to a NAT64 translator are shared among several IPv6-only clients. When stateful NAT64 is used in conjunction with DNS64, no changes are usually required in the IPv6 client or the IPv4 server.%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC6146
+    \endverb
+    \field{howpublished}{RFC 6146}
+    \field{number}{6146}
+    \field{pagetotal}{45}
+    \field{series}{Request for Comments}
+    \field{title}{{Stateful NAT64: Network Address and Protocol Translation from IPv6 Clients to IPv4 Servers}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc6146
+    \endverb
+    \field{month}{04}
+    \field{year}{2011}
+  \endentry
+
+  \entry{rfc6147}{misc}{}{}
+    \name{author}{4}{}{%
+      {{hash=MP}{%
+         family={Matthews},
+         familyi={M\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sullivan},
+         familyi={S\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=vBI}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Beijnum},
+         familyi={B\bibinitperiod},
+         given={Iljitsch},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bagnulo},
+         familyi={B\bibinitperiod},
+         given={Marcelo},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{MP+1}
+    \strng{fullhash}{MPSABIvBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    DNS64 is a mechanism for synthesizing AAAA records from A records. DNS64 is used with an IPv6/IPv4 translator to enable client-server communication between an IPv6-only client and an IPv4-only server, without requiring any changes to either the IPv6 or the IPv4 node, for the class of applications that work through NATs. This document specifies DNS64, and provides suggestions on how it should be deployed in conjunction with IPv6/IPv4 translators. {[}STANDARDS-TRACK{]}%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC6147
+    \endverb
+    \field{howpublished}{RFC 6147}
+    \field{number}{6147}
+    \field{pagetotal}{32}
+    \field{series}{Request for Comments}
+    \field{title}{{DNS64: DNS Extensions for Network Address Translation from IPv6 Clients to IPv4 Servers}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc6147
+    \endverb
+    \field{month}{04}
+    \field{year}{2011}
+  \endentry
+
+  \entry{rfc6877}{misc}{}{}
+    \name{author}{3}{}{%
+      {{hash=MM}{%
+         family={Mawatari},
+         familyi={M\bibinitperiod},
+         given={Masataka},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kawashima},
+         familyi={K\bibinitperiod},
+         given={Masanobu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Byrne},
+         familyi={B\bibinitperiod},
+         given={Cameron},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{MM+1}
+    \strng{fullhash}{MMKMBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document describes an architecture (464XLAT) for providing limited IPv4 connectivity across an IPv6-only network by combining existing and well-known stateful protocol translation (as described in RFC 6146) in the core and stateless protocol translation (as described in RFC 6145) at the edge. 464XLAT is a simple and scalable technique to quickly deploy limited IPv4 access service to IPv6-only edge networks without encapsulation.%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC6877
+    \endverb
+    \field{howpublished}{RFC 6877}
+    \field{number}{6877}
+    \field{pagetotal}{14}
+    \field{series}{Request for Comments}
+    \field{title}{{464XLAT: Combination of Stateful and Stateless Translation}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc6877
+    \endverb
+    \field{month}{04}
+    \field{year}{2013}
+  \endentry
+
+  \entry{gardener_docs}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={{Gardener Project}},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Accessed: 2025-09-05}
+    \field{title}{Gardener Documentation}
+    \verb{url}
+    \verb https://gardener.cloud/docs/gardener/
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{jool_introduction}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{NIC Mexico}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {NIC Mexico}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Introduction to Jool, an Open Source implementation of IPv4/IPv6 Translation on Linux supporting both Stateful NAT64 and SIIT modes%
+    }
+    \field{howpublished}{\url{https://nicmx.github.io/Jool/en/intro-jool.html}}
+    \field{note}{Accessed: September 5, 2025}
+    \field{title}{Introduction to Jool}
+    \field{year}{2025}
+  \endentry
+
+  \entry{palrd_tayga_readme}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=PA}{%
+         family={Palrd},
+         familyi={P\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {GitHub}%
+    }
+    \strng{namehash}{PA1}
+    \strng{fullhash}{PA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Accessed: 2025-09-05}
+    \field{title}{tayga README}
+    \verb{url}
+    \verb https://github.com/apalrd/tayga/blob/main/README.md
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{Repas_Farnadi_Lencse_2014}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=RSR}{%
+         family={R√©p√°s},
+         familyi={R\bibinitperiod},
+         given={S.\bibnamedelima R.},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=FP}{%
+         family={Farnadi},
+         familyi={F\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lencse},
+         familyi={L\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RSR+1}
+    \strng{fullhash}{RSRFPLG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Due to its rapid spread, Internet has now outgrown the address space provided by IPv4. The transition to the new IPv6 protocol is extremely slow. The different transition techniques are intended to facilitate the transition to the new version of Internet Protocol. The NAT64 transition technique is one of the most suitable solutions. In this paper, both the performance and the stability of two NAT64 gateway implementations are examined by ICMP, TCP and UDP protocols. The tested two free implementations, the TAYGA on the Linux system and the PF of the OpenBSD system can be effectively used in a production environment, and can facilitate the deployment of the IPv6 protocol.%
+    }
+    \verb{doi}
+    \verb 10.14513/actatechjaur.v7.n4.340
+    \endverb
+    \field{number}{4}
+    \field{pages}{404\bibrangedash 427}
+    \field{title}{Performance and Stability Analysis of Free NAT64 Implementations with Different Protocols}
+    \verb{url}
+    \verb https://acta.sze.hu/index.php/acta/article/view/340
+    \endverb
+    \field{volume}{7}
+    \field{journaltitle}{Acta Technica Jaurinensis}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{labuda_tundra_nat64}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=LV}{%
+         family={Labuda},
+         familyi={L\bibinitperiod},
+         given={V√≠t},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LV1}
+    \strng{fullhash}{LV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://github.com/vitlabuda/tundra-nat64}}
+    \field{note}{Open-source software repository}
+    \field{title}{Tundra-NAT64: A minimal, user-space, stateless NAT64, CLAT and SIIT implementation for Linux}
+    \verb{url}
+    \verb https://github.com/vitlabuda/tundra-nat64
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{rfc4241}{misc}{}{}
+    \name{author}{4}{}{%
+      {{hash=MS}{%
+         family={Miyakawa},
+         familyi={M\bibinitperiod},
+         given={Shin},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Takenouchi},
+         familyi={T\bibinitperiod},
+         given={Ayako},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=YT}{%
+         family={Yamasaki},
+         familyi={Y\bibinitperiod},
+         given={Toshiyuki},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Shirasaki},
+         familyi={S\bibinitperiod},
+         given={Yasuhiro},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{MS+1}
+    \strng{fullhash}{MSTAYTSY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This memo is a digest of the user network interface specification of NTT Communications' dual stack ADSL access service, which provide a IPv6/IPv4 dual stack services to home users. In order to simplify user setup, these services have a mechanism to configure IPv6 specific parameters automatically. The memo focuses on two basic parameters: the prefix assigned to the user and the addresses of IPv6 DNS servers, and it specifies a way to deliver these parameters to Customer Premises Equipment (CPE) automatically. This memo provides information for the Internet community.%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC4241
+    \endverb
+    \field{howpublished}{RFC 4241}
+    \field{number}{4241}
+    \field{pagetotal}{10}
+    \field{series}{Request for Comments}
+    \field{title}{{A Model of IPv6/IPv4 Dual Stack Internet Access Service}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc4241
+    \endverb
+    \field{month}{12}
+    \field{year}{2005}
+  \endentry
+
   \entry{rfc791}{misc}{}{}
     \list{publisher}{1}{%
       {RFC Editor}%
@@ -322,6 +693,386 @@
     \endverb
     \field{month}{11}
     \field{year}{2000}
+  \endentry
+
+  \entry{rfc2893}{misc}{}{}
+    \name{author}{2}{}{%
+      {{hash=NE}{%
+         family={Nordmark},
+         familyi={N\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GRE}{%
+         family={Gilligan},
+         familyi={G\bibinitperiod},
+         given={Robert\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{NEGRE1}
+    \strng{fullhash}{NEGRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document specifies IPv4 compatibility mechanisms that can be implemented by IPv6 hosts and routers. {[}STANDARDS-TRACK{]}%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC2893
+    \endverb
+    \field{howpublished}{RFC 2893}
+    \field{number}{2893}
+    \field{pagetotal}{29}
+    \field{series}{Request for Comments}
+    \field{title}{{Transition Mechanisms for IPv6 Hosts and Routers}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc2893
+    \endverb
+    \field{month}{08}
+    \field{year}{2000}
+  \endentry
+
+  \entry{punithavathani2009ipv4}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=PDS}{%
+         family={Punithavathani},
+         familyi={P\bibinitperiod},
+         given={D\bibnamedelima Shalini},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Sankaranarayanan},
+         familyi={S\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+    }
+    \strng{namehash}{PDSSK1}
+    \strng{fullhash}{PDSSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{110\bibrangedash 124}
+    \field{title}{IPv4/IPv6 transition mechanisms}
+    \field{volume}{34}
+    \field{journaltitle}{European Journal of Scientific Research}
+    \field{year}{2009}
+  \endentry
+
+  \entry{rfc7381}{misc}{}{}
+    \name{author}{6}{}{%
+      {{hash=CKK}{%
+         family={Chittimaneni},
+         familyi={C\bibinitperiod},
+         given={Kiran\bibnamedelima K.},
+         giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Chown},
+         familyi={C\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HL}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={Lee},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kuarsingh},
+         familyi={K\bibinitperiod},
+         given={Victor},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PY}{%
+         family={Pouffary},
+         familyi={P\bibinitperiod},
+         given={Yanick},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=√V}{%
+         prefix={√âric},
+         prefixi={√\bibinitperiod},
+         family={Vyncke},
+         familyi={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{CKK+1}
+    \strng{fullhash}{CKKCTHLKVPYV√1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Enterprise network administrators worldwide are in various stages of preparing for or deploying IPv6 into their networks. The administrators face different challenges than operators of Internet access providers and have reasons for different priorities. The overall problem for many administrators will be to offer Internet- facing services over IPv6 while continuing to support IPv4, and while introducing IPv6 access within the enterprise IT network. The overall transition will take most networks from an IPv4-only environment to a dual-stack network environment and eventually an IPv6-only operating mode. This document helps provide a framework for enterprise network architects or administrators who may be faced with many of these challenges as they consider their IPv6 support strategies.%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC7381
+    \endverb
+    \field{howpublished}{RFC 7381}
+    \field{number}{7381}
+    \field{pagetotal}{34}
+    \field{series}{Request for Comments}
+    \field{title}{{Enterprise IPv6 Deployment Guidelines}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc7381
+    \endverb
+    \field{month}{10}
+    \field{year}{2014}
+  \endentry
+
+  \entry{rfc7269}{misc}{}{}
+    \name{author}{4}{}{%
+      {{hash=CG}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Gang},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Zhen},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=XC}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Chongfeng},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Binet},
+         familyi={B\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{CG+1}
+    \strng{fullhash}{CGCZXCBD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document summarizes NAT64 function deployment scenarios and operational experience. Both NAT64 Carrier-Grade NAT (NAT64-CGN) and NAT64 server Front End (NAT64-FE) are considered in this document.%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC7269
+    \endverb
+    \field{howpublished}{RFC 7269}
+    \field{number}{7269}
+    \field{pagetotal}{22}
+    \field{series}{Request for Comments}
+    \field{title}{{NAT64 Deployment Options and Experience}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc7269
+    \endverb
+    \field{month}{06}
+    \field{year}{2014}
+  \endentry
+
+  \entry{6231295}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=BM}{%
+         family={Bagnulo},
+         familyi={B\bibinitperiod},
+         given={Marcelo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GMA}{%
+         family={Garcia-Martinez},
+         familyi={G\bibinithyphendelim M\bibinitperiod},
+         given={Alberto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BIV}{%
+         family={Beijnum},
+         familyi={B\bibinitperiod},
+         given={Iljitsch\bibnamedelima Van},
+         giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \keyw{Filtering;Servers;Internet;Dual stacking;IP networks;Network address translation;Logic gates}
+    \strng{namehash}{BM+1}
+    \strng{fullhash}{BMGMABIV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/MCOM.2012.6231295
+    \endverb
+    \field{number}{7}
+    \field{pages}{177\bibrangedash 183}
+    \field{title}{The NAT64/DNS64 tool suite for IPv6 transition}
+    \field{volume}{50}
+    \field{journaltitle}{IEEE Communications Magazine}
+    \field{year}{2012}
+  \endentry
+
+  \entry{rfc4966}{misc}{}{}
+    \name{author}{2}{}{%
+      {{hash=AC}{%
+         family={Aoun},
+         familyi={A\bibinitperiod},
+         given={Cedric},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DEB}{%
+         family={Davies},
+         familyi={D\bibinitperiod},
+         given={Elwyn\bibnamedelima B.},
+         giveni={E\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{ACDEB1}
+    \strng{fullhash}{ACDEB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document discusses issues with the specific form of IPv6-IPv4 protocol translation mechanism implemented by the Network Address Translator - Protocol Translator (NAT-PT) defined in RFC 2766. These issues are sufficiently serious that recommending RFC 2766 as a general purpose transition mechanism is no longer desirable, and this document recommends that the IETF should reclassify RFC 2766 from Proposed Standard to Historic status. This memo provides information for the Internet community.%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC4966
+    \endverb
+    \field{howpublished}{RFC 4966}
+    \field{number}{4966}
+    \field{pagetotal}{25}
+    \field{series}{Request for Comments}
+    \field{title}{{Reasons to Move the Network Address Translator - Protocol Translator (NAT-PT) to Historic Status}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc4966
+    \endverb
+    \field{month}{07}
+    \field{year}{2007}
+  \endentry
+
+  \entry{rfc7915}{misc}{}{}
+    \name{author}{5}{}{%
+      {{hash=BC}{%
+         family={Bao},
+         familyi={B\bibinitperiod},
+         given={Congxiao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xing},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Baker},
+         familyi={B\bibinitperiod},
+         given={Fred},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={Tore},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Gont},
+         familyi={G\bibinitperiod},
+         given={Fernando},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{BC+1}
+    \strng{fullhash}{BCLXBFATGF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document describes the Stateless IP/ICMP Translation Algorithm (SIIT), which translates between IPv4 and IPv6 packet headers (including ICMP headers). This document obsoletes RFC 6145.%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC7915
+    \endverb
+    \field{howpublished}{RFC 7915}
+    \field{number}{7915}
+    \field{pagetotal}{34}
+    \field{series}{Request for Comments}
+    \field{title}{{IP/ICMP Translation Algorithm}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc7915
+    \endverb
+    \field{month}{06}
+    \field{year}{2016}
+  \endentry
+
+  \entry{llanto2012performance}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=LKJO}{%
+         family={Llanto},
+         familyi={L\bibinitperiod},
+         given={Kenneth Joachim\bibnamedelima O},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=YWES}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={William Emmanuel\bibnamedelima S},
+         giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LKJOYWES1}
+    \strng{fullhash}{LKJOYWES1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the International Multi-Conference of Engineers and Computer Scientist}
+    \field{title}{Performance of NAT64 versus NAT44 in the context of IPv6 migration}
+    \field{volume}{1}
+    \field{year}{2012}
+  \endentry
+
+  \entry{quintero2016performance}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=QA}{%
+         family={Quintero},
+         familyi={Q\bibinitperiod},
+         given={Adira},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Sans},
+         familyi={S\bibinitperiod},
+         given={Francisco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Gamess},
+         familyi={G\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Modern Education}%
+      {Computer Science Press}%
+    }
+    \strng{namehash}{QA+1}
+    \strng{fullhash}{QASFGE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{1}
+    \field{title}{Performance evaluation of IPv4/IPv6 transition mechanisms}
+    \field{volume}{8}
+    \field{journaltitle}{International Journal of Computer Network and Information Security}
+    \field{year}{2016}
   \endentry
 \enddatalist
 \endinput

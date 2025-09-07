@@ -1,2 +1,9 @@
 \chapter{Related Work}
 
+Other researchers have already shown that using NAT64 is a good way to switch from IPv4 to IPv6. They found that NAT64 is just as fast as the old ones (NAT44), and proved it using cheap, standard software\cite{llanto2012performance}. The methodology includes NAT64 using ping/ping6, complemented by a laboratory comparison of NAT44 and NAT64 that records RTT, CPU, and memory\cite{llanto2012performance}. NAT64 is realized with Tayga. The results show that native IPv6 achieves the best RTT. NAT64 and NAT44 perform similarly, with only minor differences in throughput, though NAT64 has a slight edge\cite{llanto2012performance}. A t-test finds no significant differences between NAT64 and NAT44 for RTT, total time, bytes transferred, successful keep-alives, requests per second, and time per request, but reports a positive difference for transfer rate favoring NAT64 \cite{llanto2012performance}.
+
+
+Another study examined IPv4 and IPv6 performance across various operating systems and transport protocols, and evaluated tunneling methods. However, their insights into translation-based strategies were largely limited to specific implementations \cite{quintero2016performance}. In the case of NAT64, evaluations mostly focused on individual implementations (e.g., Tayga), with little effort made toward cross-implementation comparisons\cite{quintero2016performance}.
+
+
+However, research gaps remain. The first evaluation\cite{llanto2012performance} centers on web workloads driven by ApacheBench without bulk TCP/UDP generators such as iperf and does not assess dual-stack versus NAT64 with CLAT, nor evaluate alternative NAT64 implementations such as Jool. Similarly the second study\cite{quintero2016performance} does not evaluate client-side translation (CLAT/464XLAT) leaving the end-to-end impact of NAT64 versus dual-stack open\cite{llanto2012performance,quintero2016performance}.

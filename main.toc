@@ -1,29 +1,38 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
-\contentsline {section}{\numberline {1.1}Problem Statement}{1}{}%
-\contentsline {section}{\numberline {1.2}Objectives and Scope}{2}{}%
-\contentsline {section}{\numberline {1.3}Thesis Structure}{3}{}%
-\contentsline {chapter}{\numberline {2}Background}{5}{}%
-\contentsline {section}{\numberline {2.1}IPv4 exhaustion and transition to IPv6}{5}{}%
-\contentsline {section}{\numberline {2.2}IPv6 transition mechanisms}{6}{}%
-\contentsline {section}{\numberline {2.3}Software implementations of NAT64}{12}{}%
-\contentsline {chapter}{\numberline {3}Related Work}{15}{}%
-\contentsline {chapter}{\numberline {4}Implementation}{16}{}%
-\contentsline {section}{\numberline {4.1}Test environments}{16}{}%
-\contentsline {section}{\numberline {4.2}Implementation of Translation Technologies}{16}{}%
-\contentsline {section}{\numberline {4.3}Networking Namespace Configuration}{16}{}%
+\contentsline {paragraph}{Industry collaboration }{1}{}%
+\contentsline {paragraph}{Problem Statement}{1}{}%
+\contentsline {chapter}{\numberline {2}Background}{3}{}%
+\contentsline {section}{\numberline {2.1}IPv4 exhaustion and transition to IPv6}{3}{}%
+\contentsline {section}{\numberline {2.2}IPv6 transition mechanisms}{5}{}%
+\contentsline {paragraph}{Dual-Stack Architecture}{5}{}%
+\contentsline {paragraph}{NAT64/DNS64 Principles}{6}{}%
+\contentsline {paragraph}{Client-Side Translation: The role of CLAT and 464XLAT}{8}{}%
+\contentsline {section}{\numberline {2.3}Linux implementations of NAT64}{10}{}%
+\contentsline {paragraph}{Tayga}{10}{}%
+\contentsline {paragraph}{Tundra}{11}{}%
+\contentsline {paragraph}{Jool}{11}{}%
+\contentsline {chapter}{\numberline {3}Related Work}{13}{}%
+\contentsline {chapter}{\numberline {4}Implementation}{14}{}%
+\contentsline {section}{\numberline {4.1}Test environments}{14}{}%
+\contentsline {paragraph}{AWS}{14}{}%
+\contentsline {paragraph}{Single Ubuntu Setup }{14}{}%
+\contentsline {paragraph}{Dual Ubuntu Setup}{14}{}%
+\contentsline {section}{\numberline {4.2}Networking Namespace Configuration}{15}{}%
+\contentsline {section}{\numberline {4.3}Implementation of Translation Technologies}{15}{}%
+\contentsline {paragraph}{Tayga}{15}{}%
+\contentsline {paragraph}{Tundra}{16}{}%
+\contentsline {paragraph}{Jool}{16}{}%
 \contentsline {section}{\numberline {4.4}Measurement Methodology}{16}{}%
-\contentsline {section}{\numberline {4.5}Challenges and Solutions}{16}{}%
-\contentsline {chapter}{\numberline {5}Results}{17}{}%
-\contentsline {section}{\numberline {5.1}Throughput}{17}{}%
-\contentsline {section}{\numberline {5.2}RTT}{17}{}%
-\contentsline {section}{\numberline {5.3}Discussion}{17}{}%
-\contentsline {chapter}{\numberline {6}Evaluation}{18}{}%
-\contentsline {section}{\numberline {6.1}RTT}{18}{}%
-\contentsline {section}{\numberline {6.2}Throughput}{18}{}%
-\contentsline {section}{\numberline {6.3}TSC vs HPET Clocksource Difference}{18}{}%
-\contentsline {chapter}{\numberline {7}Conclusion}{19}{}%
-\contentsline {chapter}{\numberline {8}References}{20}{}%
-\contentsline {chapter}{Appendix}{21}{}%
-\contentsline {section}{Bibliography}{21}{}%
-\contentsline {section}{Scripts and Tables}{23}{}%
+\contentsline {paragraph}{Throughput}{16}{}%
+\contentsline {paragraph}{RTT}{17}{}%
+\contentsline {chapter}{\numberline {5}Results}{18}{}%
+\contentsline {section}{\numberline {5.1}Throughput}{18}{}%
+\contentsline {section}{\numberline {5.2}RTT}{18}{}%
+\contentsline {section}{\numberline {5.3}Discussion}{18}{}%
+\contentsline {section}{\numberline {5.4}Challenges and Solutions}{18}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{19}{}%
+\contentsline {chapter}{\numberline {7}References}{20}{}%
+\contentsline {chapter}{Appendix}{24}{}%
+\contentsline {section}{Bibliography}{24}{}%
+\contentsline {section}{Scripts and Tables}{25}{}%
