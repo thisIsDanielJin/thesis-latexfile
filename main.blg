@@ -7,11 +7,6 @@ A level-1 auxiliary file: section/abstract-de.aux
 A level-1 auxiliary file: section/abstract.aux
 A level-1 auxiliary file: section/Introduction.aux
 A level-1 auxiliary file: section/Background.aux
-Case mismatch error between cite keys palrd_TAYGA_readme and palrd_tayga_readme
----line 275 of file main.aux
- : \citation{palrd_TAYGA_readme
- :                             }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: section/RelatedWork.aux
 A level-1 auxiliary file: section/Implementation.aux
 A level-1 auxiliary file: section/Results.aux
@@ -78,4 +73,3 @@ warning$ -- 0
 while$ -- 3166
 width$ -- 0
 write$ -- 1051
-(There was 1 error message)

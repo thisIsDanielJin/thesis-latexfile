@@ -82,7 +82,7 @@ Some practical considerations apply. CLAT uses standard IPv4-embedded IPv6 forma
 
 
 
-Tayga is a free, stateless NAT64 implementation for Linux, positioned as a lightweight, production‑quality translator for environments where deploying a dedicated hardware or full‑blown software NAT64 device would be excessive\cite{Repas_Farnadi_Lencse_2014}. At the time of the cited study, the latest release referenced was $0.9.2$, which the authors evaluate as representative for open‑source NAT64 on Linux\cite{palrd_TAYGA_readme}.
+Tayga is a free, stateless NAT64 implementation for Linux, positioned as a lightweight, production‑quality translator for environments where deploying a dedicated hardware or full‑blown software NAT64 device would be excessive\cite{Repas_Farnadi_Lencse_2014}. At the time of the cited study, the latest release referenced was $0.9.2$, which the authors evaluate as representative for open‑source NAT64 on Linux\cite{palrd_tayga_readme}.
 
 Its design philosophy is to perform transparent IPv6–to–IPv4 address and header translation while explicitly leaving policy enforcement and state handling to the Linux packet filtering and NAT framework (iptables)\cite{Repas_Farnadi_Lencse_2014}. The authors stress that Tayga does not aim to replicate the flexibility of Linux’s packet filters; instead, it is built to integrate cleanly with them, keeping the translator itself simple and predictable \cite{Repas_Farnadi_Lencse_2014}.
 
