@@ -32,7 +32,6 @@
 \contentsline {section}{\numberline {5.3}Discussion}{18}{}%
 \contentsline {section}{\numberline {5.4}Challenges and Solutions}{18}{}%
 \contentsline {chapter}{\numberline {6}Conclusion}{19}{}%
-\contentsline {chapter}{\numberline {7}References}{20}{}%
-\contentsline {chapter}{Appendix}{24}{}%
-\contentsline {section}{Bibliography}{24}{}%
-\contentsline {section}{Scripts and Tables}{25}{}%
+\contentsline {chapter}{Appendix}{20}{}%
+\contentsline {section}{Bibliography}{20}{}%
+\contentsline {section}{Scripts and Tables}{24}{}%

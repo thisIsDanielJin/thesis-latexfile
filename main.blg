@@ -1,0 +1,81 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: section/Erklaerung.aux
+A level-1 auxiliary file: section/abstract-de.aux
+A level-1 auxiliary file: section/abstract.aux
+A level-1 auxiliary file: section/Introduction.aux
+A level-1 auxiliary file: section/Background.aux
+Case mismatch error between cite keys palrd_TAYGA_readme and palrd_tayga_readme
+---line 275 of file main.aux
+ : \citation{palrd_TAYGA_readme
+ :                             }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: section/RelatedWork.aux
+A level-1 auxiliary file: section/Implementation.aux
+A level-1 auxiliary file: section/Results.aux
+A level-1 auxiliary file: section/Conclusion.aux
+A level-1 auxiliary file: section/Appendix.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main-blx.bib
+Database file #2: references.bib
+Biblatex version: 3.20
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 28 entries,
+            6402 wiz_defined-function locations,
+            1439 strings with 21386 characters,
+and the built_in function-call counts, 222581 in all, are:
+= -- 17967
+> -- 3187
+< -- 848
++ -- 6556
+- -- 1240
+* -- 16092
+:= -- 25351
+add.period$ -- 0
+call.type$ -- 28
+change.case$ -- 413
+chr.to.int$ -- 133
+cite$ -- 54
+duplicate$ -- 23536
+empty$ -- 19272
+format.name$ -- 1842
+if$ -- 44659
+int.to.chr$ -- 0
+int.to.str$ -- 73
+missing$ -- 0
+newline$ -- 1078
+num.names$ -- 1257
+pop$ -- 9743
+preamble$ -- 1
+purify$ -- 590
+quote$ -- 0
+skip$ -- 5109
+stack$ -- 0
+substring$ -- 33208
+swap$ -- 4484
+text.length$ -- 700
+text.prefix$ -- 2
+top$ -- 1
+type$ -- 940
+warning$ -- 0
+while$ -- 3166
+width$ -- 0
+write$ -- 1051
+(There was 1 error message)
