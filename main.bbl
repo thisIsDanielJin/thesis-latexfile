@@ -16,5 +16,312 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global/global}\enddatalist
+\datalist[entry]{none/global//global/global/global}
+  \entry{7737362}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=BJ}{%
+         family={Beeharry},
+         familyi={B\bibinitperiod},
+         given={Jailendrasingh},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Nowbutsing},
+         familyi={N\bibinitperiod},
+         given={Bhissum},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Internet;Sociology;Statistics;RNA;Internet;Internet Protocol (IP);IPv4;IPv6}
+    \strng{namehash}{BJNB1}
+    \strng{fullhash}{BJNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2016 IEEE International Conference on Emerging Technologies and Innovative Business Practices for the Transformation of Societies (EmergiTech)}
+    \verb{doi}
+    \verb 10.1109/EmergiTech.2016.7737362
+    \endverb
+    \field{pages}{336\bibrangedash 340}
+    \field{title}{Forecasting IPv4 exhaustion and IPv6 migration}
+    \field{year}{2016}
+  \endentry
+
+  \entry{LEVIN20141059}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=LSL}{%
+         family={Levin},
+         familyi={L\bibinitperiod},
+         given={Stanford\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Schmidt},
+         familyi={S\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{IP addresses, Internet governance, IPv4, IPv6, Internet Protocol version 4, Internet Protocol version 6}
+    \strng{namehash}{LSLSS1}
+    \strng{fullhash}{LSLSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Internet Protocol (IP) addresses are a crucial resource for the functioning of the Internet. Much like a telephone number, an IP address is assigned to every network interface (router, computer, mobile telephone, server, etc.) that connects to the Internet. These addresses are currently assigned using the fourth version of the Internet Protocol, or IPv4. There are a limited number of addresses that can be assigned using IPv4 and the supply of unallocated addresses is effectively exhausted. This paper (i) identifies key facts and challenges arising from IPv4 address scarcity; (ii) outlines and analyzes potential responses to IPv4 scarcity; and (iii) concludes that a decisive transition from IPv4 to IPv6 is the most durable and effective response to the exhaustion of IPv4 addresses resulting from the growth of the global Internet and the exploding demand for IP addresses.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.telpol.2014.06.008
+    \endverb
+    \field{issn}{0308-5961}
+    \field{number}{11}
+    \field{pages}{1059\bibrangedash 1068}
+    \field{title}{IPv4 to IPv6: Challenges, solutions, and lessons}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0308596114001128
+    \endverb
+    \field{volume}{38}
+    \field{journaltitle}{Telecommunications Policy}
+    \field{year}{2014}
+  \endentry
+
+  \entry{rfc791}{misc}{}{}
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.17487/RFC0791
+    \endverb
+    \field{howpublished}{RFC 791}
+    \field{number}{791}
+    \field{pagetotal}{51}
+    \field{series}{Request for Comments}
+    \field{title}{{Internet Protocol}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc791
+    \endverb
+    \field{month}{09}
+    \field{year}{1981}
+  \endentry
+
+  \entry{rfc1918}{misc}{}{}
+    \name{author}{5}{}{%
+      {{hash=MR}{%
+         family={Moskowitz},
+         familyi={M\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Karrenberg},
+         familyi={K\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RY}{%
+         family={Rekhter},
+         familyi={R\bibinitperiod},
+         given={Yakov},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lear},
+         familyi={L\bibinitperiod},
+         given={Eliot},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=dGGJ}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Groot},
+         familyi={G\bibinitperiod},
+         given={Geert\bibnamedelima Jan},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{MR+1}
+    \strng{fullhash}{MRKDRYLEGGJd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document describes address allocation for private internets. This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC1918
+    \endverb
+    \field{howpublished}{RFC 1918}
+    \field{number}{1918}
+    \field{pagetotal}{9}
+    \field{series}{Request for Comments}
+    \field{title}{{Address Allocation for Private Internets}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc1918
+    \endverb
+    \field{month}{02}
+    \field{year}{1996}
+  \endentry
+
+  \entry{rfc1883}{misc}{}{}
+    \name{author}{2}{}{%
+      {{hash=DDSE}{%
+         family={Deering},
+         familyi={D\bibinitperiod},
+         given={Dr. Steve\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Hinden},
+         familyi={H\bibinitperiod},
+         given={Bob},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{DDSEHB1}
+    \strng{fullhash}{DDSEHB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document specifies version 6 of the Internet Protocol (IPv6), also sometimes referred to as IP Next Generation or IPng. {[}STANDARDS-TRACK{]}%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC1883
+    \endverb
+    \field{howpublished}{RFC 1883}
+    \field{number}{1883}
+    \field{pagetotal}{37}
+    \field{series}{Request for Comments}
+    \field{title}{{Internet Protocol, Version 6 (IPv6) Specification}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc1883
+    \endverb
+    \field{month}{12}
+    \field{year}{1995}
+  \endentry
+
+  \entry{rfc2663}{misc}{}{}
+    \name{author}{2}{}{%
+      {{hash=HM}{%
+         family={Holdrege},
+         familyi={H\bibinitperiod},
+         given={Matt},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Srisuresh},
+         familyi={S\bibinitperiod},
+         given={Pyda},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{HMSP1}
+    \strng{fullhash}{HMSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document attempts to describe the operation of NAT devices and the associated considerations in general, and to define the terminology used to identify various flavors of NAT. This memo provides information for the Internet community.%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC2663
+    \endverb
+    \field{howpublished}{RFC 2663}
+    \field{number}{2663}
+    \field{pagetotal}{30}
+    \field{series}{Request for Comments}
+    \field{title}{{IP Network Address Translator (NAT) Terminology and Considerations}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc2663
+    \endverb
+    \field{month}{08}
+    \field{year}{1999}
+  \endentry
+
+  \entry{livadariu2018inferring}{inproceedings}{}{}
+    \name{author}{5}{}{%
+      {{hash=LI}{%
+         family={Livadariu},
+         familyi={L\bibinitperiod},
+         given={Ioana},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Benson},
+         familyi={B\bibinitperiod},
+         given={Karyn},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Elmokashfi},
+         familyi={E\bibinitperiod},
+         given={Ahmed},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dhamdhere},
+         familyi={D\bibinitperiod},
+         given={Amogh},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dainotti},
+         familyi={D\bibinitperiod},
+         given={Alberto},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{LI+1}
+    \strng{fullhash}{LIBKEADADA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{IEEE INFOCOM 2018-IEEE Conference on Computer Communications}
+    \field{pages}{2249\bibrangedash 2257}
+    \field{title}{Inferring carrier-grade NAT deployment in the wild}
+    \field{year}{2018}
+  \endentry
+
+  \entry{rfc2993}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=HTL}{%
+         family={Hain},
+         familyi={H\bibinitperiod},
+         given={Tony\bibnamedelima L.},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {RFC Editor}%
+    }
+    \strng{namehash}{HTL1}
+    \strng{fullhash}{HTL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This document discusses some of the architectural implications and guidelines for implementations of Network Address Translation (NAT). This memo provides information for the Internet community.%
+    }
+    \verb{doi}
+    \verb 10.17487/RFC2993
+    \endverb
+    \field{howpublished}{RFC 2993}
+    \field{number}{2993}
+    \field{pagetotal}{29}
+    \field{series}{Request for Comments}
+    \field{title}{{Architectural Implications of NAT}}
+    \verb{url}
+    \verb https://www.rfc-editor.org/info/rfc2993
+    \endverb
+    \field{month}{11}
+    \field{year}{2000}
+  \endentry
+\enddatalist
 \endinput
