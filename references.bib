@@ -122,3 +122,284 @@
   keywords = {IP addresses, Internet governance, IPv4, IPv6, Internet Protocol version 4, Internet Protocol version 6},
   abstract = {Internet Protocol (IP) addresses are a crucial resource for the functioning of the Internet. Much like a telephone number, an IP address is assigned to every network interface (router, computer, mobile telephone, server, etc.) that connects to the Internet. These addresses are currently assigned using the fourth version of the Internet Protocol, or IPv4. There are a limited number of addresses that can be assigned using IPv4 and the supply of unallocated addresses is effectively exhausted. This paper (i) identifies key facts and challenges arising from IPv4 address scarcity; (ii) outlines and analyzes potential responses to IPv4 scarcity; and (iii) concludes that a decisive transition from IPv4 to IPv6 is the most durable and effective response to the exhaustion of IPv4 addresses resulting from the growth of the global Internet and the exploding demand for IP addresses.}
 }
+
+
+
+%2.2
+
+% Dual Stack
+@article{punithavathani2009ipv4,
+  title   = {IPv4/IPv6 transition mechanisms},
+  author  = {Punithavathani, D Shalini and Sankaranarayanan, K},
+  journal = {European Journal of Scientific Research},
+  volume  = {34},
+  number  = {1},
+  pages   = {110--124},
+  year    = {2009}
+}
+
+@misc{rfc2893,
+  series       = {Request for Comments},
+  number       = 2893,
+  howpublished = {RFC 2893},
+  publisher    = {RFC Editor},
+  doi          = {10.17487/RFC2893},
+  url          = {https://www.rfc-editor.org/info/rfc2893},
+  author       = {Erik Nordmark and Robert E. Gilligan},
+  title        = {{Transition Mechanisms for IPv6 Hosts and Routers}},
+  pagetotal    = 29,
+  year         = 2000,
+  month        = aug,
+  abstract     = {This document specifies IPv4 compatibility mechanisms that can be implemented by IPv6 hosts and routers. {[}STANDARDS-TRACK{]}}
+}
+
+@misc{rfc4213,
+  series       = {Request for Comments},
+  number       = 4213,
+  howpublished = {RFC 4213},
+  publisher    = {RFC Editor},
+  doi          = {10.17487/RFC4213},
+  url          = {https://www.rfc-editor.org/info/rfc4213},
+  author       = {Robert E. Gilligan and Erik Nordmark},
+  title        = {{Basic Transition Mechanisms for IPv6 Hosts and Routers}},
+  pagetotal    = 27,
+  year         = 2005,
+  month        = oct,
+  abstract     = {This document specifies IPv4 compatibility mechanisms that can be implemented by IPv6 hosts and routers. Two mechanisms are specified, dual stack and configured tunneling. Dual stack implies providing complete implementations of both versions of the Internet Protocol (IPv4 and IPv6), and configured tunneling provides a means to carry IPv6 packets over unmodified IPv4 routing infrastructures. This document obsoletes RFC 2893. {[}STANDARDS-TRACK{]}}
+}
+
+@misc{rfc7381,
+  series       = {Request for Comments},
+  number       = 7381,
+  howpublished = {RFC 7381},
+  publisher    = {RFC Editor},
+  doi          = {10.17487/RFC7381},
+  url          = {https://www.rfc-editor.org/info/rfc7381},
+  author       = {Kiran K. Chittimaneni and Tim Chown and Lee Howard and Victor Kuarsingh and Yanick Pouffary and Éric Vyncke},
+  title        = {{Enterprise IPv6 Deployment Guidelines}},
+  pagetotal    = 34,
+  year         = 2014,
+  month        = oct,
+  abstract     = {Enterprise network administrators worldwide are in various stages of preparing for or deploying IPv6 into their networks. The administrators face different challenges than operators of Internet access providers and have reasons for different priorities. The overall problem for many administrators will be to offer Internet- facing services over IPv6 while continuing to support IPv4, and while introducing IPv6 access within the enterprise IT network. The overall transition will take most networks from an IPv4-only environment to a dual-stack network environment and eventually an IPv6-only operating mode. This document helps provide a framework for enterprise network architects or administrators who may be faced with many of these challenges as they consider their IPv6 support strategies.}
+}
+
+@misc{rfc4241,
+  series       = {Request for Comments},
+  number       = 4241,
+  howpublished = {RFC 4241},
+  publisher    = {RFC Editor},
+  doi          = {10.17487/RFC4241},
+  url          = {https://www.rfc-editor.org/info/rfc4241},
+  author       = {Shin Miyakawa and Ayako Takenouchi and Toshiyuki Yamasaki and Yasuhiro Shirasaki},
+  title        = {{A Model of IPv6/IPv4 Dual Stack Internet Access Service}},
+  pagetotal    = 10,
+  year         = 2005,
+  month        = dec,
+  abstract     = {This memo is a digest of the user network interface specification of NTT Communications' dual stack ADSL access service, which provide a IPv6/IPv4 dual stack services to home users. In order to simplify user setup, these services have a mechanism to configure IPv6 specific parameters automatically. The memo focuses on two basic parameters: the prefix assigned to the user and the addresses of IPv6 DNS servers, and it specifies a way to deliver these parameters to Customer Premises Equipment (CPE) automatically. This memo provides information for the Internet community.}
+}
+
+
+% NAT64
+@misc{rfc7269,
+  series       = {Request for Comments},
+  number       = 7269,
+  howpublished = {RFC 7269},
+  publisher    = {RFC Editor},
+  doi          = {10.17487/RFC7269},
+  url          = {https://www.rfc-editor.org/info/rfc7269},
+  author       = {Gang Chen and Zhen Cao and Chongfeng Xie and David Binet},
+  title        = {{NAT64 Deployment Options and Experience}},
+  pagetotal    = 22,
+  year         = 2014,
+  month        = jun,
+  abstract     = {This document summarizes NAT64 function deployment scenarios and operational experience. Both NAT64 Carrier-Grade NAT (NAT64-CGN) and NAT64 server Front End (NAT64-FE) are considered in this document.}
+}
+
+@article{6231295,
+  author   = {Bagnulo, Marcelo and Garcia-Martinez, Alberto and Beijnum, Iljitsch Van},
+  journal  = {IEEE Communications Magazine},
+  title    = {The NAT64/DNS64 tool suite for IPv6 transition},
+  year     = {2012},
+  volume   = {50},
+  number   = {7},
+  pages    = {177-183},
+  keywords = {Filtering;Servers;Internet;Dual stacking;IP networks;Network address translation;Logic gates},
+  doi      = {10.1109/MCOM.2012.6231295}
+}
+
+@misc{rfc6146,
+  series       = {Request for Comments},
+  number       = 6146,
+  howpublished = {RFC 6146},
+  publisher    = {RFC Editor},
+  doi          = {10.17487/RFC6146},
+  url          = {https://www.rfc-editor.org/info/rfc6146},
+  author       = {Philip Matthews and Iljitsch van Beijnum and Marcelo Bagnulo},
+  title        = {{Stateful NAT64: Network Address and Protocol Translation from IPv6 Clients to IPv4 Servers}},
+  pagetotal    = 45,
+  year         = 2011,
+  month        = apr,
+  abstract     = {This document describes stateful NAT64 translation, which allows IPv6-only clients to contact IPv4 servers using unicast UDP, TCP, or ICMP. One or more public IPv4 addresses assigned to a NAT64 translator are shared among several IPv6-only clients. When stateful NAT64 is used in conjunction with DNS64, no changes are usually required in the IPv6 client or the IPv4 server.}
+}
+
+@misc{rfc6147,
+  series       = {Request for Comments},
+  number       = 6147,
+  howpublished = {RFC 6147},
+  publisher    = {RFC Editor},
+  doi          = {10.17487/RFC6147},
+  url          = {https://www.rfc-editor.org/info/rfc6147},
+  author       = {Philip Matthews and Andrew Sullivan and Iljitsch van Beijnum and Marcelo Bagnulo},
+  title        = {{DNS64: DNS Extensions for Network Address Translation from IPv6 Clients to IPv4 Servers}},
+  pagetotal    = 32,
+  year         = 2011,
+  month        = apr,
+  abstract     = {DNS64 is a mechanism for synthesizing AAAA records from A records. DNS64 is used with an IPv6/IPv4 translator to enable client-server communication between an IPv6-only client and an IPv4-only server, without requiring any changes to either the IPv6 or the IPv4 node, for the class of applications that work through NATs. This document specifies DNS64, and provides suggestions on how it should be deployed in conjunction with IPv6/IPv4 translators. {[}STANDARDS-TRACK{]}}
+}
+
+@misc{rfc4966,
+  series       = {Request for Comments},
+  number       = 4966,
+  howpublished = {RFC 4966},
+  publisher    = {RFC Editor},
+  doi          = {10.17487/RFC4966},
+  url          = {https://www.rfc-editor.org/info/rfc4966},
+  author       = {Cedric Aoun and Elwyn B. Davies},
+  title        = {{Reasons to Move the Network Address Translator - Protocol Translator (NAT-PT) to Historic Status}},
+  pagetotal    = 25,
+  year         = 2007,
+  month        = jul,
+  abstract     = {This document discusses issues with the specific form of IPv6-IPv4 protocol translation mechanism implemented by the Network Address Translator - Protocol Translator (NAT-PT) defined in RFC 2766. These issues are sufficiently serious that recommending RFC 2766 as a general purpose transition mechanism is no longer desirable, and this document recommends that the IETF should reclassify RFC 2766 from Proposed Standard to Historic status. This memo provides information for the Internet community.}
+}
+
+
+@inproceedings{10.1007/978-3-031-56249-5_5,
+  author    = {Hsu, Amanda
+               and Li, Frank
+               and Pearce, Paul
+               and Gasser, Oliver},
+  editor    = {Richter, Philipp
+               and Bajpai, Vaibhav
+               and Carisimo, Esteban},
+  title     = {A First Look at NAT64 Deployment In-The-Wild},
+  booktitle = {Passive and Active Measurement},
+  year      = {2024},
+  publisher = {Springer Nature Switzerland},
+  address   = {Cham},
+  pages     = {112--129},
+  abstract  = {IPv6 is a fundamentally different Internet Protocol than IPv4, and IPv6-only networks cannot, by default, communicate with the IPv4 Internet. This lack of interoperability necessitates complex mechanisms for incremental deployment and bridging networks so that non-dual-stack systems can interact with the whole Internet. NAT64 is one such bridging mechanism by which a network allows IPv6-only clients to connect to the entire Internet, leveraging DNS to identify IPv4-only networks, inject IPv6 response addresses pointing to an internal gateway, and seamlessly translate connections. To date, our understanding of NAT64 deployments is limited; what little information exists is largely qualitative, taken from mailing lists and informal discussions.},
+  isbn      = {978-3-031-56249-5}
+}
+
+
+% CLAT and 464XLAT
+@misc{rfc6877,
+  series       = {Request for Comments},
+  number       = 6877,
+  howpublished = {RFC 6877},
+  publisher    = {RFC Editor},
+  doi          = {10.17487/RFC6877},
+  url          = {https://www.rfc-editor.org/info/rfc6877},
+  author       = {Masataka Mawatari and Masanobu Kawashima and Cameron Byrne},
+  title        = {{464XLAT: Combination of Stateful and Stateless Translation}},
+  pagetotal    = 14,
+  year         = 2013,
+  month        = apr,
+  abstract     = {This document describes an architecture (464XLAT) for providing limited IPv4 connectivity across an IPv6-only network by combining existing and well-known stateful protocol translation (as described in RFC 6146) in the core and stateless protocol translation (as described in RFC 6145) at the edge. 464XLAT is a simple and scalable technique to quickly deploy limited IPv4 access service to IPv6-only edge networks without encapsulation.}
+}
+
+% 2.3 Tayga
+@article{Repas_Farnadi_Lencse_2014,
+  title    = {Performance and Stability Analysis of Free NAT64 Implementations with Different Protocols},
+  author   = {Répás, S. R. and Farnadi, P. and Lencse, G.},
+  journal  = {Acta Technica Jaurinensis},
+  volume   = {7},
+  number   = {4},
+  pages    = {404--427},
+  year     = {2014},
+  month    = {Oct},
+  doi      = {10.14513/actatechjaur.v7.n4.340},
+  url      = {https://acta.sze.hu/index.php/acta/article/view/340},
+  abstract = {Due to its rapid spread, Internet has now outgrown the address space provided by IPv4. The transition to the new IPv6 protocol is extremely slow. The different transition techniques are intended to facilitate the transition to the new version of Internet Protocol. The NAT64 transition technique is one of the most suitable solutions. In this paper, both the performance and the stability of two NAT64 gateway implementations are examined by ICMP, TCP and UDP protocols. The tested two free implementations, the TAYGA on the Linux system and the PF of the OpenBSD system can be effectively used in a production environment, and can facilitate the deployment of the IPv6 protocol.}
+}
+
+@misc{palrd_tayga_readme,
+  author    = {Palrd, A},
+  title     = {tayga README},
+  year      = {2024},
+  publisher = {GitHub},
+  url       = {https://github.com/apalrd/tayga/blob/main/README.md},
+  note      = {Accessed: 2025-09-05}
+}
+
+
+%2.3 tundra 
+
+@misc{labuda_tundra_nat64,
+  author       = {Vít Labuda},
+  title        = {Tundra-NAT64: A minimal, user-space, stateless NAT64, CLAT and SIIT implementation for Linux},
+  howpublished = {\url{https://github.com/vitlabuda/tundra-nat64}},
+  note         = {Open-source software repository},
+  year         = {2023},
+  url          = {https://github.com/vitlabuda/tundra-nat64}
+}
+
+@misc{rfc7915,
+  series       = {Request for Comments},
+  number       = 7915,
+  howpublished = {RFC 7915},
+  publisher    = {RFC Editor},
+  doi          = {10.17487/RFC7915},
+  url          = {https://www.rfc-editor.org/info/rfc7915},
+  author       = {Congxiao Bao and Xing Li and Fred Baker and Tore Anderson and Fernando Gont},
+  title        = {{IP/ICMP Translation Algorithm}},
+  pagetotal    = 34,
+  year         = 2016,
+  month        = jun,
+  abstract     = {This document describes the Stateless IP/ICMP Translation Algorithm (SIIT), which translates between IPv4 and IPv6 packet headers (including ICMP headers). This document obsoletes RFC 6145.}
+}
+
+
+% 2.3 Jool 
+
+@misc{jool_introduction,
+  title        = {Introduction to Jool},
+  author       = {{NIC Mexico}},
+  howpublished = {\url{https://nicmx.github.io/Jool/en/intro-jool.html}},
+  note         = {Accessed: September 5, 2025},
+  year         = {2025},
+  organization = {NIC Mexico},
+  abstract     = {Introduction to Jool, an Open Source implementation of IPv4/IPv6 Translation on Linux supporting both Stateful NAT64 and SIIT modes}
+}
+
+
+% 3 Related Work
+
+@inproceedings{llanto2012performance,
+  title     = {Performance of NAT64 versus NAT44 in the context of IPv6 migration},
+  author    = {Llanto, Kenneth Joachim O and Yu, William Emmanuel S},
+  booktitle = {Proceedings of the International Multi-Conference of Engineers and Computer Scientist},
+  volume    = {1},
+  year      = {2012}
+}
+
+@article{quintero2016performance,
+  title     = {Performance evaluation of IPv4/IPv6 transition mechanisms},
+  author    = {Quintero, Adira and Sans, Francisco and Gamess, Eric},
+  journal   = {International Journal of Computer Network and Information Security},
+  volume    = {8},
+  number    = {2},
+  pages     = {1},
+  year      = {2016},
+  publisher = {Modern Education and Computer Science Press}
+}
+
+% gardener documentation
+
+@misc{gardener_docs,
+  title  = {Gardener Documentation},
+  author = {{Gardener Project}},
+  year   = {2024},
+  url    = {https://gardener.cloud/docs/gardener/},
+  note   = {Accessed: 2025-09-05}
+}
