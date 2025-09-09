@@ -8,9 +8,9 @@
 \contentsline {paragraph}{Dual-Stack Architecture}{5}{}%
 \contentsline {paragraph}{NAT64/DNS64 Principles}{6}{}%
 \contentsline {paragraph}{Client-Side Translation: The role of CLAT and 464XLAT}{8}{}%
-\contentsline {section}{\numberline {2.3}Linux implementations of NAT64}{10}{}%
+\contentsline {section}{\numberline {2.3}Linux implementations of CLAT}{10}{}%
 \contentsline {paragraph}{Tayga}{10}{}%
-\contentsline {paragraph}{Tundra}{11}{}%
+\contentsline {paragraph}{Tundra}{10}{}%
 \contentsline {paragraph}{Jool}{11}{}%
 \contentsline {chapter}{\numberline {3}Related Work}{13}{}%
 \contentsline {chapter}{\numberline {4}Implementation}{14}{}%
