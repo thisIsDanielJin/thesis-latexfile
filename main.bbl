@@ -310,25 +310,6 @@
     \field{year}{2013}
   \endentry
 
-  \entry{gardener_docs}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=G}{%
-         family={{Gardener Project}},
-         familyi={G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{G1}
-    \strng{fullhash}{G1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{note}{Accessed: 2025-09-05}
-    \field{title}{Gardener Documentation}
-    \verb{url}
-    \verb https://gardener.cloud/docs/gardener/
-    \endverb
-    \field{year}{2024}
-  \endentry
-
   \entry{jool_introduction}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=N}{%
@@ -510,6 +491,25 @@
     \endverb
     \field{month}{12}
     \field{year}{2005}
+  \endentry
+
+  \entry{gardener_docs}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={{Gardener Project}},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Accessed: 2025-09-05}
+    \field{title}{Gardener Documentation}
+    \verb{url}
+    \verb https://gardener.cloud/docs/gardener/
+    \endverb
+    \field{year}{2024}
   \endentry
 
   \entry{rfc791}{misc}{}{}
