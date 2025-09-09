@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  9 SEP 2025 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  9 SEP 2025 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1061,18 +1061,7 @@ Package biblatex Info: Data encoding 'ascii' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(./main.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Repas_Farnadi_Lencse_2014':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'veth4':
-(biblatex)                - Invalid format of field 'month'.
-
-)
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 71.
 Package biblatex Info: Reference segment=0 on input line 71.
 Package epstopdf Info: Source file: <resources/images/tu-logo.eps>
@@ -1165,50 +1154,514 @@ No file main.acr.
  (./section/Introduction.tex
 Chapter 1.
 
+LaTeX Warning: Citation '7737362' on page 1 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 1 undefined on input line 2.
+
+
+LaTeX Warning: Citation 'rfc4213' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Citation 'rfc6146' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'rfc6147' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'rfc6877' on page 1 undefined on input line 4.
+
+
+LaTeX Warning: Citation 'jool_introduction' on page 1 undefined on input line 1
+1.
+
+
+LaTeX Warning: Citation 'palrd_tayga_readme' on page 1 undefined on input line 
+11.
+
+
+LaTeX Warning: Citation 'Repas_Farnadi_Lencse_2014' on page 1 undefined on inpu
+t line 11.
+
+
+LaTeX Warning: Citation 'labuda_tundra_nat64' on page 1 undefined on input line
+ 11.
+
+
+Overfull \hbox (87.2126pt too wide) in paragraph at lines 9--13
+\T1/cmr/m/n/12 (-20) Tun-dra, a multi-threaded user-space SI-IT/-NAT64/CLAT imp
+lementation[[]].
+ []
+
+
 
 [1
 
 
-])
+]
+
+LaTeX Warning: Citation 'rfc6877' on page 2 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'rfc4241' on page 2 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'gardener_docs' on page 2 undefined on input line 17.
+
+)
 
 [2]
+
+[3]
 \openout2 = `section/Background.aux'.
 
  (./section/Background.tex
 Chapter 2.
 
+LaTeX Warning: Citation '7737362' on page 4 undefined on input line 2.
 
-[3
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 4 undefined on input line 2.
+
+
+LaTeX Warning: Citation '7737362' on page 4 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 4 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 4 undefined on input line 5.
+
+
+LaTeX Warning: Citation 'rfc791' on page 4 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'rfc1918' on page 4 undefined on input line 7.
+
+
+LaTeX Warning: Citation '7737362' on page 4 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 4 undefined on input line 7.
+
+
+LaTeX Warning: Citation '7737362' on page 4 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Citation '7737362' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 4 undefined on input line 9.
+
+
+
+[4
 
 
 
 
 ]
 
-[4]
+LaTeX Warning: Citation '7737362' on page 5 undefined on input line 11.
+
+
+LaTeX Warning: Citation 'itu_d_statistics' on page 5 undefined on input line 11
+.
+
+
+LaTeX Warning: Citation 'rfc1883' on page 5 undefined on input line 19.
+
+
+LaTeX Warning: Citation '7737362' on page 5 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 5 undefined on input line 19.
+
+
+LaTeX Warning: Citation '7737362' on page 5 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 5 undefined on input line 19.
+
+
+LaTeX Warning: Citation '7737362' on page 5 undefined on input line 22.
+
+
+LaTeX Warning: Citation '7737362' on page 5 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 5 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'rfc2663' on page 5 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'livadariu2018inferring' on page 5 undefined on input l
+ine 24.
+
+
+LaTeX Warning: Citation 'rfc2993' on page 5 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation '7737362' on page 5 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 5 undefined on input line 27.
+
+
+LaTeX Warning: Citation '7737362' on page 5 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 5 undefined on input line 27.
+
+
 
 [5]
 
+LaTeX Warning: Citation 'rfc2893' on page 6 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'punithavathani2009ipv4' on page 6 undefined on input l
+ine 35.
+
+
+LaTeX Warning: Citation 'punithavathani2009ipv4' on page 6 undefined on input l
+ine 35.
+
+
+LaTeX Warning: Citation 'rfc4213' on page 6 undefined on input line 37.
+
+
+LaTeX Warning: Citation 'punithavathani2009ipv4' on page 6 undefined on input l
+ine 37.
+
+
+LaTeX Warning: Citation 'rfc7381' on page 6 undefined on input line 39.
+
+
+LaTeX Warning: Citation 'punithavathani2009ipv4' on page 6 undefined on input l
+ine 39.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 6 undefined on input line 39.
+
+
+LaTeX Warning: Citation 'punithavathani2009ipv4' on page 6 undefined on input l
+ine 41.
+
+
+LaTeX Warning: Citation 'rfc4241' on page 6 undefined on input line 41.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 6 undefined on input line 41.
+
+
+
 [6]
+
+LaTeX Warning: Citation 'punithavathani2009ipv4' on page 7 undefined on input l
+ine 43.
+
+
+LaTeX Warning: Citation 'LEVIN20141059' on page 7 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'rfc7269' on page 7 undefined on input line 48.
+
+
+LaTeX Warning: Citation 'rfc7269' on page 7 undefined on input line 48.
+
+
+LaTeX Warning: Citation '6231295' on page 7 undefined on input line 48.
+
+
+LaTeX Warning: Citation 'rfc6146' on page 7 undefined on input line 50.
+
+
+LaTeX Warning: Citation '6231295' on page 7 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'rfc6146' on page 7 undefined on input line 52.
+
+
+LaTeX Warning: Citation 'rfc6146' on page 7 undefined on input line 54.
+
+
+LaTeX Warning: Citation '6231295' on page 7 undefined on input line 54.
+
+
 
 [7]
 
+LaTeX Warning: Citation '6231295' on page 8 undefined on input line 56.
+
+
+LaTeX Warning: Citation 'rfc6146' on page 8 undefined on input line 56.
+
+
+LaTeX Warning: Citation '6231295' on page 8 undefined on input line 60.
+
+
+LaTeX Warning: Citation 'rfc6146' on page 8 undefined on input line 60.
+
+
+LaTeX Warning: Citation 'rfc6147' on page 8 undefined on input line 62.
+
+
+LaTeX Warning: Citation '6231295' on page 8 undefined on input line 62.
+
+
+
 [8]
+
+LaTeX Warning: Citation '6231295' on page 9 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'rfc6147' on page 9 undefined on input line 64.
+
+
+LaTeX Warning: Citation '6231295' on page 9 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'rfc6146' on page 9 undefined on input line 66.
+
+
+LaTeX Warning: Citation '6231295' on page 9 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'rfc6877' on page 9 undefined on input line 75.
+
+
 
 [9]
 
+LaTeX Warning: Citation 'rfc6877' on page 10 undefined on input line 79.
+
+
+LaTeX Warning: Citation 'rfc6877' on page 10 undefined on input line 81.
+
+
+LaTeX Warning: Citation 'rfc6877' on page 10 undefined on input line 83.
+
+
+LaTeX Warning: Citation 'rfc6877' on page 10 undefined on input line 85.
+
+
+LaTeX Warning: Citation 'rfc6877' on page 10 undefined on input line 87.
+
+
+
 [10]
 
-[11])
+LaTeX Warning: Citation 'rfc6877' on page 11 undefined on input line 89.
+
+
+LaTeX Warning: Citation 'Repas_Farnadi_Lencse_2014' on page 11 undefined on inp
+ut line 98.
+
+
+LaTeX Warning: Citation 'palrd_tayga_readme' on page 11 undefined on input line
+ 98.
+
+
+Overfull \hbox (118.6212pt too wide) in paragraph at lines 98--99
+\T1/cmr/m/n/12 (-20) cated hard-ware or full[]blown soft-ware NAT64 de-vice wou
+ld be excessive[[]].
+ []
+
+
+Overfull \hbox (34.27739pt too wide) in paragraph at lines 98--99
+\T1/cmr/m/n/12 (-20) thors eval-u-ate as rep-re-sen-ta-tive for open[]source NA
+T64 on Linux[[]]. 
+ []
+
+
+LaTeX Warning: Citation 'Repas_Farnadi_Lencse_2014' on page 11 undefined on inp
+ut line 100.
+
+
+LaTeX Warning: Citation 'Repas_Farnadi_Lencse_2014' on page 11 undefined on inp
+ut line 100.
+
+
+Overfull \hbox (26.96342pt too wide) in paragraph at lines 100--101
+\T1/cmr/m/n/12 (-20) Linux packet fil-ter-ing and NAT frame-work (iptables)[[]]
+.
+ []
+
+
+LaTeX Warning: Citation 'Repas_Farnadi_Lencse_2014' on page 11 undefined on inp
+ut line 102.
+
+
+LaTeX Warning: Citation 'Repas_Farnadi_Lencse_2014' on page 11 undefined on inp
+ut line 102.
+
+
+LaTeX Warning: Citation 'Repas_Farnadi_Lencse_2014' on page 11 undefined on inp
+ut line 102.
+
+
+LaTeX Warning: Citation 'Repas_Farnadi_Lencse_2014' on page 11 undefined on inp
+ut line 102.
+
+
+LaTeX Warning: Citation 'Repas_Farnadi_Lencse_2014' on page 11 undefined on inp
+ut line 104.
+
+
+
+[11]
+
+LaTeX Warning: Citation 'rfc7915' on page 12 undefined on input line 109.
+
+
+LaTeX Warning: Citation 'labuda_tundra_nat64' on page 12 undefined on input lin
+e 109.
+
+
+LaTeX Warning: Citation 'labuda_tundra_nat64' on page 12 undefined on input lin
+e 111.
+
+
+LaTeX Warning: Citation 'labuda_tundra_nat64' on page 12 undefined on input lin
+e 111.
+
+
+LaTeX Warning: Citation 'labuda_tundra_nat64' on page 12 undefined on input lin
+e 111.
+
+
+LaTeX Warning: Citation 'labuda_tundra_nat64' on page 12 undefined on input lin
+e 113.
+
+
+LaTeX Warning: Citation 'labuda_tundra_nat64' on page 12 undefined on input lin
+e 113.
+
+
+LaTeX Warning: Citation 'labuda_tundra_nat64' on page 12 undefined on input lin
+e 115.
+
+
+Overfull \hbox (42.56908pt too wide) in paragraph at lines 115--116
+\T1/cmr/m/n/12 (-20) file de-scrip-tors, while it de-lib-er-ately lacks a dy-na
+mic ad-dress pool[[]]. 
+ []
+
+
+LaTeX Warning: Citation 'jool_introduction' on page 12 undefined on input line 
+120.
+
+
+LaTeX Warning: Citation 'jool_introduction' on page 12 undefined on input line 
+120.
+
+
+LaTeX Warning: Citation 'jool_introduction' on page 12 undefined on input line 
+122.
+
+
+LaTeX Warning: Citation 'jool_introduction' on page 12 undefined on input line 
+122.
+
+
+Overfull \hbox (42.17299pt too wide) in paragraph at lines 122--123
+\T1/cmr/m/n/12 (-20) the PRE-ROUT-ING chain but dif-fer in their op-er-a-tional
+ characteristics[[]].
+ []
+
+
 
 [12]
+
+LaTeX Warning: Citation 'jool_introduction' on page 13 undefined on input line 
+124.
+
+
+LaTeX Warning: Citation 'jool_introduction' on page 13 undefined on input line 
+124.
+
+
+LaTeX Warning: Citation 'jool_introduction' on page 13 undefined on input line 
+126.
+
+
+LaTeX Warning: Citation 'jool_introduction' on page 13 undefined on input line 
+128.
+
+
+LaTeX Warning: Citation 'jool_introduction' on page 13 undefined on input line 
+128.
+
+
+LaTeX Warning: Citation 'jool_introduction' on page 13 undefined on input line 
+130.
+
+)
+
+[13]
 \openout2 = `section/RelatedWork.aux'.
 
  (./section/RelatedWork.tex
 Chapter 3.
+
+LaTeX Warning: Citation 'llanto2012performance' on page 14 undefined on input l
+ine 3.
+
+
+LaTeX Warning: Citation 'llanto2012performance' on page 14 undefined on input l
+ine 3.
+
+
+LaTeX Warning: Citation 'llanto2012performance' on page 14 undefined on input l
+ine 3.
+
+
+LaTeX Warning: Citation 'llanto2012performance' on page 14 undefined on input l
+ine 3.
+
+
+Overfull \hbox (5.71202pt too wide) in paragraph at lines 3--4
+\T1/cmr/m/n/12 (-20) NAT44 and NAT64 that records RTT, CPU, and memory[[]].
+ []
+
+
+LaTeX Warning: Citation 'quintero2016performance' on page 14 undefined on input
+ line 6.
+
+
+LaTeX Warning: Citation 'quintero2016performance' on page 14 undefined on input
+ line 6.
+
+
+LaTeX Warning: Citation 'llanto2012performance' on page 14 undefined on input l
+ine 9.
+
+
+LaTeX Warning: Citation 'quintero2016performance' on page 14 undefined on input
+ line 9.
+
+
+LaTeX Warning: Citation 'llanto2012performance' on page 14 undefined on input l
+ine 9.
+
+
+LaTeX Warning: Citation 'quintero2016performance' on page 14 undefined on input
+ line 9.
+
 )
 
-[13
+[14
 
 
 
@@ -1219,43 +1672,222 @@ Chapter 3.
  (./section/Evaluation.tex
 Chapter 4.
 
+LaTeX Warning: Citation 'veth4' on page 15 undefined on input line 6.
 
-[14
+
+
+[15
 
 
 
 
 ]
 
-[15]
+LaTeX Warning: Citation 'veth4' on page 16 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'Repas_Farnadi_Lencse_2014' on page 16 undefined on inp
+ut line 19.
+
+
+LaTeX Warning: Citation 'palrd_tayga_readme' on page 16 undefined on input line
+ 19.
+
+
+LaTeX Warning: Citation 'rfc7915' on page 16 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'labuda_tundra_nat64' on page 16 undefined on input lin
+e 22.
+
+
+LaTeX Warning: Citation 'labuda_tundra_nat64' on page 16 undefined on input lin
+e 22.
+
+
+
+[16]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[16])
+LaTeX Warning: Citation 'jool_introduction' on page 17 undefined on input line 
+25.
 
-[17]
+
+LaTeX Warning: Citation 'jool_introduction' on page 17 undefined on input line 
+25.
+
+
+LaTeX Warning: Citation 'rfc7915' on page 17 undefined on input line 25.
+
+
+LaTeX Warning: Citation 'rfc7915' on page 17 undefined on input line 29.
+
+
+
+[17])
+
+[18]
 \openout2 = `section/Results.aux'.
 
  (./section/Results.tex
 Chapter 5.
-)
+<resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm-clock_linear.png, id=10
+2, 1264.725pt x 451.6875pt>
+File: resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm-clock_linear.png G
+raphic file (type png)
+<use resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm-clock_linear.png>
+Package pdftex.def Info: resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm
+-clock_linear.png  used on input line 10.
+(pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
+<resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm-clock_log.png, id=103, 
+1264.725pt x 451.6875pt>
+File: resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm-clock_log.png Grap
+hic file (type png)
+<use resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm-clock_log.png>
+Package pdftex.def Info: resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm
+-clock_log.png  used on input line 17.
+(pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
 
-[18
+
+[19
 
 
 
 
 ]
+<resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_hpet_log.png, id=107, 1264.
+725pt x 451.6875pt>
+File: resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_hpet_log.png Graphic f
+ile (type png)
+<use resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_hpet_log.png>
+Package pdftex.def Info: resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_hpe
+t_log.png  used on input line 31.
+(pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
+
+
+[20 <./resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm-clock_linear.png>
+ <./resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm-clock_log.png>]
+<resources/plots/JitterPlot/AWS_tcp_dualAxis_hpet_log.png, id=111, 1264.725pt x
+ 451.6875pt>
+File: resources/plots/JitterPlot/AWS_tcp_dualAxis_hpet_log.png Graphic file (ty
+pe png)
+<use resources/plots/JitterPlot/AWS_tcp_dualAxis_hpet_log.png>
+Package pdftex.def Info: resources/plots/JitterPlot/AWS_tcp_dualAxis_hpet_log.p
+ng  used on input line 41.
+(pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
+<resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_tsc_linear.png, id=112, 
+1264.725pt x 451.6875pt>
+File: resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_tsc_linear.png Grap
+hic file (type png)
+<use resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_tsc_linear.png>
+Package pdftex.def Info: resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_
+tsc_linear.png  used on input line 58.
+(pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
+
+
+[21 <./resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_hpet_log.png> <./reso
+urces/plots/JitterPlot/AWS_tcp_dualAxis_hpet_log.png>]
+<resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_hpet_linear.png, id=116,
+ 1264.725pt x 451.6875pt>
+File: resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_hpet_linear.png Gra
+phic file (type png)
+<use resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_hpet_linear.png>
+Package pdftex.def Info: resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_
+hpet_linear.png  used on input line 67.
+(pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
+
+
+[22 <./resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_tsc_linear.png> <.
+/resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_hpet_linear.png>]
+<resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_linear.png, id=120, 1011.7
+8pt x 361.35pt>
+File: resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_linear.png Graphic fi
+le (type png)
+<use resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_linear.png>
+Package pdftex.def Info: resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_li
+near.png  used on input line 82.
+(pdftex.def)             Requested size: 418.25368pt x 149.37851pt.
+<resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_hpet_log.png, id=121, 12
+64.725pt x 451.6875pt>
+File: resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_hpet_log.png Graphi
+c file (type png)
+<use resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_hpet_log.png>
+Package pdftex.def Info: resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_
+hpet_log.png  used on input line 94.
+(pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
+
+
+[23 <./resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_linear.png>]
+<resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_tsc_log.png, id=126, 126
+4.725pt x 451.6875pt>
+File: resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_tsc_log.png Graphic
+ file (type png)
+<use resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_tsc_log.png>
+Package pdftex.def Info: resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_
+tsc_log.png  used on input line 101.
+(pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
+
+
+LaTeX Warning: Reference `fig:Dual_tcp_dualAxis_hpet_log' on page 24 undefined 
+on input line 113.
+
+<resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_log.png, id=127, 1264.725p
+t x 451.6875pt>
+File: resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_log.png Graphic file 
+(type png)
+<use resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_log.png>
+Package pdftex.def Info: resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_lo
+g.png  used on input line 117.
+(pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
+
+
+[24 <./resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_hpet_log.png> <./r
+esources/plots/CombinedPlot/TCP/Double_tcp_sameScale_tsc_log.png>]
+<resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png, id=132, 903.37
+5pt x 542.025pt>
+File: resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png Graphic fi
+le (type png)
+<use resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>
+Package pdftex.def Info: resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s
+_log.png  used on input line 128.
+(pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
+
+
+[25 <./resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_log.png> <./resource
+s/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>]
+<resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png, id=136, 
+903.375pt x 542.025pt>
+File: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png Grap
+hic file (type png)
+<use resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png>
+Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_
+30s_linear.png  used on input line 143.
+(pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
+<resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png, id=137, 903
+.375pt x 542.025pt>
+File: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png Graphic
+ file (type png)
+<use resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png>
+Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_
+30s_log.png  used on input line 156.
+(pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
+
+
+[26 <./resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png>])
+
+[27 <./resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png>]
 \openout2 = `section/Conclusion.aux'.
 
- (./section/Conclusion.tex
+
+(./section/Conclusion.tex
 Chapter 6.
 )
 
-[19
+[28
 
 
 
@@ -1265,26 +1897,22 @@ Chapter 6.
 
  (./section/Appendix.tex
 
-[20
+LaTeX Warning: Empty bibliography on input line 5.
+
+
+
+[29
 
 
 
 
-]
-
-[21
-
-]
-
-[22]
-
-[23] (./main.lof)
+] (./main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
 
 
-[24
+[30
 
 ] (./main.lol)
 \tf@lol=\write9
@@ -1292,10 +1920,10 @@ Chapter 6.
 
 
 
-[25
+[31
 
 ])
-runsystem(latexminted cleantemp  --timestamp 20250909160602 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20250909235411 FAD58DE7366495DB465
 0CFEFAC2FCD61)...executed safely (allowed).
 
  (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux)
@@ -1311,6 +1939,9 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
@@ -1320,11 +1951,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30418 strings out of 473190
- 625742 string characters out of 5715800
- 1727431 words of memory out of 5000000
- 53050 multiletter control sequences out of 15000+600000
- 579349 words of font info for 166 fonts, out of 8000000 for 9000
+ 30385 strings out of 473190
+ 628586 string characters out of 5715800
+ 1716852 words of memory out of 5000000
+ 53059 multiletter control sequences out of 15000+600000
+ 575802 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,9n,117p,2425b,1904s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
@@ -1335,16 +1966,14 @@ r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 ocal/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/loc
 al/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local
 /texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/t
-exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/tex
-live/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texli
-ve/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive
-/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2
-025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/202
-5/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (32 pages, 869155 bytes).
+exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
+ve/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive
+/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (38 pages, 1969963 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 212 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 35339 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 31308 words of extra memory for PDF output out of 35830 (max. 10000000)
 
