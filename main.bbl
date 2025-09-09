@@ -594,6 +594,23 @@
     \field{year}{1996}
   \endentry
 
+  \entry{itu_d_statistics}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{International Telecommunication Union (ITU)}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.itu.int/en/ITU-D/Statistics/pages/stat/default.aspx}}
+    \field{note}{Accessed: 2025-09-07}
+    \field{title}{ITU-D ICT Statistics – Statistics}
+    \field{year}{2025}
+  \endentry
+
   \entry{rfc1883}{misc}{}{}
     \name{author}{2}{}{%
       {{hash=DDSE}{%
