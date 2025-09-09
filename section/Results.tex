@@ -1,10 +1,10 @@
 \chapter{Results}
-Chapter 5 reports the performance measurements and compares the three Linux translation implementations against a native Dual-Stack baseline across the three environments introduced in Chapter 4. The goal is to quantify the translation overhead of a CLAT-based path relative to Dual-Stack along two dimensions: TCP throughput and ICMP round-trip time (RTT). Sections 5.1 and 5.2 present the empirical results, Section 5.3 synthesizes and interprets the findings across environments and implementations and Section 5.4 summarizes practical challenges encountered during measurement and their mitigations.
-
-Because the three environments differ in virtualization and CPU topology absolute numbers are not directly comparable across environments. Instead, the within-environment comparison to the IPv6 baseline is the primary focus. 
+This chapter reports the empirical performance of the three Linux translation implementations relative to a native Dual-Stack baseline in the three environments described in Chapter 4. The evaluation isolates the translation overhead of a CLAT-based path along two metrics: TCP throughput and ICMP round-trip time (RTT). Within each environment, comparisons are made relative to the IPv6 baseline to control for differences in virtualization and CPU topology across environments. Sections 5.1 and 5.2 present the throughput and RTT results, respectively. Sections 5.3 and 5.4 discuss the findings and document practical challenges.
 
 \section{Throughput}
-In this section all figures have the time in seconds on the x-Axis and the throughput in Mbits/s on the y-Axis. The first measurements were conducted in the AWS environment.
+All throughput plots show time in seconds on the x-axis and throughput in Gbit/s on the y-axis and depict iperf3 time series over the configured measurement window. The AWS environment is considered first to set the stage for later changes in timing configuration and platform.
+The initial AWS measurement run with the default kvm-clock shows a divergence in behavior between the user-space translators and Jool. Tayga and Tundra remain stable across repetitions, whereas both the native IPv6 baseline and Jool show large variability without a consistent trend. Since configuration, topology, and traffic generation were held constant, this pattern indicates platform caused timing artifacts rather than datapath specific instability. The clocksource was therefore assumed to be the primary source of variance, and following runs replaced kvm-clock with hpet to test this hypothesis. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm-clock_linear.png}
@@ -20,11 +20,8 @@ In this section all figures have the time in seconds on the x-Axis and the throu
 
 \end{figure}
 
-Figures \ref{fig:AWS_tcp_sameScale_kvm-clock_linear} shows the initial TCP throughput results for the AWS environment in linear and logarithmic y-Axis scaling. Tayga and Tundra show stable, consistent performance across repeated runs. 
-In contrast, both the native IPv6 baseline and Jool show large variance and no clear trend, suggesting measurement instability rather than a deterministic effect of the datapath.
+Switching to hpet reduces anomalies but does not fully eliminate irregular throughput steps for the IPv6 baseline. Because the native baseline clusters near the top of the axis while the CLAT implementations cluster near the bottom, a dual-y-axis variant improves readability by separating the dynamic ranges without altering the underlying samples. The left y-axis scales the IPv6 baseline and the right y-axis scales the CLAT datapaths. Even here, the baseline still shows a step-like pattern, which is consistent with the remaining jitter. These results support the decision to move the same experimental topology to a local machine in order to reduce noise. 
 
-Given the constant topology and parameters, this pattern pointed to a timing artifact on the host rather than a translator-specific issue. It was hypothesized that the guest clocksource used by iperf3 and the kernel (kvm-clock) might be introducing jitter under load. To test this, we repeated the measurements after switching the guest clocksource from kvm-clock to hpet. 
-The results are presented in the following Figure \ref{fig:AWS_tcp_sameScale_hpet_log}.
 
 \begin{figure}[H]
     \centering
@@ -34,7 +31,6 @@ The results are presented in the following Figure \ref{fig:AWS_tcp_sameScale_hpe
 
 \end{figure}
 
-After switching the clocksource to hpet, the single-axis plots still appeared compressed at the extremes: the IPv6 baseline and jool clustered near the top of the axis while the CLAT cases clustered near the bottom. To improve readability, a dual-y-axis figure was introduced: the left y‑axis is scaled for the IPv6 baseline, and the right y‑axis is scaled for the IPv4 translation methods. This separates the ranges and makes differences within each group visible.
 
 \begin{figure}[H]
     \centering
@@ -43,15 +39,11 @@ After switching the clocksource to hpet, the single-axis plots still appeared co
     \label{fig:AWS_tcp_dualAxis_hpet_log}
 \end{figure}
 
-Even with HPET and the dual-y-axis view, the IPv6 baseline shows step‑like jumps rather than a smooth distribution, indicating high amounts of jitter.
 
-Because these irregularities persist despite the clocksource change and improved plotting, the experiments where moved to a local setup to reduce potential platform‑induced artifacts. 
-The next figures presents those results.
 
-\paragraph{Local Machine Results}
+\paragraph{Local results}
 
-The following figures show the results from the local machine environment. 
-Starting with the results for the single local machine setup. 
+On the single-host local machine, throughput stabilizes for both baseline and CLAT paths. The results show tight clustering across repetitions and a clear separation between one-hop and two-hop IPv6 baselines, consistent with the additional namespace traversal. Specifically, the one-hop baseline sustains approximately 41.61 Gbit/s, while the two-hop baseline sustains approximately 35.84 Gbit/s, which matches expectations for an extra hop. Within this environment, Jool consistently outperforms Tundra. Under TSC, Jool reaches a mean of about 33.7 Gbit/s versus 4.46 Gbit/s for Tundra. Under HPET, Jool's mean is about 6.735 Gbit/s versus 0.512 Gbit/s for Tundra. Tayga is not shown here due to the reasons summarized in Section 5.3. Because Tayga and Tundra are both stateless user-space translators with similar behavior, Tundra serves as a representative for this class in the single-host local setup, which is also in line with the AWS observations where Tayga and Tundra track closely.
 
 \begin{figure}[H]
     \centering
@@ -69,13 +61,7 @@ For consistency we also switched the clocksource to hpet in the local machine en
     \label{fig:Local_tcp_sameScale_hpet_linear}
 \end{figure}
 
-Switching to the local setup resulted in noticably more stable TCP throughput for both the IPv6 baseline and the CLAT cases. Variability is substantially reduced compared to the AWS runs and repeated measurements cluster tightly around their central values.
-
-Baseline behavior matches expectations: the one-hop IPv6 baseline sustains higher throughput than the two-hop baseline. The observed means are approximately 41.61 Gbit/s for the one-hop path versus 35.84 Gbit/s for the two-hop path, reflecting the additional namespace hop and overhead.
-
-Within the local setup, Jool consistently delivers much higher throughput than Tundra. Under the TSC clocksource (Figure \ref{fig:Local_tcp_sameScale_tsc_linear}), mean throughput is about 33.7 Gbit/s for Jool versus 4.46 Gbit/s for Tundra (roughly 7 times higher). With HPET (Figure \ref{fig:Local_tcp_sameScale_hpet_linear}), the relative ordering is unchanged, with means of about 6.735 Gbit/s for Jool and 0.512 Gbit/s for Tundra (over 10 times higher). Because the absolute levels differ across clocksources, comparisons should be made within each clocksource. The discussion of timing effects and datapath mechanisms is delayed to Section 5.3.
-Tayga measurements are absent in this environment. The reasons are detailed in Section 5.3. Given that Tayga and Tundra are both user-space, stateless CLAT implementations with similar behavior, we use Tundra as a representative user-space translator here. The AWS results support this choice, showing comparable performance between the two.
-Figure \ref{fig:Local_tcp_dualAxis_hpet_linear} illustrates, in contrast to the earlier AWS dual-y-axis plot, a significantly more stable IPv6 baseline and a clear distinction between the two CLAT implementations. 
+Figure \ref{fig:Local_tcp_dualAxis_hpet_linear} illustrates, in contrast to the earlier AWS dual-y-axis plot, a significantly more stable IPv6 baseline and a clear distinction between the two CLAT implementations.
 
 \begin{figure}[H]
     \centering
@@ -84,10 +70,10 @@ Figure \ref{fig:Local_tcp_dualAxis_hpet_linear} illustrates, in contrast to the 
     \label{fig:Local_tcp_dualAxis_hpet_linear}
 \end{figure}
 
-For instance, the range of the IPv6 baseline for two hops has decreased from 0.25 Gbit/s in AWS to about 0.09 Gbit/s in the local setup, indicating a more stable measurement environment.
 
-\paragraph{Dual Machine Local Setup Results}
-The final environment for measuring TCP throughput performance is the dual-machine local setup. The following figures show the results for this environment.
+
+The dual-host local setup introduces a physical 1 Gbit/s Ethernet link that caps the achievable throughput for all datapaths. In this environment, the absolute advantage of the kernel-space datapath on loopback is compressed by the link bottleneck, and both Jool and Tundra approach the capacity limit. Jool peaks near 0.66 Gbit/s while Tundra approaches 0.57 Gbit/s and the IPv6 baselines are bounded by 1 Gbit/s as expected under both TSC and HPET. The slight upward trends over time are caused by TCP congestion control behavior but does not affect the ordering of the results. The key observation is that when the bottleneck is the external link rather than the host datapath, the differences between CLAT implementations become small relative to the link capacity, and the gap to the dual-stack baseline largely disappears.
+
 
 \begin{figure}[H]
     \centering
@@ -103,25 +89,19 @@ The final environment for measuring TCP throughput performance is the dual-machi
     \label{fig:Dual_tcp_sameScale_tsc_log}
 \end{figure}
 
-Noticably the throughput values are significantly lower than for the previous environment. Now Jool peakes at 0.66 Gbit/s (Figure \ref{fig:Dual_tcp_sameScale_hpet_log}) and 
-Tundra at 0.57 Gbit/s (Figure \ref{fig:Dual_tcp_sameScale_hpet_log}). The big difference between Jool and Tundra has almost disappeared.
-This outcome is expected, as the setup relies on Cat5e Ethernet links with a maximum capacity of 1 Gbit/s between machines, creating a bottleneck compared to the loopback interface used in the previous setup.
-The maximum achievable throughput is therefore limited by the link speed. This is reflected in Figure \ref{fig:Dual_tcp_sameScale_tsc_log}, where all datapoints are capped at 1 Gbit/s.
-
-We observe here as well that Jool delivers the best performance, consistent with the single-machine setup. 
-The slight upward trend is likely attributable to TCP congestion control mechanisms (with cubic being used in the dual-machine setup).
-Again, looking at the dual-y-axis plot in Figure \ref{fig:Dual_tcp_dualAxis_hpet_log} for this scenario, 
-the IPv6 baseline shows a stable throughput compared to the AWS environment.
+Looking at the dual-y-axis plot in Figure \ref{fig:Double_tcp_dualAxis_hpet_log} for this scenario, the IPv6 baseline shows a stable throughput compared to the AWS environment.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_log.png}
     \caption{Single local machine, hpet, dual-y-axis, log scale}
-    \label{fig:Local_tcp_dualAxis_hpet_log}
+    \label{fig:Double_tcp_dualAxis_hpet_log}
 \end{figure}
 
+Across environments, two effects stand out. First, the translation overhead of CLAT relative to a native IPv6 baseline is strongly environment-dependent. On loopback, Jool’s kernel datapath yields a substantial advantage over user-space due to fewer context switches and reduced packet copy overhead, while on a 1 Gbit/s physical link the advantage compresses toward the link limit. Second, clocksource selection has a measurable impact on time series smoothness and on the dispersion of repeated measurements, especially under virtualization. The local machine results show that platform-induced jitter can dominate differences in the cloud.
 
 \section{RTT}
-The following figures show the RTT measurements for the AWS environment first.
+The RTT results mirror the throughput analysis in showing that the translation cost is small and that kernel-space translation retains a consistent advantage over user-space, while environment and topology shape absolute values. In the AWS environment under HPET, a clear gap separates the IPv6 baselines from the CLAT datapaths, consistent with the expectation that translation introduces additional per-packet processing. The one hop IPv6 baseline centers around 0.045 ms and the two hop baseline around 0.052 ms. Among translators, Jool achieves a mean of approximately 0.065 ms, while Tayga and Tundra lie around 0.086 ms and 0.095 ms, respectively. The relative ordering is therefore consistent with the throughput results. 
+
 
 \begin{figure}[H]
     \centering
@@ -131,12 +111,7 @@ The following figures show the RTT measurements for the AWS environment first.
 
 \end{figure}
 
-The results from Figure \ref{fig:AWS_icmp_sameScale_hpet_log} show a clear distinction between the IPv6 baseline and the CLAT implementations. 
-This indicates that the translation process introduces additional latency, as expected.
-The baseline RTT for one hop is around 0.045 ms and for two hops around 0.052 ms.
-Jool again outperforms the user-space implementations, with a mean RTT of around 0.065 ms compared to around 0.086 ms for Tayga and 0.095 ms for Tundra.
-
-The following figures show the results for the single local machine environment.
+On the single host local machine, RTTs increase across all datapaths relative to AWS, which is explained by the host’s lower CPU performance. The ordering remains unchanged: Jool again exhibits the lowest CLAT latency with a mean of about 0.182 ms, while Tundra’s mean is around 0.25 ms. The spread within each series is narrower than in AWS, consistent with the reduced timing jitter observed for throughput. 
 
 \begin{figure}[H]
     \centering
@@ -145,11 +120,8 @@ The following figures show the results for the single local machine environment.
     \label{fig:Local_icmp_sameScale_hpet_linear}
 \end{figure}
 
-The results from Figure \ref{fig:Local_icmp_sameScale_hpet_linear} indicate that the single local machine environment exhibits higher RTT values across all implementations compared to the AWS environment.
-This is likely due to the weaker hardware of the local machine compared to the AWS instance.
-Jool again shows the best performance among the CLAT implementations, with a mean RTT of around 0.182 ms, while Tundra has a RTT mean of around 0.25 ms.
+The dual-host local setup produces the highest RTTs due to the additional physical hop traversing the Ethernet link. Variability increases across all datapaths, reflecting the added queueing opportunities along the path. Despite the shift in absolute values, the relative ordering persists, with Jool maintaining a modest latency advantage over user-space translation. The gap to the IPv6 baselines remains small in absolute terms, which supports the thesis that CLAT overhead is limited in practice. 
 
-For the dual local machine environment this trend continues.
 
 \begin{figure}[H]
     \centering
@@ -158,10 +130,6 @@ For the dual local machine environment this trend continues.
     \label{fig:Dual_icmp_sameScale_hpet_log}
 \end{figure}
 
-Figure \ref{fig:Dual_icmp_sameScale_hpet_log} shows that the dual local machine environment has the highest RTT values among all environments.
-The reason for this is the additional network hop between the two machines, which introduces extra latency.
-The additional hop between the two machines also adds more variability to the measurements, as seen in the wider spread of RTT values for all implementations.
-Nevertheless Jool continues to deliver the best performance among the CLAT implementations. 
 
 
 \section{Discussion}

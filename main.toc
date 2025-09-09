@@ -29,8 +29,7 @@
 \contentsline {paragraph}{RTT}{17}{}%
 \contentsline {chapter}{\numberline {5}Results}{18}{}%
 \contentsline {section}{\numberline {5.1}Throughput}{18}{}%
-\contentsline {paragraph}{Local Machine Results}{20}{}%
-\contentsline {paragraph}{Dual Machine Local Setup Results}{22}{}%
+\contentsline {paragraph}{Local results}{20}{}%
 \contentsline {section}{\numberline {5.2}RTT}{24}{}%
 \contentsline {section}{\numberline {5.3}Discussion}{26}{}%
 \contentsline {section}{\numberline {5.4}Challenges and Solutions}{26}{}%

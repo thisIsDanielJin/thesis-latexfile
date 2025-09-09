@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  10 SEP 2025 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  10 SEP 2025 01:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1271,7 +1271,7 @@ File: resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_hpet_log.png Graphic f
 ile (type png)
 <use resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_hpet_log.png>
 Package pdftex.def Info: resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_hpe
-t_log.png  used on input line 31.
+t_log.png  used on input line 28.
 (pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
 
 
@@ -1283,7 +1283,7 @@ File: resources/plots/JitterPlot/AWS_tcp_dualAxis_hpet_log.png Graphic file (ty
 pe png)
 <use resources/plots/JitterPlot/AWS_tcp_dualAxis_hpet_log.png>
 Package pdftex.def Info: resources/plots/JitterPlot/AWS_tcp_dualAxis_hpet_log.p
-ng  used on input line 41.
+ng  used on input line 37.
 (pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
 <resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_tsc_linear.png, id=109, 
 1264.725pt x 451.6875pt>
@@ -1291,7 +1291,7 @@ File: resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_tsc_linear.png Grap
 hic file (type png)
 <use resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_tsc_linear.png>
 Package pdftex.def Info: resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_
-tsc_linear.png  used on input line 58.
+tsc_linear.png  used on input line 50.
 (pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
 
 
@@ -1303,83 +1303,78 @@ File: resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_hpet_linear.png Gra
 phic file (type png)
 <use resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_hpet_linear.png>
 Package pdftex.def Info: resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_
-hpet_linear.png  used on input line 67.
+hpet_linear.png  used on input line 59.
 (pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
-
-
-[21 <./resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_tsc_linear.png> <.
-/resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_hpet_linear.png>]
-<resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_linear.png, id=117, 1011.7
+<resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_linear.png, id=114, 1011.7
 8pt x 361.35pt>
 File: resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_linear.png Graphic fi
 le (type png)
 <use resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_linear.png>
 Package pdftex.def Info: resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_li
-near.png  used on input line 82.
+near.png  used on input line 68.
 (pdftex.def)             Requested size: 418.25368pt x 149.37851pt.
+
+
+[21 <./resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_tsc_linear.png> <.
+/resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_hpet_linear.png>]
 <resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_hpet_log.png, id=118, 12
 64.725pt x 451.6875pt>
 File: resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_hpet_log.png Graphi
 c file (type png)
 <use resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_hpet_log.png>
 Package pdftex.def Info: resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_
-hpet_log.png  used on input line 94.
+hpet_log.png  used on input line 80.
 (pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
-
-
-[22 <./resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_linear.png>]
-<resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_tsc_log.png, id=123, 126
+<resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_tsc_log.png, id=119, 126
 4.725pt x 451.6875pt>
 File: resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_tsc_log.png Graphic
  file (type png)
 <use resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_tsc_log.png>
 Package pdftex.def Info: resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_
-tsc_log.png  used on input line 101.
+tsc_log.png  used on input line 87.
 (pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
 
 
-LaTeX Warning: Reference `fig:Dual_tcp_dualAxis_hpet_log' on page 23 undefined 
-on input line 113.
-
+[22 <./resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_linear.png> <./resou
+rces/plots/CombinedPlot/TCP/Double_tcp_sameScale_hpet_log.png>]
 <resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_log.png, id=124, 1264.725p
 t x 451.6875pt>
 File: resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_log.png Graphic file 
 (type png)
 <use resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_log.png>
 Package pdftex.def Info: resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_lo
-g.png  used on input line 117.
+g.png  used on input line 95.
 (pdftex.def)             Requested size: 418.25368pt x 149.37437pt.
 
 
-[23 <./resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_hpet_log.png> <./r
-esources/plots/CombinedPlot/TCP/Double_tcp_sameScale_tsc_log.png>]
+[23 <./resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_tsc_log.png> <./re
+sources/plots/JitterPlot/Double_tcp_dualAxis_hpet_log.png>]
 <resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png, id=128, 903.37
 5pt x 542.025pt>
 File: resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png Graphic fi
 le (type png)
 <use resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>
 Package pdftex.def Info: resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s
-_log.png  used on input line 128.
+_log.png  used on input line 108.
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
-
-
-[24 <./resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_log.png> <./resource
-s/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>]
-<resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png, id=133, 
+<resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png, id=129, 
 903.375pt x 542.025pt>
 File: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png Grap
 hic file (type png)
 <use resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png>
 Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_
-30s_linear.png  used on input line 143.
+30s_linear.png  used on input line 118.
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
+
+
+[24 <./resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>]
 <resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png, id=134, 903
 .375pt x 542.025pt>
 File: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png Graphic
  file (type png)
 <use resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png>
 Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_
-30s_log.png  used on input line 156.
+30s_log.png  used on input line 128.
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
 
 
@@ -1433,7 +1428,7 @@ Chapter 6.
 [33
 
 ])
-runsystem(latexminted cleantemp  --timestamp 20250910000030 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20250910010334 FAD58DE7366495DB465
 0CFEFAC2FCD61)...executed safely (allowed).
 
  (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux)
@@ -1449,9 +1444,6 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
@@ -1462,8 +1454,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  30529 strings out of 473190
- 632830 string characters out of 5715800
- 1727817 words of memory out of 5000000
+ 632821 string characters out of 5715800
+ 1728852 words of memory out of 5000000
  53159 multiletter control sequences out of 15000+600000
  579420 words of font info for 167 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1482,7 +1474,7 @@ ve/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2
 025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/202
 5/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (40 pages, 2038268 bytes).
+Output written on main.pdf (40 pages, 2037071 bytes).
 PDF statistics:
  228 PDF objects out of 1000 (max. 8388607)
  138 compressed objects within 2 object streams
