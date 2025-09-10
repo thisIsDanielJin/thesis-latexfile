@@ -72,7 +72,7 @@ Figure \ref{fig:Local_tcp_dualAxis_hpet_linear} illustrates, in contrast to the 
 
 
 
-The dual-host local setup introduces a physical 1 Gbit/s Ethernet link that caps the achievable throughput for all datapaths. In this environment, the absolute advantage of the kernel-space datapath on loopback is compressed by the link bottleneck, and both Jool and Tundra approach the capacity limit. Jool peaks near 0.66 Gbit/s while Tundra approaches 0.57 Gbit/s and the IPv6 baselines are bounded by 1 Gbit/s as expected under both TSC and HPET. The slight upward trends over time are caused by TCP congestion control behavior but does not affect the ordering of the results. The key observation is that when the bottleneck is the external link rather than the host datapath, the differences between CLAT implementations become small relative to the link capacity, and the gap to the dual-stack baseline largely disappears.
+The dual-host local setup introduces a physical 1 Gbit/s Ethernet link that caps the achievable throughput for all datapaths. In this environment, the absolute advantage of the kernel-space datapath on loopback is compressed by the link bottleneck, and both Jool and Tundra approach the capacity limit. Jool peaks near 0.66 Gbit/s while Tundra approaches 0.57 Gbit/s and the IPv6 baselines are bounded by 1 Gbit/s as expected under both TSC and HPET. The slight upward trends over time are caused by TCP congestion control behavior\cite{rfc5681} but does not affect the ordering of the results. The key observation is that when the bottleneck is the external link rather than the host datapath, the differences between CLAT implementations become small relative to the link capacity, and the gap to the dual-stack baseline largely disappears.
 
 
 \begin{figure}[H]
@@ -131,7 +131,43 @@ The dual-host local setup produces the highest RTTs due to the additional physic
 \end{figure}
 
 
+\begin{table}[htbp]
+\centering
+\caption{RTT Performance Comparison Across Translation Tools and Scenarios}
+\label{tab:rtt_comparison}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|r|r|r|r|r|c|}
+\hline
+\textbf{Env.} & \textbf{IP} & \textbf{Tool} & \textbf{Type} & \textbf{Min (ms)} & \textbf{Avg (ms)} & \textbf{Max (ms)} & \textbf{Std Dev (ms)} & \textbf{P95 (ms)} & \textbf{n} \\
+\hline
+AWS & v4 & jool & CLAT & 0.057 & 0.064 & 0.079 & 0.005 & 0.073 & 30 \\
+AWS & v4 & tayga & CLAT & 0.083 & 0.091 & 0.115 & 0.008 & 0.107 & 30 \\
+AWS & v4 & tundra & CLAT & 0.091 & 0.099 & 0.118 & 0.006 & 0.110 & 30 \\
+AWS & v6 & tundra & Baseline & 0.036 & 0.042 & 0.048 & 0.002 & 0.046 & 30 \\
+AWS & v6 & jool & Baseline & 0.040 & 0.053 & 0.066 & 0.005 & 0.061 & 30 \\
+AWS & v6 & tayga & Baseline & 0.033 & 0.042 & 0.049 & 0.004 & 0.048 & 30 \\
+\hline
+Single & v4 & jool & CLAT & 0.179 & 0.189 & 0.317 & 0.026 & 0.218 & 30 \\
+Single & v4 & tundra & CLAT & 0.222 & 0.239 & 0.400 & 0.032 & 0.266 & 30 \\
+Single & v6 & jool & Baseline & 0.161 & 0.171 & 0.204 & 0.012 & 0.201 & 30 \\
+Single & v6 & tundra & Baseline & 0.086 & 0.131 & 0.164 & 0.014 & 0.153 & 30 \\
+Single & v6 & tayga & Baseline & 0.122 & 0.134 & 0.251 & 0.024 & 0.167 & 30 \\
+\hline
+Double & v4 & jool & CLAT & 0.353 & 0.563 & 0.652 & 0.060 & 0.637 & 30 \\
+Double & v4 & tundra & CLAT & 0.584 & 0.666 & 0.846 & 0.091 & 0.823 & 30 \\
+Double & v6 & jool & Baseline & 0.483 & 0.532 & 0.564 & 0.018 & 0.560 & 30 \\
+Double & v6 & tundra & Baseline & 0.425 & 0.537 & 0.588 & 0.035 & 0.580 & 30 \\
+Double & v6 & tayga & Baseline & 0.403 & 0.539 & 0.577 & 0.037 & 0.575 & 30 \\
+\hline
+\end{tabular}%
+}
+\end{table}
+
 
 \section{Discussion}
+
+
+
+
 
 \section{Challenges and Solutions}
