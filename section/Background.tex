@@ -6,7 +6,14 @@ Internet use has expanded to critical infrastructure across consumer, enterprise
 
 IPv4, standardized in 1981-1983, provides a 32-bit address space of roughly 4.3 billion addresses\cite{rfc791}.In practice, not all addresses are usable on the public Internet due to special-use and private allocations, and early design choices further reduced the effectively usable pool\cite{rfc1918,7737362,LEVIN20141059}. Management techniques such as CIDR and NAT slowed the pace of consumption but could not eliminate the finite limit\cite{7737362}.
 
-Exhaustion means that the pool of unused IPv4 addresses has run out, not that IPv4 connections themselves have stopped working. The process started at the global level and then moved downward: IANA allocated its final IPv4 blocks on 3 February 2011, after that, each Regional Internet Registry (RIR) moved into its final phase: APNIC in April 2011, RIPE NCC in September 2012, LACNIC in June 2014 while AFRINIC held on the longest\cite{LEVIN20141059}. A global policy passed on 6 May 2012 established mechanisms for the recovery and redistribution of returned IPv4 address space, yet scarcity has continued to persist\cite{7737362}. The impact has been uneven across regions because historical allocations left some operators with far fewer addresses per user than others\cite{LEVIN20141059}.
+Exhaustion means that the pool of unused IPv4 addresses has run out, not that IPv4 connections themselves have stopped working. The process started at the global level and then moved downward: IANA allocated its final IPv4 blocks on 3 February 2011, after that, each Regional Internet Registry (RIR) moved into its final phase: APNIC in April 2011 (Figure \ref{fig:ipv4_exhaustion_timeline}), RIPE NCC in September 2012, LACNIC in June 2014 while AFRINIC held on the longest\cite{LEVIN20141059}. A global policy passed on 6 May 2012 established mechanisms for the recovery and redistribution of returned IPv4 address space, yet scarcity has continued to persist\cite{7737362}. The impact has been uneven across regions because historical allocations left some operators with far fewer addresses per user than others\cite{LEVIN20141059}.
+
+\begin{figure}[H]
+    \centering
+    \caption{APNIC IPv4 address exhaustion timeline\cite{apnic_ipv4_exhaustion}.}
+    \label{fig:ipv4_exhaustion_timeline}
+    \includegraphics[width=0.8\textwidth]{resources/images/ipv4exhaustion}
+\end{figure}
 
 The shortage was unavoidable because demand kept rising: by 2014, about 2.9 billion people were online, with more than 200 million new users joining each year after 2010. Internet use jumped from less than 1\% of the world’s population in 1994 to over 40\% by 2014, and surpassing 4 billion by 2020 and 5.5 billion in 2024\cite{7737362, itu_d_statistics}. In short, exponential demand confronted a finite IPv4 pool.
 % \begin{figure}[h]
@@ -19,7 +26,14 @@ The shortage was unavoidable because demand kept rising: by 2014, about 2.9 bill
 IPv6 was standardized in 1995 as the long-term successor, expanding addressing to 128 bits—on the order of $3.4 \times 10^{38}$ unique addresses—and introducing protocol-level improvements aimed at routing scalability, mobility support, and operational security\cite{rfc1883,7737362,LEVIN20141059}. The allocation data highlights how abundant IPv6 is compared to IPv4, even when large IPv6 distributions are considered\cite{7737362}. However, IPv4 and IPv6 don't work together on their own, so bridging mechanisms are needed while both remain in use\cite{LEVIN20141059}.
 
 
-Even though the technical benefits of IPv6 were clear, its adoption lagged behind the urgency created by IPv4 shortages. IPv6 allocations reported by the RIRs lagged behind user growth, with especially low adoption in some regions, like Africa. At the same time, user-side measurements, such as those from Google, showed less than 10\% IPv6 usage, though the trend was gradually increasing\cite{7737362}. Operators had to cover costs for enabling IPv6, including new equipment and configuration, which extended the period of running both protocols, often well beyond 2020 and in some networks possibly past 2030\cite{7737362}.
+Even though the technical benefits of IPv6 were clear, its adoption lagged behind the urgency created by IPv4 shortages. IPv6 allocations reported by the RIRs lagged behind user growth, with especially low adoption in some regions, like Africa. At the same time, user-side measurements, such as those from Google, showed less than 10\% IPv6 usage (Figure \ref{fig:ipv6_google_adoption}), though the trend was gradually increasing\cite{7737362}. Operators had to cover costs for enabling IPv6, including new equipment and configuration, which extended the period of running both protocols, often well beyond 2020 and in some networks possibly past 2030\cite{7737362}.
+
+\begin{figure}[H]
+    \centering
+    \caption{IPv6 connectivity among Google users over time\cite{google_ipv6_statistics}.}
+    \label{fig:ipv6_google_adoption}
+    \includegraphics[width=0.8\textwidth]{resources/images/ipv6google}
+\end{figure}
 
 Operators and policymakers have followed two main approaches: allocating the remaining IPv4 space more efficiently and transitioning to IPv6\cite{LEVIN20141059}. On the technical side, NAT, especially carrier-grade NAT (CGN), conserves public IPv4 addresses by multiplexing many private hosts behind a smaller set of public addresses\cite{rfc2663}. By around 2014, a measurable fraction of users were estimated to traverse CGN\cite{livadariu2018inferring}. While NAT is effective at saving IP addresses, it can make end-to-end connectivity more complicated and add to operational complexity\cite{rfc2993}. 
 Dual stack (running IPv4 and IPv6 in parallel) is broadly available and will remain common for years, but it does not address the IPv4 address exhaustion\cite{LEVIN20141059}. Policy measures like smaller allocations and efforts to reclaim unused addresses have helped ease IP address scarcity somewhat, but they don't eliminate the need for IPv6\cite{LEVIN20141059}.

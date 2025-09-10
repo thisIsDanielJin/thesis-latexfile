@@ -6,36 +6,36 @@
 \contentsline {paragraph}{Thesis Structure}{2}{}%
 \contentsline {chapter}{\numberline {2}Background}{3}{}%
 \contentsline {section}{\numberline {2.1}IPv4 exhaustion and transition to IPv6}{3}{}%
-\contentsline {section}{\numberline {2.2}IPv6 transition mechanisms}{5}{}%
-\contentsline {paragraph}{Dual-Stack Architecture}{5}{}%
-\contentsline {paragraph}{NAT64/DNS64 Principles}{6}{}%
-\contentsline {paragraph}{Client-Side Translation: The role of CLAT and 464XLAT}{8}{}%
-\contentsline {section}{\numberline {2.3}Linux implementations of CLAT}{10}{}%
-\contentsline {paragraph}{Tayga}{10}{}%
-\contentsline {paragraph}{Tundra}{10}{}%
-\contentsline {paragraph}{Jool}{11}{}%
-\contentsline {chapter}{\numberline {3}Related Work}{13}{}%
-\contentsline {chapter}{\numberline {4}Evaluation}{14}{}%
-\contentsline {section}{\numberline {4.1}Test environments}{14}{}%
-\contentsline {paragraph}{AWS}{14}{}%
-\contentsline {paragraph}{Single Ubuntu Setup }{14}{}%
-\contentsline {paragraph}{Dual Ubuntu Setup}{14}{}%
-\contentsline {section}{\numberline {4.2}Networking Namespace Configuration}{15}{}%
-\contentsline {section}{\numberline {4.3}Implementation of Translation Technologies}{15}{}%
-\contentsline {paragraph}{Tayga}{15}{}%
-\contentsline {paragraph}{Tundra}{16}{}%
-\contentsline {paragraph}{Jool}{16}{}%
-\contentsline {section}{\numberline {4.4}Measurement Methodology}{16}{}%
-\contentsline {paragraph}{Throughput}{16}{}%
-\contentsline {paragraph}{RTT}{17}{}%
-\contentsline {chapter}{\numberline {5}Results}{18}{}%
-\contentsline {section}{\numberline {5.1}Throughput}{18}{}%
-\contentsline {paragraph}{Bare-metal results}{20}{}%
-\contentsline {section}{\numberline {5.2}RTT}{25}{}%
-\contentsline {section}{\numberline {5.3}Discussion}{30}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{32}{}%
-\contentsline {paragraph}{Summary of Key Findings}{32}{}%
-\contentsline {paragraph}{Future Work}{33}{}%
-\contentsline {chapter}{Appendix}{35}{}%
-\contentsline {section}{Bibliography}{35}{}%
-\contentsline {section}{Scripts and Tables}{39}{}%
+\contentsline {section}{\numberline {2.2}IPv6 transition mechanisms}{6}{}%
+\contentsline {paragraph}{Dual-Stack Architecture}{6}{}%
+\contentsline {paragraph}{NAT64/DNS64 Principles}{7}{}%
+\contentsline {paragraph}{Client-Side Translation: The role of CLAT and 464XLAT}{9}{}%
+\contentsline {section}{\numberline {2.3}Linux implementations of CLAT}{11}{}%
+\contentsline {paragraph}{Tayga}{11}{}%
+\contentsline {paragraph}{Tundra}{11}{}%
+\contentsline {paragraph}{Jool}{12}{}%
+\contentsline {chapter}{\numberline {3}Related Work}{14}{}%
+\contentsline {chapter}{\numberline {4}Evaluation}{15}{}%
+\contentsline {section}{\numberline {4.1}Test environments}{15}{}%
+\contentsline {paragraph}{AWS}{15}{}%
+\contentsline {paragraph}{Bare-metal host}{15}{}%
+\contentsline {paragraph}{Bare-metal network}{15}{}%
+\contentsline {section}{\numberline {4.2}Networking Namespace Configuration}{16}{}%
+\contentsline {section}{\numberline {4.3}Implementation of Translation Technologies}{16}{}%
+\contentsline {paragraph}{Tayga}{16}{}%
+\contentsline {paragraph}{Tundra}{17}{}%
+\contentsline {paragraph}{Jool}{17}{}%
+\contentsline {section}{\numberline {4.4}Measurement Methodology}{17}{}%
+\contentsline {paragraph}{Throughput}{17}{}%
+\contentsline {paragraph}{RTT}{18}{}%
+\contentsline {chapter}{\numberline {5}Results}{19}{}%
+\contentsline {section}{\numberline {5.1}Throughput}{19}{}%
+\contentsline {paragraph}{Bare-metal results}{21}{}%
+\contentsline {section}{\numberline {5.2}RTT}{26}{}%
+\contentsline {section}{\numberline {5.3}Discussion}{31}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{33}{}%
+\contentsline {paragraph}{Summary of Key Findings}{33}{}%
+\contentsline {paragraph}{Future Work}{34}{}%
+\contentsline {chapter}{Appendix}{36}{}%
+\contentsline {section}{Bibliography}{36}{}%
+\contentsline {section}{Scripts and Tables}{41}{}%

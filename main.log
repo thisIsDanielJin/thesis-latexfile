@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  10 SEP 2025 23:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  10 SEP 2025 23:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -618,11 +618,6 @@ Package csquotes Info: ... configuration file loaded successfully.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
-)
 \glswrite=\write4
 \glo@acronym@file=\write5
 \openout5 = `main.acn'.
@@ -666,16 +661,6 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-
-! Package biblatex Error: Incompatible package 'cite'.
-
-See the biblatex package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.213 \blx@packageincompatibility
-                                 
-? 
 \c@tabx@nest=\count394
 \c@listtotal=\count395
 \c@listcount=\count396
@@ -735,6 +720,7 @@ l.213 \blx@packageincompatibility
 \c@mincompwidth=\count439
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
+
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
@@ -1184,10 +1170,24 @@ Chapter 2.
 
 
 ]
+<resources/images/ipv4exhaustion.png, id=51, 796.9775pt x 588.1975pt>
+File: resources/images/ipv4exhaustion.png Graphic file (type png)
+<use resources/images/ipv4exhaustion.png>
+Package pdftex.def Info: resources/images/ipv4exhaustion.png  used on input lin
+e 15.
+(pdftex.def)             Requested size: 334.60422pt x 246.9515pt.
 
-[4]
 
-[5]
+[4 <./resources/images/ipv4exhaustion.png>]
+<resources/images/ipv6google.png, id=58, 1159.33125pt x 562.1pt>
+File: resources/images/ipv6google.png Graphic file (type png)
+<use resources/images/ipv6google.png>
+Package pdftex.def Info: resources/images/ipv6google.png  used on input line 35
+.
+(pdftex.def)             Requested size: 334.60422pt x 162.2329pt.
+
+
+[5 <./resources/images/ipv6google.png>]
 
 [6]
 
@@ -1199,16 +1199,18 @@ Chapter 2.
 
 [10]
 
-[11])
+[11]
 
-[12]
+[12])
+
+[13]
 \openout2 = `section/RelatedWork.aux'.
 
  (./section/RelatedWork.tex
 Chapter 3.
 )
 
-[13
+[14
 
 
 
@@ -1220,29 +1222,29 @@ Chapter 3.
 Chapter 4.
 
 
-[14
+[15
 
 
 
 
 ]
 
-[15]
+[16]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[16])
+[17])
 
-[17]
+[18]
 \openout2 = `section/Results.aux'.
 
  (./section/Results.tex
 Chapter 5.
 <resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png
-, id=98, 714.0276pt x 352.6776pt>
+, id=106, 714.0276pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linea
 r.png Graphic file (type png)
 <use resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear
@@ -1252,13 +1254,13 @@ vm-clock_2min_linear.png  used on input line 10.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 
 
-[18
+[19
 
 
 
 
 ]
-<resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png, id=103
+<resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png, id=110
 , 714.0276pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png Gr
 aphic file (type png)
@@ -1268,9 +1270,9 @@ pet_2min_log.png  used on input line 21.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 
 
-[19 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_line
+[20 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_line
 ar.png>]
-<resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png, id=108, 6
+<resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png, id=115, 6
 98.1282pt x 352.6776pt>
 File: resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png Graph
 ic file (type png)
@@ -1280,10 +1282,10 @@ _2min_log.png  used on input line 30.
 (pdftex.def)             Requested size: 418.25368pt x 211.29068pt.
 
 
-[20 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png> 
+[21 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png> 
 <./resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png>]
 <resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.p
-ng, id=114, 714.0276pt x 352.6776pt>
+ng, id=121, 714.0276pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_lin
 ear.png Graphic file (type png)
 <use resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_line
@@ -1292,7 +1294,7 @@ Package pdftex.def Info: resources/finalPlots/combinedplots/SingleLocal_tcp_sam
 eScale_tsc_2min_linear.png  used on input line 43.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 <resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.
-png, id=115, 714.0276pt x 352.6776pt>
+png, id=122, 714.0276pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_li
 near.png Graphic file (type png)
 <use resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_lin
@@ -1302,10 +1304,10 @@ eScale_hpet_2min_linear.png  used on input line 52.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 
 
-[21 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_li
+[22 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_li
 near.png>]
 <resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png
-, id=120, 703.9098pt x 352.6776pt>
+, id=127, 703.9098pt x 352.6776pt>
 File: resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linea
 r.png Graphic file (type png)
 <use resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear
@@ -1315,11 +1317,11 @@ xis_hpet_2min_linear.png  used on input line 61.
 (pdftex.def)             Requested size: 418.25368pt x 209.55247pt.
 
 
-[22 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_l
+[23 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_l
 inear.png> <./resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2m
 in_linear.png>]
 <resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png
-, id=126, 713.3049pt x 352.6776pt>
+, id=133, 713.3049pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_lo
 g.png Graphic file (type png)
 <use resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log
@@ -1328,7 +1330,7 @@ Package pdftex.def Info: resources/finalPlots/combinedplots/DoubleLocal_tcp_sam
 eScale_hpet_2min_log.png  used on input line 73.
 (pdftex.def)             Requested size: 418.25368pt x 206.7972pt.
 <resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png,
- id=127, 712.5822pt x 352.6776pt>
+ id=134, 712.5822pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log
 .png Graphic file (type png)
 <use resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.
@@ -1338,10 +1340,10 @@ eScale_tsc_2min_log.png  used on input line 82.
 (pdftex.def)             Requested size: 418.25368pt x 207.00706pt.
 
 
-[23 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_l
+[24 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_l
 og.png>]
 <resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png, i
-d=132, 699.5736pt x 352.6776pt>
+d=140, 699.5736pt x 352.6776pt>
 File: resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.p
 ng Graphic file (type png)
 <use resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.pn
@@ -1351,10 +1353,10 @@ xis_hpet_2min_log.png  used on input line 90.
 (pdftex.def)             Requested size: 418.25368pt x 210.85478pt.
 
 
-[24 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_lo
+[25 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_lo
 g.png> <./resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_l
 og.png>]
-<resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png, id=139, 903.37
+<resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png, id=146, 903.37
 5pt x 542.025pt>
 File: resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png Graphic fi
 le (type png)
@@ -1364,8 +1366,8 @@ _log.png  used on input line 103.
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
 
 
-[25 <./resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>]
-<resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png, id=143, 
+[26 <./resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>]
+<resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png, id=150, 
 903.375pt x 542.025pt>
 File: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png Grap
 hic file (type png)
@@ -1373,7 +1375,7 @@ hic file (type png)
 Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_
 30s_linear.png  used on input line 113.
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
-<resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png, id=144, 903
+<resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png, id=151, 903
 .375pt x 542.025pt>
 File: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png Graphic
  file (type png)
@@ -1383,7 +1385,7 @@ Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
 
 
-[26 <./resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png>]
+[27 <./resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png>]
 Overfull \hbox (2.58534pt too wide) in paragraph at lines 135--160
  [][] 
  []
@@ -1405,66 +1407,60 @@ Overfull \hbox (63.48453pt too wide) in paragraph at lines 242--270
 
 
 
-[27 <./resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png>]
-
-[28]
+[28 <./resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png>]
 
 [29]
 
-[30])
+[30]
 
-[31]
+[31])
+
+[32]
 \openout2 = `section/Conclusion.aux'.
 
  (./section/Conclusion.tex
 Chapter 6.
 
 
-[32
+[33
 
 
 
 
 ])
 
-[33]
-
 [34]
+
+[35]
 \openout2 = `section/Appendix.aux'.
 
  (./section/Appendix.tex
 
-[35
-
-
-
-
-]
-
 [36
 
+
+
+
 ]
 
-[37]
+[37
 
-[38] (./main.lof)
+]
+
+[38]
+
+[39]
+
+[40] (./main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
 
 
-[39
-
-] (./main.lol)
-\tf@lol=\write9
-\openout9 = `main.lol'.
-
-
-
-[40
+[41
 
 ])
-runsystem(latexminted cleantemp  --timestamp 20250910230640 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20250910234939 FAD58DE7366495DB465
 0CFEFAC2FCD61)...executed safely (allowed).
 
  (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux)
@@ -1489,13 +1485,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30564 strings out of 473190
- 633803 string characters out of 5715800
- 1780980 words of memory out of 5000000
- 53174 multiletter control sequences out of 15000+600000
- 581797 words of font info for 179 fonts, out of 8000000 for 9000
+ 30492 strings out of 473190
+ 633635 string characters out of 5715800
+ 1780150 words of memory out of 5000000
+ 53106 multiletter control sequences out of 15000+600000
+ 581868 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,9n,117p,2425b,1864s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,9n,117p,2425b,3167s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
@@ -1512,10 +1508,10 @@ ve/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
 5/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2025/
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/te
 xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (47 pages, 1655926 bytes).
+Output written on main.pdf (48 pages, 1844374 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
+ 274 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41543 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 41553 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -32,15 +32,12 @@
          giveni={B\bibinitperiod},
       }}%
     }
-    \keyw{Internet;Sociology;Statistics;RNA;Internet;Internet Protocol
-  (IP);IPv4;IPv6}
+    \keyw{Internet;Sociology;Statistics;RNA;Internet;Internet Protocol (IP);IPv4;IPv6}
     \strng{namehash}{BJNB1}
     \strng{fullhash}{BJNB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{booktitle}{2016 IEEE International Conference on Emerging
-  Technologies and Innovative Business Practices for the Transformation of
-  Societies (EmergiTech)}
+    \field{booktitle}{2016 IEEE International Conference on Emerging Technologies and Innovative Business Practices for the Transformation of Societies (EmergiTech)}
     \verb{doi}
     \verb 10.1109/EmergiTech.2016.7737362
     \endverb
@@ -64,25 +61,13 @@
          giveni={S\bibinitperiod},
       }}%
     }
-    \keyw{IP addresses, Internet governance, IPv4, IPv6, Internet Protocol
-  version 4, Internet Protocol version 6}
+    \keyw{IP addresses, Internet governance, IPv4, IPv6, Internet Protocol version 4, Internet Protocol version 6}
     \strng{namehash}{LSLSS1}
     \strng{fullhash}{LSLSS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    Internet Protocol (IP) addresses are a crucial resource for the functioning
-  of the Internet. Much like a telephone number, an IP address is assigned to
-  every network interface (router, computer, mobile telephone, server, etc.)
-  that connects to the Internet. These addresses are currently assigned using
-  the fourth version of the Internet Protocol, or IPv4. There are a limited
-  number of addresses that can be assigned using IPv4 and the supply of
-  unallocated addresses is effectively exhausted. This paper (i) identifies key
-  facts and challenges arising from IPv4 address scarcity; (ii) outlines and
-  analyzes potential responses to IPv4 scarcity; and (iii) concludes that a
-  decisive transition from IPv4 to IPv6 is the most durable and effective
-  response to the exhaustion of IPv4 addresses resulting from the growth of the
-  global Internet and the exploding demand for IP addresses.%
+    Internet Protocol (IP) addresses are a crucial resource for the functioning of the Internet. Much like a telephone number, an IP address is assigned to every network interface (router, computer, mobile telephone, server, etc.) that connects to the Internet. These addresses are currently assigned using the fourth version of the Internet Protocol, or IPv4. There are a limited number of addresses that can be assigned using IPv4 and the supply of unallocated addresses is effectively exhausted. This paper (i) identifies key facts and challenges arising from IPv4 address scarcity; (ii) outlines and analyzes potential responses to IPv4 scarcity; and (iii) concludes that a decisive transition from IPv4 to IPv6 is the most durable and effective response to the exhaustion of IPv4 addresses resulting from the growth of the global Internet and the exploding demand for IP addresses.%
     }
     \verb{doi}
     \verb https://doi.org/10.1016/j.telpol.2014.06.008
@@ -122,13 +107,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This document specifies IPv4 compatibility mechanisms that can be
-  implemented by IPv6 hosts and routers. Two mechanisms are specified, dual
-  stack and configured tunneling. Dual stack implies providing complete
-  implementations of both versions of the Internet Protocol (IPv4 and IPv6),
-  and configured tunneling provides a means to carry IPv6 packets over
-  unmodified IPv4 routing infrastructures. This document obsoletes RFC 2893.
-  {[}STANDARDS-TRACK{]}%
+    This document specifies IPv4 compatibility mechanisms that can be implemented by IPv6 hosts and routers. Two mechanisms are specified, dual stack and configured tunneling. Dual stack implies providing complete implementations of both versions of the Internet Protocol (IPv4 and IPv6), and configured tunneling provides a means to carry IPv6 packets over unmodified IPv4 routing infrastructures. This document obsoletes RFC 2893. {[}STANDARDS-TRACK{]}%
     }
     \verb{doi}
     \verb 10.17487/RFC4213
@@ -176,11 +155,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This document describes stateful NAT64 translation, which allows IPv6-only
-  clients to contact IPv4 servers using unicast UDP, TCP, or ICMP. One or more
-  public IPv4 addresses assigned to a NAT64 translator are shared among several
-  IPv6-only clients. When stateful NAT64 is used in conjunction with DNS64, no
-  changes are usually required in the IPv6 client or the IPv4 server.%
+    This document describes stateful NAT64 translation, which allows IPv6-only clients to contact IPv4 servers using unicast UDP, TCP, or ICMP. One or more public IPv4 addresses assigned to a NAT64 translator are shared among several IPv6-only clients. When stateful NAT64 is used in conjunction with DNS64, no changes are usually required in the IPv6 client or the IPv4 server.%
     }
     \verb{doi}
     \verb 10.17487/RFC6146
@@ -189,8 +164,7 @@
     \field{number}{6146}
     \field{pagetotal}{45}
     \field{series}{Request for Comments}
-    \field{title}{{Stateful NAT64: Network Address and Protocol Translation
-  from IPv6 Clients to IPv4 Servers}}
+    \field{title}{{Stateful NAT64: Network Address and Protocol Translation from IPv6 Clients to IPv4 Servers}}
     \verb{url}
     \verb https://www.rfc-editor.org/info/rfc6146
     \endverb
@@ -235,13 +209,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    DNS64 is a mechanism for synthesizing AAAA records from A records. DNS64 is
-  used with an IPv6/IPv4 translator to enable client-server communication
-  between an IPv6-only client and an IPv4-only server, without requiring any
-  changes to either the IPv6 or the IPv4 node, for the class of applications
-  that work through NATs. This document specifies DNS64, and provides
-  suggestions on how it should be deployed in conjunction with IPv6/IPv4
-  translators. {[}STANDARDS-TRACK{]}%
+    DNS64 is a mechanism for synthesizing AAAA records from A records. DNS64 is used with an IPv6/IPv4 translator to enable client-server communication between an IPv6-only client and an IPv4-only server, without requiring any changes to either the IPv6 or the IPv4 node, for the class of applications that work through NATs. This document specifies DNS64, and provides suggestions on how it should be deployed in conjunction with IPv6/IPv4 translators. {[}STANDARDS-TRACK{]}%
     }
     \verb{doi}
     \verb 10.17487/RFC6147
@@ -250,8 +218,7 @@
     \field{number}{6147}
     \field{pagetotal}{32}
     \field{series}{Request for Comments}
-    \field{title}{{DNS64: DNS Extensions for Network Address Translation from
-  IPv6 Clients to IPv4 Servers}}
+    \field{title}{{DNS64: DNS Extensions for Network Address Translation from IPv6 Clients to IPv4 Servers}}
     \verb{url}
     \verb https://www.rfc-editor.org/info/rfc6147
     \endverb
@@ -288,12 +255,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This document describes an architecture (464XLAT) for providing limited
-  IPv4 connectivity across an IPv6-only network by combining existing and
-  well-known stateful protocol translation (as described in RFC 6146) in the
-  core and stateless protocol translation (as described in RFC 6145) at the
-  edge. 464XLAT is a simple and scalable technique to quickly deploy limited
-  IPv4 access service to IPv6-only edge networks without encapsulation.%
+    This document describes an architecture (464XLAT) for providing limited IPv4 connectivity across an IPv6-only network by combining existing and well-known stateful protocol translation (as described in RFC 6146) in the core and stateless protocol translation (as described in RFC 6145) at the edge. 464XLAT is a simple and scalable technique to quickly deploy limited IPv4 access service to IPv6-only edge networks without encapsulation.%
     }
     \verb{doi}
     \verb 10.17487/RFC6877
@@ -325,8 +287,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    Introduction to Jool, an Open Source implementation of IPv4/IPv6
-  Translation on Linux supporting both Stateful NAT64 and SIIT modes%
+    Introduction to Jool, an Open Source implementation of IPv4/IPv6 Translation on Linux supporting both Stateful NAT64 and SIIT modes%
     }
     \field{howpublished}{\url{https://nicmx.github.io/Jool/en/intro-jool.html}}
     \field{note}{Accessed: September 5, 2025}
@@ -384,24 +345,14 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    Due to its rapid spread, Internet has now outgrown the address space
-  provided by IPv4. The transition to the new IPv6 protocol is extremely slow.
-  The different transition techniques are intended to facilitate the transition
-  to the new version of Internet Protocol. The NAT64 transition technique is
-  one of the most suitable solutions. In this paper, both the performance and
-  the stability of two NAT64 gateway implementations are examined by ICMP, TCP
-  and UDP protocols. The tested two free implementations, the TAYGA on the
-  Linux system and the PF of the OpenBSD system can be effectively used in a
-  production environment, and can facilitate the deployment of the IPv6
-  protocol.%
+    Due to its rapid spread, Internet has now outgrown the address space provided by IPv4. The transition to the new IPv6 protocol is extremely slow. The different transition techniques are intended to facilitate the transition to the new version of Internet Protocol. The NAT64 transition technique is one of the most suitable solutions. In this paper, both the performance and the stability of two NAT64 gateway implementations are examined by ICMP, TCP and UDP protocols. The tested two free implementations, the TAYGA on the Linux system and the PF of the OpenBSD system can be effectively used in a production environment, and can facilitate the deployment of the IPv6 protocol.%
     }
     \verb{doi}
     \verb 10.14513/actatechjaur.v7.n4.340
     \endverb
     \field{number}{4}
     \field{pages}{404\bibrangedash 427}
-    \field{title}{Performance and Stability Analysis of Free NAT64
-  Implementations with Different Protocols}
+    \field{title}{Performance and Stability Analysis of Free NAT64 Implementations with Different Protocols}
     \verb{url}
     \verb https://acta.sze.hu/index.php/acta/article/view/340
     \endverb
@@ -426,8 +377,7 @@
     \field{labeltitlesource}{title}
     \field{howpublished}{\url{https://github.com/vitlabuda/tundra-nat64}}
     \field{note}{Open-source software repository}
-    \field{title}{Tundra-NAT64: A minimal, user-space, stateless NAT64, CLAT
-  and SIIT implementation for Linux}
+    \field{title}{Tundra-NAT64: A minimal, user-space, stateless NAT64, CLAT and SIIT implementation for Linux}
     \verb{url}
     \verb https://github.com/vitlabuda/tundra-nat64
     \endverb
@@ -469,14 +419,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This memo is a digest of the user network interface specification of NTT
-  Communications' dual stack ADSL access service, which provide a IPv6/IPv4
-  dual stack services to home users. In order to simplify user setup, these
-  services have a mechanism to configure IPv6 specific parameters
-  automatically. The memo focuses on two basic parameters: the prefix assigned
-  to the user and the addresses of IPv6 DNS servers, and it specifies a way to
-  deliver these parameters to Customer Premises Equipment (CPE) automatically.
-  This memo provides information for the Internet community.%
+    This memo is a digest of the user network interface specification of NTT Communications' dual stack ADSL access service, which provide a IPv6/IPv4 dual stack services to home users. In order to simplify user setup, these services have a mechanism to configure IPv6 specific parameters automatically. The memo focuses on two basic parameters: the prefix assigned to the user and the addresses of IPv6 DNS servers, and it specifies a way to deliver these parameters to Customer Premises Equipment (CPE) automatically. This memo provides information for the Internet community.%
     }
     \verb{doi}
     \verb 10.17487/RFC4241
@@ -575,9 +518,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This document describes address allocation for private internets. This
-  document specifies an Internet Best Current Practices for the Internet
-  Community, and requests discussion and suggestions for improvements.%
+    This document describes address allocation for private internets. This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.%
     }
     \verb{doi}
     \verb 10.17487/RFC1918
@@ -594,6 +535,26 @@
     \field{year}{1996}
   \endentry
 
+  \entry{apnic_ipv4_exhaustion}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{APNIC}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Asia Pacific Network Information Centre}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.apnic.net/manage-ip/ipv4-exhaustion/}}
+    \field{note}{Accessed: 10.09.2025}
+    \field{title}{IPv4 exhaustion}
+    \field{year}{2025}
+  \endentry
+
   \entry{itu_d_statistics}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=I}{%
@@ -605,7 +566,7 @@
     \strng{fullhash}{I1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-  \field{howpublished}{\url{https://www.itu.int/en/ITU-D/Statistics/pages/stat/default.aspx}}
+    \field{howpublished}{\url{https://www.itu.int/en/ITU-D/Statistics/pages/stat/default.aspx}}
     \field{note}{Accessed: 2025-09-07}
     \field{title}{ITU-D ICT Statistics – Statistics}
     \field{year}{2025}
@@ -617,8 +578,7 @@
          family={Deering},
          familyi={D\bibinitperiod},
          given={Dr. Steve\bibnamedelima E.},
-         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
-  E\bibinitperiod},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
       {{hash=HB}{%
          family={Hinden},
@@ -635,8 +595,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This document specifies version 6 of the Internet Protocol (IPv6), also
-  sometimes referred to as IP Next Generation or IPng. {[}STANDARDS-TRACK{]}%
+    This document specifies version 6 of the Internet Protocol (IPv6), also sometimes referred to as IP Next Generation or IPng. {[}STANDARDS-TRACK{]}%
     }
     \verb{doi}
     \verb 10.17487/RFC1883
@@ -651,6 +610,23 @@
     \endverb
     \field{month}{12}
     \field{year}{1995}
+  \endentry
+
+  \entry{google_ipv6_statistics}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={{Google}},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G2}
+    \strng{fullhash}{G2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.google.com/intl/en/ipv6/statistics.html}}
+    \field{note}{Accessed: 10.09.2025}
+    \field{title}{IPv6 Statistics}
+    \field{year}{2025}
   \endentry
 
   \entry{rfc2663}{misc}{}{}
@@ -676,10 +652,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This document attempts to describe the operation of NAT devices and the
-  associated considerations in general, and to define the terminology used to
-  identify various flavors of NAT. This memo provides information for the
-  Internet community.%
+    This document attempts to describe the operation of NAT devices and the associated considerations in general, and to define the terminology used to identify various flavors of NAT. This memo provides information for the Internet community.%
     }
     \verb{doi}
     \verb 10.17487/RFC2663
@@ -688,8 +661,7 @@
     \field{number}{2663}
     \field{pagetotal}{30}
     \field{series}{Request for Comments}
-    \field{title}{{IP Network Address Translator (NAT) Terminology and
-  Considerations}}
+    \field{title}{{IP Network Address Translator (NAT) Terminology and Considerations}}
     \verb{url}
     \verb https://www.rfc-editor.org/info/rfc2663
     \endverb
@@ -737,8 +709,7 @@
     \strng{fullhash}{LIBKEADADA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{booktitle}{IEEE INFOCOM 2018-IEEE Conference on Computer
-  Communications}
+    \field{booktitle}{IEEE INFOCOM 2018-IEEE Conference on Computer Communications}
     \field{pages}{2249\bibrangedash 2257}
     \field{title}{Inferring carrier-grade NAT deployment in the wild}
     \field{year}{2018}
@@ -761,9 +732,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This document discusses some of the architectural implications and
-  guidelines for implementations of Network Address Translation (NAT). This
-  memo provides information for the Internet community.%
+    This document discusses some of the architectural implications and guidelines for implementations of Network Address Translation (NAT). This memo provides information for the Internet community.%
     }
     \verb{doi}
     \verb 10.17487/RFC2993
@@ -803,8 +772,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This document specifies IPv4 compatibility mechanisms that can be
-  implemented by IPv6 hosts and routers. {[}STANDARDS-TRACK{]}%
+    This document specifies IPv4 compatibility mechanisms that can be implemented by IPv6 hosts and routers. {[}STANDARDS-TRACK{]}%
     }
     \verb{doi}
     \verb 10.17487/RFC2893
@@ -895,17 +863,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    Enterprise network administrators worldwide are in various stages of
-  preparing for or deploying IPv6 into their networks. The administrators face
-  different challenges than operators of Internet access providers and have
-  reasons for different priorities. The overall problem for many administrators
-  will be to offer Internet- facing services over IPv6 while continuing to
-  support IPv4, and while introducing IPv6 access within the enterprise IT
-  network. The overall transition will take most networks from an IPv4-only
-  environment to a dual-stack network environment and eventually an IPv6-only
-  operating mode. This document helps provide a framework for enterprise
-  network architects or administrators who may be faced with many of these
-  challenges as they consider their IPv6 support strategies.%
+    Enterprise network administrators worldwide are in various stages of preparing for or deploying IPv6 into their networks. The administrators face different challenges than operators of Internet access providers and have reasons for different priorities. The overall problem for many administrators will be to offer Internet- facing services over IPv6 while continuing to support IPv4, and while introducing IPv6 access within the enterprise IT network. The overall transition will take most networks from an IPv4-only environment to a dual-stack network environment and eventually an IPv6-only operating mode. This document helps provide a framework for enterprise network architects or administrators who may be faced with many of these challenges as they consider their IPv6 support strategies.%
     }
     \verb{doi}
     \verb 10.17487/RFC7381
@@ -957,9 +915,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This document summarizes NAT64 function deployment scenarios and
-  operational experience. Both NAT64 Carrier-Grade NAT (NAT64-CGN) and NAT64
-  server Front End (NAT64-FE) are considered in this document.%
+    This document summarizes NAT64 function deployment scenarios and operational experience. Both NAT64 Carrier-Grade NAT (NAT64-CGN) and NAT64 server Front End (NAT64-FE) are considered in this document.%
     }
     \verb{doi}
     \verb 10.17487/RFC7269
@@ -997,8 +953,7 @@
          giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod},
       }}%
     }
-    \keyw{Filtering;Servers;Internet;Dual stacking;IP networks;Network address
-  translation;Logic gates}
+    \keyw{Filtering;Servers;Internet;Dual stacking;IP networks;Network address translation;Logic gates}
     \strng{namehash}{BM+1}
     \strng{fullhash}{BMGMABIV1}
     \field{labelnamesource}{author}
@@ -1055,9 +1010,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This document describes the Stateless IP/ICMP Translation Algorithm (SIIT),
-  which translates between IPv4 and IPv6 packet headers (including ICMP
-  headers). This document obsoletes RFC 6145.%
+    This document describes the Stateless IP/ICMP Translation Algorithm (SIIT), which translates between IPv4 and IPv6 packet headers (including ICMP headers). This document obsoletes RFC 6145.%
     }
     \verb{doi}
     \verb 10.17487/RFC7915
@@ -1080,25 +1033,21 @@
          family={Llanto},
          familyi={L\bibinitperiod},
          given={Kenneth Joachim\bibnamedelima O},
-         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
-  O\bibinitperiod},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim O\bibinitperiod},
       }}%
       {{hash=YWES}{%
          family={Yu},
          familyi={Y\bibinitperiod},
          given={William Emmanuel\bibnamedelima S},
-         giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  S\bibinitperiod},
+         giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
     }
     \strng{namehash}{LKJOYWES1}
     \strng{fullhash}{LKJOYWES1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{booktitle}{Proceedings of the International Multi-Conference of
-  Engineers and Computer Scientist}
-    \field{title}{Performance of NAT64 versus NAT44 in the context of IPv6
-  migration}
+    \field{booktitle}{Proceedings of the International Multi-Conference of Engineers and Computer Scientist}
+    \field{title}{Performance of NAT64 versus NAT44 in the context of IPv6 migration}
     \field{volume}{1}
     \field{year}{2012}
   \endentry
@@ -1136,8 +1085,7 @@
     \field{pages}{1}
     \field{title}{Performance evaluation of IPv4/IPv6 transition mechanisms}
     \field{volume}{8}
-    \field{journaltitle}{International Journal of Computer Network and
-  Information Security}
+    \field{journaltitle}{International Journal of Computer Network and Information Security}
     \field{year}{2016}
   \endentry
 
@@ -1188,11 +1136,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    This document defines TCP's four intertwined congestion control algorithms:
-  slow start, congestion avoidance, fast retransmit, and fast recovery. In
-  addition, the document specifies how TCP should begin transmission after a
-  relatively long idle period, as well as discussing various acknowledgment
-  generation methods. This document obsoletes RFC 2581. {[}STANDARDS-TRACK{]}%
+    This document defines TCP's four intertwined congestion control algorithms: slow start, congestion avoidance, fast retransmit, and fast recovery. In addition, the document specifies how TCP should begin transmission after a relatively long idle period, as well as discussing various acknowledgment generation methods. This document obsoletes RFC 2581. {[}STANDARDS-TRACK{]}%
     }
     \verb{doi}
     \verb 10.17487/RFC5681
