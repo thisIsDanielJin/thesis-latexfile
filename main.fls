@@ -415,6 +415,11 @@ OUTPUT section/Evaluation.aux
 INPUT ./section/Evaluation.tex
 INPUT ./section/Evaluation.tex
 INPUT section/Evaluation.tex
+INPUT ./resources/images/updatedjooldiagram.png
+INPUT ./resources/images/updatedjooldiagram.png
+INPUT ./resources/images/updatedjooldiagram.png
+INPUT ./resources/images/updatedjooldiagram.png
+INPUT ./resources/images/updatedjooldiagram.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ectt1200.tfm
 INPUT ./section/Results.tex
 INPUT ./section/Results.tex

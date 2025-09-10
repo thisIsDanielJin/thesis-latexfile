@@ -4,38 +4,38 @@
 \contentsline {paragraph}{Problem Statement}{1}{}%
 \contentsline {paragraph}{Industry collaboration }{2}{}%
 \contentsline {paragraph}{Thesis Structure}{2}{}%
-\contentsline {chapter}{\numberline {2}Background}{3}{}%
-\contentsline {section}{\numberline {2.1}IPv4 exhaustion and transition to IPv6}{3}{}%
-\contentsline {section}{\numberline {2.2}IPv6 transition mechanisms}{6}{}%
-\contentsline {paragraph}{Dual-Stack Architecture}{6}{}%
-\contentsline {paragraph}{NAT64/DNS64 Principles}{7}{}%
-\contentsline {paragraph}{Client-Side Translation: The role of CLAT and 464XLAT}{9}{}%
-\contentsline {section}{\numberline {2.3}Linux implementations of CLAT}{11}{}%
-\contentsline {paragraph}{Tayga}{11}{}%
-\contentsline {paragraph}{Tundra}{11}{}%
-\contentsline {paragraph}{Jool}{12}{}%
-\contentsline {chapter}{\numberline {3}Related Work}{14}{}%
-\contentsline {chapter}{\numberline {4}Evaluation}{15}{}%
-\contentsline {section}{\numberline {4.1}Test environments}{15}{}%
-\contentsline {paragraph}{AWS}{15}{}%
-\contentsline {paragraph}{Bare-metal host}{15}{}%
-\contentsline {paragraph}{Bare-metal network}{15}{}%
-\contentsline {section}{\numberline {4.2}Networking Namespace Configuration}{16}{}%
-\contentsline {section}{\numberline {4.3}Implementation of Translation Technologies}{16}{}%
-\contentsline {paragraph}{Tayga}{16}{}%
-\contentsline {paragraph}{Tundra}{17}{}%
-\contentsline {paragraph}{Jool}{17}{}%
-\contentsline {section}{\numberline {4.4}Measurement Methodology}{17}{}%
-\contentsline {paragraph}{Throughput}{17}{}%
-\contentsline {paragraph}{RTT}{18}{}%
-\contentsline {chapter}{\numberline {5}Results}{19}{}%
-\contentsline {section}{\numberline {5.1}Throughput}{19}{}%
-\contentsline {paragraph}{Bare-metal results}{21}{}%
-\contentsline {section}{\numberline {5.2}RTT}{26}{}%
-\contentsline {section}{\numberline {5.3}Discussion}{31}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{33}{}%
-\contentsline {paragraph}{Summary of Key Findings}{33}{}%
-\contentsline {paragraph}{Future Work}{34}{}%
-\contentsline {chapter}{Appendix}{36}{}%
-\contentsline {section}{Bibliography}{36}{}%
-\contentsline {section}{Scripts and Tables}{41}{}%
+\contentsline {chapter}{\numberline {2}Background}{4}{}%
+\contentsline {section}{\numberline {2.1}IPv4 exhaustion and transition to IPv6}{4}{}%
+\contentsline {section}{\numberline {2.2}IPv6 transition mechanisms}{7}{}%
+\contentsline {paragraph}{Dual-Stack Architecture}{7}{}%
+\contentsline {paragraph}{NAT64/DNS64 Principles}{8}{}%
+\contentsline {paragraph}{Client-Side Translation: The role of CLAT and 464XLAT}{10}{}%
+\contentsline {section}{\numberline {2.3}Linux implementations of CLAT}{12}{}%
+\contentsline {paragraph}{Tayga}{12}{}%
+\contentsline {paragraph}{Tundra}{12}{}%
+\contentsline {paragraph}{Jool}{13}{}%
+\contentsline {chapter}{\numberline {3}Related Work}{15}{}%
+\contentsline {chapter}{\numberline {4}Evaluation}{16}{}%
+\contentsline {section}{\numberline {4.1}Test environments}{16}{}%
+\contentsline {paragraph}{AWS}{16}{}%
+\contentsline {paragraph}{Bare-metal host}{16}{}%
+\contentsline {paragraph}{Bare-metal network}{16}{}%
+\contentsline {section}{\numberline {4.2}Networking Namespace Configuration}{17}{}%
+\contentsline {section}{\numberline {4.3}Implementation of Translation Technologies}{17}{}%
+\contentsline {paragraph}{Tayga}{17}{}%
+\contentsline {paragraph}{Tundra}{18}{}%
+\contentsline {paragraph}{Jool}{18}{}%
+\contentsline {section}{\numberline {4.4}Measurement Methodology}{19}{}%
+\contentsline {paragraph}{Throughput}{19}{}%
+\contentsline {paragraph}{RTT}{19}{}%
+\contentsline {chapter}{\numberline {5}Results}{20}{}%
+\contentsline {section}{\numberline {5.1}Throughput}{20}{}%
+\contentsline {paragraph}{Bare-metal results}{22}{}%
+\contentsline {section}{\numberline {5.2}RTT}{27}{}%
+\contentsline {section}{\numberline {5.3}Discussion}{32}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{34}{}%
+\contentsline {paragraph}{Summary of Key Findings}{34}{}%
+\contentsline {paragraph}{Future Work}{35}{}%
+\contentsline {chapter}{Appendix}{37}{}%
+\contentsline {section}{Bibliography}{37}{}%
+\contentsline {section}{Scripts and Tables}{42}{}%

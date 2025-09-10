@@ -1,21 +1,22 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces APNIC IPv4 address exhaustion timeline\blx@tocontentsinit {0}\cite {apnic_ipv4_exhaustion}.}}{4}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces IPv6 connectivity among Google users over time\blx@tocontentsinit {0}\cite {google_ipv6_statistics}.}}{5}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces APNIC IPv4 address exhaustion timeline\blx@tocontentsinit {0}\cite {apnic_ipv4_exhaustion}.}}{5}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces IPv6 connectivity among Google users over time\blx@tocontentsinit {0}\cite {google_ipv6_statistics}.}}{6}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Jool network namespace architecture with dual veth pairs.}}{18}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces AWS cloud environment, KVM-clock, linear scale}}{20}{}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces AWS cloud environment, hpet, log scale}}{21}{}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces AWS Throughput Results, hpet, dual-y-axis, log scale}}{21}{}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Bare-metal host, tsc, linear scale}}{22}{}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Bare-metal host, hpet, linear scale}}{23}{}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Bare-metal host, hpet, dual-y-axis, linear scale}}{23}{}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Bare-metal network, hpet, log scale}}{24}{}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Bare-metal network, tsc, log scale}}{25}{}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Bare-metal network, hpet, dual-y-axis, log scale}}{25}{}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces AWS cloud environment, hpet, log scale}}{26}{}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Bare-metal host, hpet, linear scale}}{27}{}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Bare-metal network, hpet, log scale}}{28}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces AWS cloud environment, KVM-clock, linear scale}}{21}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces AWS cloud environment, hpet, log scale}}{22}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces AWS Throughput Results, hpet, dual-y-axis, log scale}}{22}{}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Bare-metal host, tsc, linear scale}}{23}{}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Bare-metal host, hpet, linear scale}}{24}{}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Bare-metal host, hpet, dual-y-axis, linear scale}}{24}{}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Bare-metal network, hpet, log scale}}{25}{}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Bare-metal network, tsc, log scale}}{26}{}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Bare-metal network, hpet, dual-y-axis, log scale}}{26}{}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces AWS cloud environment, hpet, log scale}}{27}{}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Bare-metal host, hpet, linear scale}}{28}{}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Bare-metal network, hpet, log scale}}{29}{}%
 \addvspace {10\p@ }

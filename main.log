@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  10 SEP 2025 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  11 SEP 2025 01:08
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**/Users/danielwodke/Documents/thesis-latexfile/main.tex
+(/Users/danielwodke/Documents/thesis-latexfile/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
@@ -23,27 +24,21 @@ File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
-eX and XeLaTeX
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
 \babel@savecnt=\count271
 \U@D=\dimen142
 \l@unhyphenated=\language90
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count272
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -51,53 +46,39 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language22). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language22). Reported on input line 108.
-))
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.t
-ex
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count273
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fmtcount/fmtcount.sty
-Package: fmtcount 2025/02/09 v3.10 Displaying the values of LaTeX counters (NT,
-VB,NE)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2025/02/09 v3.10 Displaying the values of LaTeX counters (NT,VB,NE)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks19
 \XKV@tempa@toks=\toks20
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/keyval.tex))
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count274
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/fmtcount/fcprefix.sty
 Package: fcprefix 2012/09/28
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
 \fc@digit@counter=\count275
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen143
 )
 \c@padzeroesN=\count276
 \fc@tmpcatcode=\count277
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fmtcount/fc-english.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
 \@DT@modctr=\count278
@@ -107,8 +88,7 @@ File: fc-english.def 2016/01/12
 \@tmpstrctr=\count282
 \@DT@loopN=\count283
 \@DT@X=\count284
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
 \@day=\count285
@@ -123,22 +103,18 @@ Package: datetime-defaults 2013/09/10
 \currenthour=\count294
 \currentminute=\count295
 \currentsecond=\count296
-Package datetime Info: No datetime.cfg file found, using default settings on in
-put line 308.
+Package datetime Info: No datetime.cfg file found, using default settings on input line 308.
 \@dtctr=\count297
 \dayofyear=\count298
 \dayofweek=\count299
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks22
 \dt@b=\toks23
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count300
@@ -153,8 +129,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen150
 \Gm@layoutvoffset=\dimen151
 \Gm@dimlist=\toks24
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count303
 \lst@gtempboxa=\box52
 \lst@token=\toks25
@@ -167,70 +142,55 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \lst@newlines=\count307
 \lst@lineno=\count308
 \lst@maxwidth=\dimen155
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 \c@lstnumber=\count309
 \lst@skipnumbers=\count310
 \lst@framebox=\box53
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/framed/framed.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip51
 \fb@frw=\dimen156
 \fb@frh=\dimen157
 \FrameRule=\dimen158
 \FrameSep=\dimen159
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count311
 \float@exts=\toks26
 \float@box=\box54
 \@float@everytoks=\toks27
 \@floatcapt=\box55
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen160
 \Gin@req@width=\dimen161
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen162
 \captionmargin=\dimen163
@@ -246,45 +206,33 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count313
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2025/03/03 v4.56 (NLCT)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
 \@glsmfirst=\toks28
 \@glsmrest=\toks29
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/xfor/xfor.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tracklang/tracklang.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2025/03/04 v1.6.5 (NLCT) Track Languages
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/tracklang/tracklang.tex))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/tracklang/tracklang.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries-english/glossaries-eng
-lish.ldf
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-base.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2025/03/05 v3.0.1 (NLCT)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen170
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count314
@@ -334,8 +282,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks33
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-l3fp.def
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-l3fp.def
 File: datatool-l3fp.def 2025/03/05 v3.0.1 (NLCT)
 )
 \@dtl@toks=\toks34
@@ -343,8 +290,7 @@ File: datatool-l3fp.def 2025/03/05 v3.0.1 (NLCT)
 \dtl@tmplength=\skip55
 \l__datatool_measure_box=\box58
 \dtl@sortresult=\count327
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
 File: datatool-utf8.ldf 2025/03/05 v3.0.1 (NLCT)
 )
 \@dtl@datatype=\count328
@@ -370,13 +316,9 @@ File: datatool-utf8.ldf 2025/03/05 v3.0.1 (NLCT)
 \l__datatool_prefix_int=\count346
 \l__datatool_suffix_int=\count347
 \@dtl@foreach@level=\count348
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/datatool-english/datatool-english
-.ldf
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool-english/datatool-english.ldf
 File: datatool-english.ldf 2025/03/01 v1.0 (NLCT)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/datatool-english/datatool-english
--utf8.ldf
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool-english/datatool-english-utf8.ldf
 File: datatool-english-utf8.ldf 2025/03/01 v1.0 (NLCT)
 ))
 \dtl@codeA=\count349
@@ -389,18 +331,12 @@ File: datatool-english-utf8.ldf 2025/03/01 v1.0 (NLCT)
 \glslabeltok=\toks37
 \glsshorttok=\toks38
 \glslongtok=\toks39
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
-av.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2025/03/03 v4.56 (NLCT)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
-ty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2025/03/03 v4.56 (NLCT)
 \glslistdottedwidth=\skip57
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
-ty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2025/03/03 v4.56 (NLCT)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
@@ -423,9 +359,7 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 )
 \glsdescwidth=\skip62
 \glspagelistwidth=\skip63
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-super.
-sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2025/03/03 v4.56 (NLCT)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
@@ -444,9 +378,7 @@ Package: supertabular 2024/07/20 v4.2c the supertabular environment
 \ST@toadd=\dimen189
 \ST@dimen=\dimen190
 \ST@pbox=\box64
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
-ty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2025/03/03 v4.56 (NLCT)
 \glstreeindent=\skip67
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
@@ -463,41 +395,30 @@ LaTeX Info: Redefining \textls on input line 1449.
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count359
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
-
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip68
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/minted/minted.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/minted/minted.sty
 Package: minted 2025/03/06 v3.6.0 Yet another Pygments shim for LaTeX
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/catchfile/catchfile.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/catchfile/catchfile.sty
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
-Package: fvextra 2025/03/04 v1.12.0 fvextra - extensions and patches for fancyv
-rb
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2025/03/04 v1.12.0 fvextra - extensions and patches for fancyvrb
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
 \FV@CodeLineNo=\count360
 \FV@InFile=\read3
@@ -505,28 +426,20 @@ Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
 \c@FancyVerbLine=\count361
 \FV@StepNumber=\count362
 \FV@OutFile=\write3
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2025/01/29 line numbers on paragraphs v5.4
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
 \linenopenalty=\count363
@@ -572,34 +485,25 @@ LaTeX Info: Redefining \\ on input line 3187.
 \FV@LineIndentBox=\box72
 \c@FV@BreakBufferDepth=\count384
 \FV@LineWidth=\dimen258
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
-Package: latex2pydata 2025/03/03 v0.5.0 latex2pydata - write data to file in Py
-thon literal format
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
+Package: latex2pydata 2025/03/03 v0.5.0 latex2pydata - write data to file in Python literal format
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks44
 \pgfkeys@temptoks=\toks45
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
-tered.code.tex
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks46
-)))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks47
 \pgfopts@list@add@b@toks=\toks48
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 \c@minted@FancyVerbLineTemp=\count385
 \@float@every@listing=\toks49
 \c@listing=\count386
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@reset=\count387
 \csq@gtype=\count388
@@ -608,14 +512,12 @@ Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 \csq@maxlvl=\count391
 \csq@tshold=\count392
 \csq@ltx@everypar=\toks50
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
 \glswrite=\write4
@@ -623,17 +525,14 @@ File: csquotes.cfg
 \openout5 = `main.acn'.
 
 Package glossaries Info: Writing glossary file main.acn on input line 23.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 LaTeX Info: Redefining \color on input line 762.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -643,21 +542,16 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/svgnam.def
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/svgnam.def
 File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count393
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -720,8 +614,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@mincompwidth=\count439
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -812,14 +705,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip91
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-bibtex.def
 File: blx-bibtex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 
 
@@ -847,31 +738,26 @@ File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
 File: ieee.bbx 2025-01-15 v1.4c biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
 File: numeric-comp.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count517
 \c@bbx:relatedtotal=\count518
 ))))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
 \c@cbx@tempcnta=\count519
 \c@cbx@tempcntb=\count520
@@ -891,17 +777,14 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2025-01-18 L3 programming layer (loader) 
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count523
 \l__pdf_internal_box=\box73
@@ -910,9 +793,7 @@ Package biblatex Info: ... and expl3
 (biblatex)             2025-01-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
@@ -921,11 +802,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-
-(./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux)
-(./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux
-) (./section/RelatedWork.aux) (./section/Evaluation.aux) (./section/Results.aux
-) (./section/Conclusion.aux) (./section/Appendix.aux))
+ (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux) (./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux) (./section/RelatedWork.aux) (./section/Evaluation.aux) (./section/Results.aux) (./section/Conclusion.aux) (./section/Appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
@@ -993,17 +870,13 @@ LaTeX Font Info:    ... okay on input line 71.
 \everyMPtoPDFconversion=\toks52
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
@@ -1025,15 +898,12 @@ LaTeX Info: Redefining \showhyphens on input line 71.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1046,8 +916,7 @@ Package biblatex Info: Data encoding 'ascii' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-
-(./main.bbl
+ (./main.bbl
 
 Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Repas_Farnadi_Lencse_2014':
@@ -1064,25 +933,21 @@ Package biblatex Info: Reference segment=0 on input line 71.
 Package epstopdf Info: Source file: <resources/images/tu-logo.eps>
 (epstopdf)                    date: 2025-08-29 17:58:41
 (epstopdf)                    size: 257422 bytes
-(epstopdf)             Output file: <resources/images/tu-logo-eps-converted-to.
-pdf>
+(epstopdf)             Output file: <resources/images/tu-logo-eps-converted-to.pdf>
 (epstopdf)                    date: 2025-08-29 17:58:41
 (epstopdf)                    size: 15630 bytes
-(epstopdf)             Command: <repstopdf --outfile=resources/images/tu-logo-e
-ps-converted-to.pdf resources/images/tu-logo.eps>
+(epstopdf)             Command: <repstopdf --outfile=resources/images/tu-logo-eps-converted-to.pdf resources/images/tu-logo.eps>
 (epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 <resources/images/tu-logo-eps-converted-to.pdf, id=1, 134.5025pt x 100.375pt>
 File: resources/images/tu-logo-eps-converted-to.pdf Graphic file (type pdf)
 <use resources/images/tu-logo-eps-converted-to.pdf>
-Package pdftex.def Info: resources/images/tu-logo-eps-converted-to.pdf  used on
- input line 82.
+Package pdftex.def Info: resources/images/tu-logo-eps-converted-to.pdf  used on input line 82.
 (pdftex.def)             Requested size: 107.60213pt x 80.3001pt.
 <resources/images/inet-logo.png, id=2, 2007.6606pt x 2007.6606pt>
 File: resources/images/inet-logo.png Graphic file (type png)
 <use resources/images/inet-logo.png>
 Package pdftex.def Info: resources/images/inet-logo.png  used on input line 89.
-
 (pdftex.def)             Requested size: 200.77782pt x 200.77782pt.
 
 Overfull \hbox (12.56494pt too wide) in paragraph at lines 89--90
@@ -1095,9 +960,7 @@ Overfull \hbox (12.56494pt too wide) in paragraph at lines 89--90
 
 \openout4 = `main.ist'.
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./resourc
-es/images/tu-logo-eps-converted-to.pdf> <./resources/images/inet-logo.png>]
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./resources/images/tu-logo-eps-converted-to.pdf> <./resources/images/inet-logo.png>]
 
 [2]
 \openout2 = `section/Erklaerung.aux'.
@@ -1158,38 +1021,36 @@ Chapter 1.
 ])
 
 [2]
+
+[3]
 \openout2 = `section/Background.aux'.
 
  (./section/Background.tex
 Chapter 2.
 
 
-[3
+[4
 
 
 
 
 ]
-<resources/images/ipv4exhaustion.png, id=51, 796.9775pt x 588.1975pt>
+<resources/images/ipv4exhaustion.png, id=54, 796.9775pt x 588.1975pt>
 File: resources/images/ipv4exhaustion.png Graphic file (type png)
 <use resources/images/ipv4exhaustion.png>
-Package pdftex.def Info: resources/images/ipv4exhaustion.png  used on input lin
-e 15.
+Package pdftex.def Info: resources/images/ipv4exhaustion.png  used on input line 15.
 (pdftex.def)             Requested size: 334.60422pt x 246.9515pt.
 
 
-[4 <./resources/images/ipv4exhaustion.png>]
-<resources/images/ipv6google.png, id=58, 1159.33125pt x 562.1pt>
+[5 <./resources/images/ipv4exhaustion.png>]
+<resources/images/ipv6google.png, id=61, 1159.33125pt x 562.1pt>
 File: resources/images/ipv6google.png Graphic file (type png)
 <use resources/images/ipv6google.png>
-Package pdftex.def Info: resources/images/ipv6google.png  used on input line 35
-.
+Package pdftex.def Info: resources/images/ipv6google.png  used on input line 35.
 (pdftex.def)             Requested size: 334.60422pt x 162.2329pt.
 
 
-[5 <./resources/images/ipv6google.png>]
-
-[6]
+[6 <./resources/images/ipv6google.png>]
 
 [7]
 
@@ -1201,16 +1062,18 @@ Package pdftex.def Info: resources/images/ipv6google.png  used on input line 35
 
 [11]
 
-[12])
+[12]
 
-[13]
+[13])
+
+[14]
 \openout2 = `section/RelatedWork.aux'.
 
  (./section/RelatedWork.tex
 Chapter 3.
 )
 
-[14
+[15
 
 
 
@@ -1222,170 +1085,124 @@ Chapter 3.
 Chapter 4.
 
 
-[15
+[16
 
 
 
 
 ]
 
-[16]
+[17]
+<resources/images/updatedjooldiagram.png, id=101, 513.92pt x 188.705pt>
+File: resources/images/updatedjooldiagram.png Graphic file (type png)
+<use resources/images/updatedjooldiagram.png>
+Package pdftex.def Info: resources/images/updatedjooldiagram.png  used on input line 31.
+(pdftex.def)             Requested size: 334.60422pt x 122.8641pt.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[17])
+[18 <./resources/images/updatedjooldiagram.png>])
 
-[18]
+[19]
 \openout2 = `section/Results.aux'.
 
  (./section/Results.tex
 Chapter 5.
-<resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png
-, id=106, 714.0276pt x 352.6776pt>
-File: resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linea
-r.png Graphic file (type png)
-<use resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear
-.png>
-Package pdftex.def Info: resources/finalPlots/combinedplots/AWS_tcp_sameScale_k
-vm-clock_2min_linear.png  used on input line 10.
+<resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png, id=111, 714.0276pt x 352.6776pt>
+File: resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png Graphic file (type png)
+<use resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png>
+Package pdftex.def Info: resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png  used on input line 10.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 
 
-[19
+[20
 
 
 
 
 ]
-<resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png, id=110
-, 714.0276pt x 352.6776pt>
-File: resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png Gr
-aphic file (type png)
+<resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png, id=115, 714.0276pt x 352.6776pt>
+File: resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png Graphic file (type png)
 <use resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png>
-Package pdftex.def Info: resources/finalPlots/combinedplots/AWS_tcp_sameScale_h
-pet_2min_log.png  used on input line 21.
+Package pdftex.def Info: resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png  used on input line 21.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 
 
-[20 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_line
-ar.png>]
-<resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png, id=115, 6
-98.1282pt x 352.6776pt>
-File: resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png Graph
-ic file (type png)
+[21 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png>]
+<resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png, id=120, 698.1282pt x 352.6776pt>
+File: resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png Graphic file (type png)
 <use resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png>
-Package pdftex.def Info: resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet
-_2min_log.png  used on input line 30.
+Package pdftex.def Info: resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png  used on input line 30.
 (pdftex.def)             Requested size: 418.25368pt x 211.29068pt.
 
 
-[21 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png> 
-<./resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png>]
-<resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.p
-ng, id=121, 714.0276pt x 352.6776pt>
-File: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_lin
-ear.png Graphic file (type png)
-<use resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_line
-ar.png>
-Package pdftex.def Info: resources/finalPlots/combinedplots/SingleLocal_tcp_sam
-eScale_tsc_2min_linear.png  used on input line 43.
+[22 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png> <./resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png>]
+<resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png, id=126, 714.0276pt x 352.6776pt>
+File: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png Graphic file (type png)
+<use resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png>
+Package pdftex.def Info: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png  used on input line 43.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
-<resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.
-png, id=122, 714.0276pt x 352.6776pt>
-File: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_li
-near.png Graphic file (type png)
-<use resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_lin
-ear.png>
-Package pdftex.def Info: resources/finalPlots/combinedplots/SingleLocal_tcp_sam
-eScale_hpet_2min_linear.png  used on input line 52.
+<resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png, id=127, 714.0276pt x 352.6776pt>
+File: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png Graphic file (type png)
+<use resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png>
+Package pdftex.def Info: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png  used on input line 52.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 
 
-[22 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_li
-near.png>]
-<resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png
-, id=127, 703.9098pt x 352.6776pt>
-File: resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linea
-r.png Graphic file (type png)
-<use resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear
-.png>
-Package pdftex.def Info: resources/finalPlots/Jitterplots/LocalSingle_tcp_dualA
-xis_hpet_2min_linear.png  used on input line 61.
+[23 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png>]
+<resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png, id=132, 703.9098pt x 352.6776pt>
+File: resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png Graphic file (type png)
+<use resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png>
+Package pdftex.def Info: resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png  used on input line 61.
 (pdftex.def)             Requested size: 418.25368pt x 209.55247pt.
 
 
-[23 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_l
-inear.png> <./resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2m
-in_linear.png>]
-<resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png
-, id=133, 713.3049pt x 352.6776pt>
-File: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_lo
-g.png Graphic file (type png)
-<use resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log
-.png>
-Package pdftex.def Info: resources/finalPlots/combinedplots/DoubleLocal_tcp_sam
-eScale_hpet_2min_log.png  used on input line 73.
+[24 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png> <./resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png>]
+<resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png, id=139, 713.3049pt x 352.6776pt>
+File: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png Graphic file (type png)
+<use resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png>
+Package pdftex.def Info: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png  used on input line 73.
 (pdftex.def)             Requested size: 418.25368pt x 206.7972pt.
-<resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png,
- id=134, 712.5822pt x 352.6776pt>
-File: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log
-.png Graphic file (type png)
-<use resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.
-png>
-Package pdftex.def Info: resources/finalPlots/combinedplots/DoubleLocal_tcp_sam
-eScale_tsc_2min_log.png  used on input line 82.
+<resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png, id=140, 712.5822pt x 352.6776pt>
+File: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png Graphic file (type png)
+<use resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png>
+Package pdftex.def Info: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png  used on input line 82.
 (pdftex.def)             Requested size: 418.25368pt x 207.00706pt.
 
 
-[24 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_l
-og.png>]
-<resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png, i
-d=140, 699.5736pt x 352.6776pt>
-File: resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.p
-ng Graphic file (type png)
-<use resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.pn
-g>
-Package pdftex.def Info: resources/finalPlots/Jitterplots/LocalDouble_tcp_dualA
-xis_hpet_2min_log.png  used on input line 90.
+[25 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png>]
+<resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png, id=145, 699.5736pt x 352.6776pt>
+File: resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png Graphic file (type png)
+<use resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png>
+Package pdftex.def Info: resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png  used on input line 90.
 (pdftex.def)             Requested size: 418.25368pt x 210.85478pt.
 
 
-[25 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_lo
-g.png> <./resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_l
-og.png>]
-<resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png, id=146, 903.37
-5pt x 542.025pt>
-File: resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png Graphic fi
-le (type png)
+[26 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png> <./resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png>]
+<resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png, id=151, 903.375pt x 542.025pt>
+File: resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png Graphic file (type png)
 <use resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>
-Package pdftex.def Info: resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s
-_log.png  used on input line 103.
+Package pdftex.def Info: resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png  used on input line 103.
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
 
 
-[26 <./resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>]
-<resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png, id=150, 
-903.375pt x 542.025pt>
-File: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png Grap
-hic file (type png)
+[27 <./resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>]
+<resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png, id=155, 903.375pt x 542.025pt>
+File: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png Graphic file (type png)
 <use resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png>
-Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_
-30s_linear.png  used on input line 113.
+Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png  used on input line 113.
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
-<resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png, id=151, 903
-.375pt x 542.025pt>
-File: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png Graphic
- file (type png)
+<resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png, id=156, 903.375pt x 542.025pt>
+File: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png Graphic file (type png)
 <use resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png>
-Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_
-30s_log.png  used on input line 123.
+Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png  used on input line 123.
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
 
 
-[27 <./resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png>]
+[28 <./resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png>]
 Overfull \hbox (2.58534pt too wide) in paragraph at lines 135--160
  [][] 
  []
@@ -1407,66 +1224,62 @@ Overfull \hbox (63.48453pt too wide) in paragraph at lines 242--270
 
 
 
-[28 <./resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png>]
-
-[29]
+[29 <./resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png>]
 
 [30]
 
-[31])
+[31]
 
-[32]
+[32])
+
+[33]
 \openout2 = `section/Conclusion.aux'.
 
  (./section/Conclusion.tex
 Chapter 6.
 
 
-[33
+[34
 
 
 
 
 ])
 
-[34]
-
 [35]
+
+[36]
 \openout2 = `section/Appendix.aux'.
 
  (./section/Appendix.tex
 
-[36
-
-
-
-
-]
-
 [37
 
+
+
+
 ]
 
-[38]
+[38
+
+]
 
 [39]
 
-[40] (./main.lof)
+[40]
+
+[41] (./main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
 
 
-[41
+[42
 
 ])
-runsystem(latexminted cleantemp  --timestamp 20250910234939 FAD58DE7366495DB465
-0CFEFAC2FCD61)...executed safely (allowed).
+runsystem(latexminted cleantemp  --timestamp 20250911010819 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
 
- (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux)
-(./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux
-) (./section/RelatedWork.aux) (./section/Evaluation.aux) (./section/Results.aux
-) (./section/Conclusion.aux) (./section/Appendix.aux))
+ (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux) (./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux) (./section/RelatedWork.aux) (./section/Evaluation.aux) (./section/Results.aux) (./section/Conclusion.aux) (./section/Appendix.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1485,33 +1298,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30492 strings out of 473190
- 633635 string characters out of 5715800
- 1780150 words of memory out of 5000000
- 53106 multiletter control sequences out of 15000+600000
+ 30501 strings out of 473190
+ 634115 string characters out of 5715800
+ 1780178 words of memory out of 5000000
+ 53114 multiletter control sequences out of 15000+600000
  581868 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,9n,117p,2425b,3167s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/l
-ocal/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/loc
-al/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local
-/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/t
-exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/tex
-live/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texli
-ve/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
-/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2
-025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/202
-5/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2025/
-texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/te
-xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (48 pages, 1844374 bytes).
+ 85i,9n,117p,2471b,3167s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (49 pages, 1854857 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
+ 280 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41553 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 41558 words of extra memory for PDF output out of 42996 (max. 10000000)
 
