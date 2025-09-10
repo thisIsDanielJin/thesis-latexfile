@@ -7,14 +7,14 @@ The initial AWS measurement run with the default kvm-clock shows a divergence in
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm-clock_linear.png}
+    \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png}
     \caption{AWS cloud environment, KVM-clock, linear scale}
     \label{fig:AWS_tcp_sameScale_kvm-clock_linear}
 
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_kvm-clock_log.png}
+    \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_log.png}
     \caption{AWS cloud environment, kvm-clock, logarithmic scale}
     \label{fig:AWS_tcp_sameScale_kvm-clock_log}
 
@@ -25,7 +25,7 @@ Switching to hpet reduces anomalies but does not fully eliminate irregular throu
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{resources/plots/CombinedPlot/TCP/AWS_tcp_sameScale_hpet_log.png}
+    \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png}
     \caption{AWS cloud environment, hpet, log scale}
     \label{fig:AWS_tcp_sameScale_hpet_log}
 
@@ -34,7 +34,7 @@ Switching to hpet reduces anomalies but does not fully eliminate irregular throu
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{resources/plots/JitterPlot/AWS_tcp_dualAxis_hpet_log.png}
+    \includegraphics[width=1\textwidth]{resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png}
     \caption{AWS Throughput Results, hpet, dual-y-axis, log scale}
     \label{fig:AWS_tcp_dualAxis_hpet_log}
 \end{figure}
@@ -47,7 +47,7 @@ On the single-host local machine, throughput stabilizes for both baseline and CL
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_tsc_linear.png}
+    \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png}
     \caption{Single local machine, tsc, linear scale}
     \label{fig:Local_tcp_sameScale_tsc_linear}
 \end{figure}
@@ -56,7 +56,7 @@ For consistency we also switched the clocksource to hpet in the local machine en
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{resources/plots/CombinedPlot/TCP/Single_tcp_sameScale_hpet_linear.png}
+    \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png}
     \caption{Single local machine, hpet, linear scale}
     \label{fig:Local_tcp_sameScale_hpet_linear}
 \end{figure}
@@ -65,7 +65,7 @@ Figure \ref{fig:Local_tcp_dualAxis_hpet_linear} illustrates, in contrast to the 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{resources/plots/JitterPlot/Single_tcp_dualAxis_hpet_linear.png}
+    \includegraphics[width=1\textwidth]{resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png}
     \caption{Single local machine, hpet, dual-y-axis, linear scale}
     \label{fig:Local_tcp_dualAxis_hpet_linear}
 \end{figure}
@@ -77,14 +77,14 @@ The dual-host local setup introduces a physical 1 Gbit/s Ethernet link that caps
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_hpet_log.png}
+    \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png}
     \caption{Dual local machines, hpet, log scale}
     \label{fig:Dual_tcp_sameScale_hpet_log}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{resources/plots/CombinedPlot/TCP/Double_tcp_sameScale_tsc_log.png}
+    \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png}
     \caption{Dual local machines, tsc, log scale}
     \label{fig:Dual_tcp_sameScale_tsc_log}
 \end{figure}
@@ -92,7 +92,7 @@ The dual-host local setup introduces a physical 1 Gbit/s Ethernet link that caps
 Looking at the dual-y-axis plot in Figure \ref{fig:Double_tcp_dualAxis_hpet_log} for this scenario, the IPv6 baseline shows a stable throughput compared to the AWS environment.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{resources/plots/JitterPlot/Double_tcp_dualAxis_hpet_log.png}
+    \includegraphics[width=1\textwidth]{resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png}
     \caption{Single local machine, hpet, dual-y-axis, log scale}
     \label{fig:Double_tcp_dualAxis_hpet_log}
 \end{figure}
