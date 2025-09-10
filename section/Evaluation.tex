@@ -2,6 +2,7 @@
 The experiments were executed in three environments to keep the topology constant while varying the platform: an AWS cloud instance, a single physical Ubuntu host, and two physical Ubuntu hosts connected by an Ethernet link. Across all environments, the setup isolated components using Linux network namespaces and instantiated the three translators under test (Jool, Tayga, Tundra) with identical addressing and routing. Configuration choices such as forwarding and addressing were held consistent across environments to support comparability. 
 
 \section{Test environments}
+For the environments the detailed configurations can be found in the following table \ref{tab:machine_config}.
 \paragraph{AWS}
 In the AWS environment, a single EC2 instance within a dual-stack VPC hosted the entire virtual topology. Client, translator, and server roles were realized as separate namespaces interconnected by veth pairs\cite{veth4}. DNS64 and CLAT ran locally on the instance to avoid external dependencies, and the dual-stack baseline followed a direct namespace path that bypassed translation.
 
@@ -10,9 +11,54 @@ On the bare-metal host, the same namespace-based topology was reproduced on bare
 \paragraph{Bare-metal network}
 In the bare-metal network setup, two Ubuntu machines were connected via a dedicated Ethernet link. The client machine hosted the namespace topology and the translator variants. The second machine provided a standard IPv4/IPv6 stack reachable over the Ethernet link. CLAT ran on the client machine, the dual-stack baseline traversed the link natively without translation. Hardware details and all configuration artifacts for these environments are provided in the Appendix.
 
+
+\begin{table}[H]
+\centering
+\caption{Machine Configuration Specifications}
+\label{tab:machine_config}
+\begin{tabular}{>{\raggedright}p{3.5cm}p{5cm}p{5cm}}
+\toprule
+\textbf{Specification} & \textbf{AWS (m5.large)} & \textbf{Bare-metal} \\
+\midrule
+\multicolumn{3}{l}{\textbf{System Information}} \\
+Instance Type & m5.large & N/A \\
+Availability Zone & eu-central-1c & N/A \\
+Operating System & Ubuntu 24.04.2 LTS & Ubuntu 22.04.3 LTS \\
+Kernel Version & 6.8.0-1031-aws & 5.15.0-87-generic \\
+\midrule
+\multicolumn{3}{l}{\textbf{CPU Specifications}} \\
+Architecture & x86\_64 & x86\_64 \\
+CPU Op-modes & 32-bit, 64-bit & 32-bit, 64-bit \\
+Address Sizes & 46 bits physical, 48 bits virtual & 39 bits physical, 48 bits virtual \\
+Byte Order & Little Endian & Little Endian \\
+CPU Count & 2 & 4 \\
+Online CPU List & 0,1 & 0-3 \\
+Vendor ID & GenuineIntel & GenuineIntel \\
+Model Name & Intel Xeon Platinum 8259CL @ 2.50GHz & Intel N95 \\
+CPU Family & 6 & 6 \\
+Model & 85 & 160 \\
+Threads per Core & 2 & 1 \\
+Cores per Socket & 1 & 4 \\
+Sockets & 1 & 1 \\
+Stepping & 7 & 0 \\
+CPU Max MHz & N/A & 3400.0000 \\
+CPU Min MHz & N/A & 800.0000 \\
+BogoMIPS & 4999.99 & 3379.20 \\
+\midrule
+\multicolumn{3}{l}{\textbf{Memory \& Storage}} \\
+RAM & 7.6 GiB & 15 GiB \\
+Storage & 6.8 GB & 476 GB \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
 \section{Networking Namespace Configuration}
 The experiments relied on Linux networking namespaces to isolate each translator and to keep the surrounding network conditions reproducible across local and the cloud setup. For Tayga and Tundra, a single namespace per translator was connected to the host through a veth pair\cite{veth4}. Both ends of the veth received link-local IPv6 addresses and the namespace end additionally received a globally scoped IPv6 address. Inside the namespace, the default IPv6 route pointed to the host-side link-local address, while the host installed a route towards the namespace prefix via the namespace-side link-local address. IPv6 forwarding was enabled on the host and inside the namespaces to allow transit of translated traffic. 
 Jool required a slightly different arrangement with two namespaces to create a single hop through the translator: an application namespace was linked to the translator namespace using a second veth pair. This common namespace wiring, addressing, and forwarding configuration was applied consistently on all machines so that the translator initialization in the next section could proceed without repeating network setup details.
+
+
+
 
 \section{Implementation of Translation Technologies}
 \paragraph{Tayga}
