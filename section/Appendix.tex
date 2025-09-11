@@ -4,6 +4,131 @@
 \addcontentsline{toc}{section}{Bibliography}
 \printbibliography
 \newpage
-\addcontentsline{toc}{section}{Scripts and Tables}
+
+\section*{Additional Plots}
+\addcontentsline{toc}{section}{Additional Plots}
+% summary plot
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{resources/finalPlots/appendix/rtt_comparison_summary.png}
+    \caption{RTT Comparison Summary}
+    \label{fig:rtt_comparison_summary}
+\end{figure}
+
+% combined plots
+\subsection*{TCP Plots for 30s Duration}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png}
+    \caption{AWS HPET 30s Linear}
+    \label{fig:aws_tcp_hpet_30s_linear}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png}
+    \caption{AWS KVM-Clock 30s Linear}
+    \label{fig:aws_tcp_kvm_30s_linear}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png}
+    \caption{Bare-metal network HPET 30s Log}
+    \label{fig:double_local_tcp_hpet_30s_log}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png}
+    \caption{Bare-metal network TSC 30s Log}
+    \label{fig:double_local_tcp_tsc_30s_log}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png}
+    \caption{Bare-metal host TCP HPET 30s Linear}
+    \label{fig:single_local_tcp_hpet_30s_linear}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png}
+    \caption{Bare-metal host TSC 30s Linear}
+    \label{fig:single_local_tcp_tsc_30s_linear}
+\end{figure}
+
+
+% jitter plots
+\subsection*{Dual-y-axis TCP Plots for 30s Duration }
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png}
+    \caption{AWS TCP HPET 30s Log}
+    \label{fig:aws_tcp_jitter_hpet_30s_log}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png}
+    \caption{AWS TCP KVM-Clock 30s Linear}
+    \label{fig:aws_tcp_jitter_kvm_30s_linear}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png}
+    \caption{Bare-metal network HPET 30s Log}
+    \label{fig:local_double_tcp_jitter_hpet_30s_log}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png}
+    \caption{Bare-metal network TSC 30s Log}
+    \label{fig:local_double_tcp_jitter_tsc_30s_log}
+\end{figure}
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png}
+    \caption{Bare-metal host HPET 30s Log}
+    \label{fig:local_single_tcp_jitter_hpet_30s_log}
+\end{figure}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png}
+    \caption{Bare-metal host TSC 30s Log}
+    \label{fig:local_single_tcp_jitter_tsc_30s_log}
+\end{figure}
+
+
+\newpage
+
+
+\addcontentsline{toc}{section}{List of Figures}
 \listoffigures
 \newpage

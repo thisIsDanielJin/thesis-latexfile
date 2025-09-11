@@ -38,4 +38,5 @@
 \contentsline {paragraph}{Future Work}{36}{}%
 \contentsline {chapter}{Appendix}{38}{}%
 \contentsline {section}{Bibliography}{38}{}%
-\contentsline {section}{Scripts and Tables}{43}{}%
+\contentsline {section}{Additional Plots}{43}{}%
+\contentsline {section}{List of Figures}{50}{}%

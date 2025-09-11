@@ -20,3 +20,16 @@
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Bare-metal host, hpet, linear scale}}{29}{}%
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Bare-metal network, hpet, log scale}}{30}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces RTT Comparison Summary}}{43}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces AWS HPET 30s Linear}}{43}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces AWS KVM-Clock 30s Linear}}{44}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Bare-metal network HPET 30s Log}}{44}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Bare-metal network TSC 30s Log}}{45}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Bare-metal host TCP HPET 30s Linear}}{45}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Bare-metal host TSC 30s Linear}}{46}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces AWS TCP HPET 30s Log}}{46}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces AWS TCP KVM-Clock 30s Linear}}{47}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Bare-metal network HPET 30s Log}}{47}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Bare-metal network TSC 30s Log}}{48}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Bare-metal host HPET 30s Log}}{48}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Bare-metal host TSC 30s Log}}{49}{}%

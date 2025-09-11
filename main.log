@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  11 SEP 2025 01:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  11 SEP 2025 02:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1249,17 +1249,17 @@ Overfull \hbox (6.58528pt too wide) in paragraph at lines 135--160
  []
 
 
-Overfull \hbox (67.88446pt too wide) in paragraph at lines 167--199
+Overfull \hbox (39.93156pt too wide) in paragraph at lines 167--199
  [][] 
  []
 
 
-Overfull \hbox (67.88446pt too wide) in paragraph at lines 207--235
+Overfull \hbox (39.93156pt too wide) in paragraph at lines 207--235
  [][] 
  []
 
 
-Overfull \hbox (67.88446pt too wide) in paragraph at lines 242--270
+Overfull \hbox (39.93156pt too wide) in paragraph at lines 242--270
  [][] 
  []
 
@@ -1309,16 +1309,101 @@ Chapter 6.
 
 [41]
 
-[42] (./main.lof)
+[42]
+<resources/finalPlots/appendix/rtt_comparison_summary.png, id=210, 1293.1512pt x 714.7503pt>
+File: resources/finalPlots/appendix/rtt_comparison_summary.png Graphic file (type png)
+<use resources/finalPlots/appendix/rtt_comparison_summary.png>
+Package pdftex.def Info: resources/finalPlots/appendix/rtt_comparison_summary.png  used on input line 13.
+(pdftex.def)             Requested size: 376.42575pt x 208.05753pt.
+<resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png, id=211, 714.0276pt x 352.6776pt>
+File: resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png Graphic file (type png)
+<use resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png>
+Package pdftex.def Info: resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png  used on input line 23.
+(pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
+<resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png, id=212, 714.0276pt x 352.6776pt>
+File: resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png Graphic file (type png)
+<use resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png>
+Package pdftex.def Info: resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png  used on input line 32.
+(pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
+
+
+[43 <./resources/finalPlots/appendix/rtt_comparison_summary.png> <./resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png>]
+<resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png, id=219, 713.3049pt x 352.6776pt>
+File: resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png Graphic file (type png)
+<use resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png>
+Package pdftex.def Info: resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png  used on input line 41.
+(pdftex.def)             Requested size: 418.25368pt x 206.7972pt.
+<resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png, id=220, 712.5822pt x 352.6776pt>
+File: resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png Graphic file (type png)
+<use resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png>
+Package pdftex.def Info: resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png  used on input line 50.
+(pdftex.def)             Requested size: 418.25368pt x 207.00706pt.
+
+
+[44 <./resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png> <./resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png>]
+<resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png, id=226, 714.0276pt x 352.6776pt>
+File: resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png Graphic file (type png)
+<use resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png>
+Package pdftex.def Info: resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png  used on input line 57.
+(pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
+<resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png, id=227, 714.0276pt x 352.6776pt>
+File: resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png Graphic file (type png)
+<use resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png>
+Package pdftex.def Info: resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png  used on input line 65.
+(pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
+
+
+[45 <./resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png> <./resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png>]
+<resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png, id=233, 698.1282pt x 352.6776pt>
+File: resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png Graphic file (type png)
+<use resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png>
+Package pdftex.def Info: resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png  used on input line 78.
+(pdftex.def)             Requested size: 418.25368pt x 211.29068pt.
+<resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png, id=234, 703.1871pt x 352.6776pt>
+File: resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png Graphic file (type png)
+<use resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png>
+Package pdftex.def Info: resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png  used on input line 85.
+(pdftex.def)             Requested size: 418.25368pt x 209.7785pt.
+
+
+[46 <./resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png> <./resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png>]
+<resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png, id=240, 699.5736pt x 352.6776pt>
+File: resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png Graphic file (type png)
+<use resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png>
+Package pdftex.def Info: resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png  used on input line 94.
+(pdftex.def)             Requested size: 418.25368pt x 210.85478pt.
+<resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png, id=241, 696.6828pt x 352.6776pt>
+File: resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png Graphic file (type png)
+<use resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png>
+Package pdftex.def Info: resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png  used on input line 103.
+(pdftex.def)             Requested size: 418.25368pt x 211.73734pt.
+
+
+[47 <./resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png> <./resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png>]
+<resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png, id=247, 700.2963pt x 352.6776pt>
+File: resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png Graphic file (type png)
+<use resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png>
+Package pdftex.def Info: resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png  used on input line 114.
+(pdftex.def)             Requested size: 418.25368pt x 210.63953pt.
+<resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png, id=248, 698.8509pt x 352.6776pt>
+File: resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png Graphic file (type png)
+<use resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png>
+Package pdftex.def Info: resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png  used on input line 123.
+(pdftex.def)             Requested size: 418.25368pt x 211.07004pt.
+
+
+[48 <./resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png> <./resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png>]
+
+[49 <./resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png>] (./main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
 
 
-[43
+[50
 
 ])
-runsystem(latexminted cleantemp  --timestamp 20250911015037 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
+runsystem(latexminted cleantemp  --timestamp 20250911022949 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
 
  (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux) (./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux) (./section/RelatedWork.aux) (./section/Evaluation.aux) (./section/Results.aux) (./section/Conclusion.aux) (./section/Appendix.aux))
  ***********
@@ -1339,18 +1424,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30690 strings out of 473190
- 637294 string characters out of 5715800
- 1765908 words of memory out of 5000000
- 53294 multiletter control sequences out of 15000+600000
- 581868 words of font info for 180 fonts, out of 8000000 for 9000
+ 30801 strings out of 473190
+ 645467 string characters out of 5715800
+ 1766242 words of memory out of 5000000
+ 53400 multiletter control sequences out of 15000+600000
+ 582783 words of font info for 183 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,10n,117p,2471b,3167s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (50 pages, 1857828 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (57 pages, 2708915 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
+ 336 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41558 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 43671 words of extra memory for PDF output out of 51595 (max. 10000000)
 
