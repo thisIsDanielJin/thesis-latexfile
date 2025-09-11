@@ -1089,6 +1089,31 @@
     \field{year}{2016}
   \endentry
 
+  \entry{linux_timekeeping_doc}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=L}{%
+         family={{Linux Kernel Documentation}},
+         familyi={L\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {The Linux Kernel Organization}%
+    }
+    \strng{namehash}{L1}
+    \strng{fullhash}{L1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Linux Kernel Documentation}
+    \field{title}{Clock sources, Clock events, sched\_clock() and delay timers}
+    \verb{url}
+    \verb https://www.kernel.org/doc/html/latest/timers/timekeeping.html
+    \endverb
+    \field{year}{2024}
+    \field{urlday}{11}
+    \field{urlmonth}{09}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{veth4}{manual}{}{}
     \list{organization}{1}{%
       {Linux man-pages project}%

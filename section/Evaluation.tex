@@ -1,6 +1,17 @@
 \chapter{Evaluation}
 The experiments were executed in three environments to keep the topology constant while varying the platform: an AWS cloud instance, a single physical Ubuntu host, and two physical Ubuntu hosts connected by an Ethernet link. Across all environments, the setup isolated components using Linux network namespaces and instantiated the three translators under test (Jool, Tayga, Tundra) with identical addressing and routing. Configuration choices such as forwarding and addressing were held consistent across environments to support comparability. 
 
+
+While conducting the experiments, it became apparent that the choice of clock source (e.g., tsc, hpet, kvm-clock) significantly influenced the measurement results. The primary comparison was conducted between the Time Stamp Counter (tsc) and High Precision Event Timer (hpet), while kvm-clock was employed for the AWS cloud environment due to its operational similarity to tsc in virtualized contexts.
+
+\paragraph{Time Stamp Counter (tsc)} The tsc is a counter-based clock source that increments at a fixed frequency, typically matching the processor's base clock frequency. It provides CPU-local timing with extremely low access overhead, making it ideal for high-frequency timing measurements, though it can suffer from synchronization issues across multiple CPU cores without proper calibration.
+\paragraph{High Precision Event Timer (hpet)} The hpet is a hardware-based timer that operates independently of the CPU clock and provides system-wide consistent timing across all processor cores. It offers higher precision than traditional timing sources but incurs greater access latency due to its external hardware nature, making it more suitable for applications requiring absolute time accuracy rather than high-frequency sampling.
+\paragraph{KVM Clock (kvm-clock)} The kvm-clock is a paravirtualized clock source designed specifically for kernel-based virtual machines that provides stable timing in virtualized environments. It combines the low overhead characteristics of tsc with virtualization-aware adjustments to account for hypervisor scheduling delays, making it the optimal choice for timing measurements within cloud instances where direct hardware access is unavailable.
+
+\smallskip
+
+ Additional technical details on Linux kernel timekeeping mechanisms are available in the official kernel documentation\cite{linux_timekeeping_doc}.
+
 \section{Test environments}
 For the environments the detailed configurations can be found in the following table \ref{tab:machine_config}.
 \paragraph{AWS}
@@ -54,7 +65,7 @@ Storage & 6.8 GB & 476 GB \\
 
 
 \section{Networking Namespace Configuration}
-The experiments relied on Linux networking namespaces to isolate each translator and to keep the surrounding network conditions reproducible across local and the cloud setup. For Tayga and Tundra, a single namespace per translator was connected to the host through a veth pair\cite{veth4}. Both ends of the veth received link-local IPv6 addresses and the namespace end additionally received a globally scoped IPv6 address. Inside the namespace, the default IPv6 route pointed to the host-side link-local address, while the host installed a route towards the namespace prefix via the namespace-side link-local address. IPv6 forwarding was enabled on the host and inside the namespaces to allow transit of translated traffic. 
+The experiments relied on Linux networking namespaces to isolate each translator and to keep the surrounding network conditions reproducible across local and the cloud setup\footnote{Complete setup scripts and configuration details are available at: \url{https://github.com/thisIsDanielJin/bachelorthesis_scripts.git}}. For Tayga and Tundra, a single namespace per translator was connected to the host through a veth pair\cite{veth4}. Both ends of the veth received link-local IPv6 addresses and the namespace end additionally received a globally scoped IPv6 address. Inside the namespace, the default IPv6 route pointed to the host-side link-local address, while the host installed a route towards the namespace prefix via the namespace-side link-local address. IPv6 forwarding was enabled on the host and inside the namespaces to allow transit of translated traffic. 
 Jool required a slightly different arrangement with two namespaces to create a single hop through the translator: an application namespace was linked to the translator namespace using a second veth pair. This common namespace wiring, addressing, and forwarding configuration was applied consistently on all machines so that the translator initialization in the next section could proceed without repeating network setup details.
 
 

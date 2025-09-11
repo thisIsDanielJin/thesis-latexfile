@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  11 SEP 2025 02:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.29)  11 SEP 2025 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1089,10 +1089,16 @@ Package pdftex.def Info: resources/images/ipv6google.png  used on input line 35.
 [7]
 
 [8]
+<resources/images/nat64diagram.png, id=73, 1199.48125pt x 594.22pt>
+File: resources/images/nat64diagram.png Graphic file (type png)
+<use resources/images/nat64diagram.png>
+Package pdftex.def Info: resources/images/nat64diagram.png  used on input line 85.
+(pdftex.def)             Requested size: 334.60422pt x 165.75484pt.
+
 
 [9]
 
-[10]
+[10 <./resources/images/nat64diagram.png>]
 
 [11]
 
@@ -1125,125 +1131,128 @@ Chapter 4.
 
 
 ]
-Overfull \hbox (1.85852pt too wide) in paragraph at lines 19--53
+Overfull \hbox (1.85852pt too wide) in paragraph at lines 30--64
  [][] 
  []
 
 
 
 [17]
-
-[18]
-<resources/images/updatedjooldiagram.png, id=105, 513.92pt x 188.705pt>
-File: resources/images/updatedjooldiagram.png Graphic file (type png)
-<use resources/images/updatedjooldiagram.png>
-Package pdftex.def Info: resources/images/updatedjooldiagram.png  used on input line 77.
-(pdftex.def)             Requested size: 334.60422pt x 122.8641pt.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[19 <./resources/images/updatedjooldiagram.png>])
+[18]
 
-[20]
+[19]
+<resources/images/updatedjooldiagram.png, id=114, 513.92pt x 188.705pt>
+File: resources/images/updatedjooldiagram.png Graphic file (type png)
+<use resources/images/updatedjooldiagram.png>
+Package pdftex.def Info: resources/images/updatedjooldiagram.png  used on input line 88.
+(pdftex.def)             Requested size: 334.60422pt x 122.8641pt.
+
+
+[20 <./resources/images/updatedjooldiagram.png>])
+
+[21]
 \openout2 = `section/Results.aux'.
 
  (./section/Results.tex
 Chapter 5.
-<resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png, id=114, 714.0276pt x 352.6776pt>
+<resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png, id=123, 714.0276pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png Graphic file (type png)
 <use resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png>
 Package pdftex.def Info: resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png  used on input line 10.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 
 
-[21
+[22
 
 
 
 
 ]
-<resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png, id=118, 714.0276pt x 352.6776pt>
+<resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png, id=127, 714.0276pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png Graphic file (type png)
 <use resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png>
 Package pdftex.def Info: resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png  used on input line 21.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 
 
-[22 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png>]
-<resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png, id=123, 698.1282pt x 352.6776pt>
+[23 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png>]
+<resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png, id=132, 698.1282pt x 352.6776pt>
 File: resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png Graphic file (type png)
 <use resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png>
 Package pdftex.def Info: resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png  used on input line 30.
 (pdftex.def)             Requested size: 418.25368pt x 211.29068pt.
 
 
-[23 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png> <./resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png>]
-<resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png, id=129, 714.0276pt x 352.6776pt>
+[24 <./resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png> <./resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png>]
+<resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png, id=139, 714.0276pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png Graphic file (type png)
 <use resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png>
 Package pdftex.def Info: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png  used on input line 43.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
-<resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png, id=130, 714.0276pt x 352.6776pt>
+<resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png, id=140, 714.0276pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png Graphic file (type png)
 <use resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png>
 Package pdftex.def Info: resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png  used on input line 52.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 
 
-[24 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png>]
-<resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png, id=136, 703.9098pt x 352.6776pt>
+[25 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png>]
+<resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png, id=145, 703.9098pt x 352.6776pt>
 File: resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png Graphic file (type png)
 <use resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png>
 Package pdftex.def Info: resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png  used on input line 61.
 (pdftex.def)             Requested size: 418.25368pt x 209.55247pt.
 
 
-[25 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png> <./resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png>]
-<resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png, id=142, 713.3049pt x 352.6776pt>
+[26 <./resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png> <./resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png>]
+<resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png, id=151, 713.3049pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png Graphic file (type png)
 <use resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png>
 Package pdftex.def Info: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png  used on input line 73.
 (pdftex.def)             Requested size: 418.25368pt x 206.7972pt.
-<resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png, id=143, 712.5822pt x 352.6776pt>
+<resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png, id=152, 712.5822pt x 352.6776pt>
 File: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png Graphic file (type png)
 <use resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png>
 Package pdftex.def Info: resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png  used on input line 82.
 (pdftex.def)             Requested size: 418.25368pt x 207.00706pt.
 
 
-[26 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png>]
-<resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png, id=148, 699.5736pt x 352.6776pt>
+[27 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png>]
+<resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png, id=157, 699.5736pt x 352.6776pt>
 File: resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png Graphic file (type png)
 <use resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png>
 Package pdftex.def Info: resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png  used on input line 90.
 (pdftex.def)             Requested size: 418.25368pt x 210.85478pt.
 
 
-[27 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png> <./resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png>]
-<resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png, id=154, 903.375pt x 542.025pt>
+[28 <./resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png> <./resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png>]
+<resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png, id=163, 903.375pt x 542.025pt>
 File: resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png Graphic file (type png)
 <use resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>
 Package pdftex.def Info: resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png  used on input line 103.
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
 
 
-[28 <./resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>]
-<resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png, id=158, 903.375pt x 542.025pt>
+[29 <./resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png>]
+<resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png, id=167, 903.375pt x 542.025pt>
 File: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png Graphic file (type png)
 <use resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png>
 Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png  used on input line 113.
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
-<resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png, id=159, 903.375pt x 542.025pt>
+<resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png, id=168, 903.375pt x 542.025pt>
 File: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png Graphic file (type png)
 <use resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png>
 Package pdftex.def Info: resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png  used on input line 123.
 (pdftex.def)             Requested size: 418.25368pt x 250.95557pt.
 
 
-[29 <./resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png>]
+[30 <./resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png>]
 Overfull \hbox (6.58528pt too wide) in paragraph at lines 135--160
  [][] 
  []
@@ -1265,145 +1274,145 @@ Overfull \hbox (39.93156pt too wide) in paragraph at lines 242--270
 
 
 
-[30 <./resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png>]
-
-[31]
+[31 <./resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png>]
 
 [32]
 
-[33])
+[33]
 
-[34]
+[34])
+
+[35]
 \openout2 = `section/Conclusion.aux'.
 
  (./section/Conclusion.tex
 Chapter 6.
 
 
-[35
+[36
 
 
 
 
 ])
 
-[36]
-
 [37]
+
+[38]
 \openout2 = `section/Appendix.aux'.
 
  (./section/Appendix.tex
 
-[38
-
-
-
-
-]
-
 [39
 
+
+
+
 ]
 
-[40]
+[40
+
+]
 
 [41]
 
 [42]
-<resources/finalPlots/appendix/rtt_comparison_summary.png, id=210, 1293.1512pt x 714.7503pt>
+
+[43]
+<resources/finalPlots/appendix/rtt_comparison_summary.png, id=218, 1293.1512pt x 714.7503pt>
 File: resources/finalPlots/appendix/rtt_comparison_summary.png Graphic file (type png)
 <use resources/finalPlots/appendix/rtt_comparison_summary.png>
 Package pdftex.def Info: resources/finalPlots/appendix/rtt_comparison_summary.png  used on input line 13.
 (pdftex.def)             Requested size: 376.42575pt x 208.05753pt.
-<resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png, id=211, 714.0276pt x 352.6776pt>
+<resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png, id=219, 714.0276pt x 352.6776pt>
 File: resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png Graphic file (type png)
 <use resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png>
 Package pdftex.def Info: resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png  used on input line 23.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
-<resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png, id=212, 714.0276pt x 352.6776pt>
+<resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png, id=220, 714.0276pt x 352.6776pt>
 File: resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png Graphic file (type png)
 <use resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png>
 Package pdftex.def Info: resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png  used on input line 32.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 
 
-[43 <./resources/finalPlots/appendix/rtt_comparison_summary.png> <./resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png>]
-<resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png, id=219, 713.3049pt x 352.6776pt>
+[44 <./resources/finalPlots/appendix/rtt_comparison_summary.png> <./resources/finalPlots/appendix/combined/AWS_tcp_sameScale_hpet_30s_linear.png>]
+<resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png, id=227, 713.3049pt x 352.6776pt>
 File: resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png Graphic file (type png)
 <use resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png>
 Package pdftex.def Info: resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png  used on input line 41.
 (pdftex.def)             Requested size: 418.25368pt x 206.7972pt.
-<resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png, id=220, 712.5822pt x 352.6776pt>
+<resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png, id=228, 712.5822pt x 352.6776pt>
 File: resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png Graphic file (type png)
 <use resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png>
 Package pdftex.def Info: resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png  used on input line 50.
 (pdftex.def)             Requested size: 418.25368pt x 207.00706pt.
 
 
-[44 <./resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png> <./resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png>]
-<resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png, id=226, 714.0276pt x 352.6776pt>
+[45 <./resources/finalPlots/appendix/combined/AWS_tcp_sameScale_kvm-clock_30s_linear.png> <./resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_hpet_30s_log.png>]
+<resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png, id=234, 714.0276pt x 352.6776pt>
 File: resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png Graphic file (type png)
 <use resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png>
 Package pdftex.def Info: resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png  used on input line 57.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
-<resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png, id=227, 714.0276pt x 352.6776pt>
+<resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png, id=235, 714.0276pt x 352.6776pt>
 File: resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png Graphic file (type png)
 <use resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png>
 Package pdftex.def Info: resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png  used on input line 65.
 (pdftex.def)             Requested size: 418.25368pt x 206.5927pt.
 
 
-[45 <./resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png> <./resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png>]
-<resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png, id=233, 698.1282pt x 352.6776pt>
+[46 <./resources/finalPlots/appendix/combined/DoubleLocal_tcp_sameScale_tsc_30s_log.png> <./resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_hpet_30s_linear.png>]
+<resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png, id=241, 698.1282pt x 352.6776pt>
 File: resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png Graphic file (type png)
 <use resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png>
 Package pdftex.def Info: resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png  used on input line 78.
 (pdftex.def)             Requested size: 418.25368pt x 211.29068pt.
-<resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png, id=234, 703.1871pt x 352.6776pt>
+<resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png, id=242, 703.1871pt x 352.6776pt>
 File: resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png Graphic file (type png)
 <use resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png>
 Package pdftex.def Info: resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png  used on input line 85.
 (pdftex.def)             Requested size: 418.25368pt x 209.7785pt.
 
 
-[46 <./resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png> <./resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png>]
-<resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png, id=240, 699.5736pt x 352.6776pt>
+[47 <./resources/finalPlots/appendix/combined/SingleLocal_tcp_sameScale_tsc_30s_linear.png> <./resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_hpet_30s_log.png>]
+<resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png, id=248, 699.5736pt x 352.6776pt>
 File: resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png Graphic file (type png)
 <use resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png>
 Package pdftex.def Info: resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png  used on input line 94.
 (pdftex.def)             Requested size: 418.25368pt x 210.85478pt.
-<resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png, id=241, 696.6828pt x 352.6776pt>
+<resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png, id=249, 696.6828pt x 352.6776pt>
 File: resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png Graphic file (type png)
 <use resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png>
 Package pdftex.def Info: resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png  used on input line 103.
 (pdftex.def)             Requested size: 418.25368pt x 211.73734pt.
 
 
-[47 <./resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png> <./resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png>]
-<resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png, id=247, 700.2963pt x 352.6776pt>
+[48 <./resources/finalPlots/appendix/jitter/AWS_tcp_dualAxis_kvm-clock_30s_linear.png> <./resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_hpet_30s_log.png>]
+<resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png, id=256, 700.2963pt x 352.6776pt>
 File: resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png Graphic file (type png)
 <use resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png>
 Package pdftex.def Info: resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png  used on input line 114.
 (pdftex.def)             Requested size: 418.25368pt x 210.63953pt.
-<resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png, id=248, 698.8509pt x 352.6776pt>
+<resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png, id=257, 698.8509pt x 352.6776pt>
 File: resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png Graphic file (type png)
 <use resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png>
 Package pdftex.def Info: resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png  used on input line 123.
 (pdftex.def)             Requested size: 418.25368pt x 211.07004pt.
 
 
-[48 <./resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png> <./resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png>]
+[49 <./resources/finalPlots/appendix/jitter/LocalDouble_tcp_dualAxis_tsc_30s_log.png> <./resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_hpet_30s_log.png>]
 
-[49 <./resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png>] (./main.lof)
+[50 <./resources/finalPlots/appendix/jitter/LocalSingle_tcp_dualAxis_tsc_30s_log.png>] (./main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
 
 
-[50
+[51
 
 ])
-runsystem(latexminted cleantemp  --timestamp 20250911022949 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
+runsystem(latexminted cleantemp  --timestamp 20250911154632 FAD58DE7366495DB4650CFEFAC2FCD61)...executed safely (allowed).
 
  (./main.aux (./section/Erklaerung.aux) (./section/abstract-de.aux) (./section/abstract.aux) (./section/Introduction.aux) (./section/Background.aux) (./section/RelatedWork.aux) (./section/Evaluation.aux) (./section/Results.aux) (./section/Conclusion.aux) (./section/Appendix.aux))
  ***********
@@ -1424,18 +1433,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30801 strings out of 473190
- 645467 string characters out of 5715800
- 1766242 words of memory out of 5000000
- 53400 multiletter control sequences out of 15000+600000
- 582783 words of font info for 183 fonts, out of 8000000 for 9000
+ 30838 strings out of 473190
+ 646394 string characters out of 5715800
+ 1766350 words of memory out of 5000000
+ 53422 multiletter control sequences out of 15000+600000
+ 585047 words of font info for 192 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,10n,117p,2471b,3167s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (57 pages, 2708915 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (58 pages, 2818981 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
+ 356 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 43671 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 48284 words of extra memory for PDF output out of 51595 (max. 10000000)
 

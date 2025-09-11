@@ -75,7 +75,15 @@ Since NAT64 uses endpoint-independent mapping, standard NAT traversal techniques
 
 DNS64 complements NAT64 by synthesizing AAAA records from A records. When an IPv6-only client looks up a domain and the server only has an IPv4 (A) record, DNS64 steps in: it queries the A record, embeds the resulting IPv4 address into an IPv6 address using the operator’s Pref64::/n, and returns that synthesized IPv6 address to the client\cite{rfc6147}. DNS64 and NAT64 share no runtime state, they only need to agree on the Pref64::/n, using the Well-Known Prefix by default or a specific local prefix\cite{6231295}. 
 
-An end-to-end flow is therefore: an IPv6-only client receives a synthesized AAAA embedding the server’s IPv4 address, sends IPv6 packets to that address (routed to the NAT64), the translator allocates or looks up the binding, translates headers, and forwards to the IPv4 server. Return traffic is reverse-translated using the session and Binding Information Base state until idle timers expire or TCP teardown is observed \cite{6231295,rfc6147}.
+An end-to-end flow is therefore: an IPv6-only client receives a synthesized AAAA embedding the server’s IPv4 address, sends IPv6 packets to that address (routed to the NAT64), the translator allocates or looks up the binding, translates headers, and forwards to the IPv4 server. Return traffic is reverse-translated using the session and Binding Information Base state until idle timers expire or TCP teardown is observed \cite{6231295,rfc6147}. 
+The following figure (Figure \ref{fig:nat64_dns64_architecture}) illustrates this.
+
+\begin{figure}[H]
+    \centering
+    \caption{NAT64/DNS64 architecture example showing the translation process.}
+    \label{fig:nat64_dns64_architecture}
+    \includegraphics[width=0.8\textwidth]{resources/images/nat64diagram}
+\end{figure}
 
 Choosing between the Well-Known Prefix and a local prefix can affect how well networks work together when DNS64 and NAT64 are run by different organizations, but it doesn't significantly impact the cost of translating individual packets\cite{6231295}. From a deployment standpoint, setting up NAT64 with DNS64 at the network edge is relatively simple. It lets operators run IPv6-only access networks while still reaching IPv4-only services. This is different from running a full dual-stack network, where both IPv4 and IPv6 are enabled throughout. The main trade-offs of NAT64 with DNS64 are that session initiation tends to favor IPv6 to IPv4 connections, it relies on DNS64 for translating names, and some protocols aren’t fully supported. In return, it allows for much more efficient sharing of IPv4 addresses\cite{rfc6146}.
 

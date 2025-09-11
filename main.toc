@@ -12,31 +12,34 @@
 \contentsline {paragraph}{Client-Side Translation: The role of CLAT and 464XLAT}{10}{}%
 \contentsline {section}{\numberline {2.3}Linux implementations of CLAT}{12}{}%
 \contentsline {paragraph}{Tayga}{12}{}%
-\contentsline {paragraph}{Tundra}{12}{}%
+\contentsline {paragraph}{Tundra}{13}{}%
 \contentsline {paragraph}{Jool}{13}{}%
 \contentsline {chapter}{\numberline {3}Related Work}{15}{}%
 \contentsline {chapter}{\numberline {4}Evaluation}{16}{}%
-\contentsline {section}{\numberline {4.1}Test environments}{16}{}%
-\contentsline {paragraph}{AWS}{16}{}%
-\contentsline {paragraph}{Bare-metal host}{16}{}%
-\contentsline {paragraph}{Bare-metal network}{16}{}%
+\contentsline {paragraph}{Time Stamp Counter (tsc)}{16}{}%
+\contentsline {paragraph}{High Precision Event Timer (hpet)}{16}{}%
+\contentsline {paragraph}{KVM Clock (kvm-clock)}{17}{}%
+\contentsline {section}{\numberline {4.1}Test environments}{17}{}%
+\contentsline {paragraph}{AWS}{17}{}%
+\contentsline {paragraph}{Bare-metal host}{17}{}%
+\contentsline {paragraph}{Bare-metal network}{17}{}%
 \contentsline {section}{\numberline {4.2}Networking Namespace Configuration}{18}{}%
-\contentsline {section}{\numberline {4.3}Implementation of Translation Technologies}{18}{}%
-\contentsline {paragraph}{Tayga}{18}{}%
-\contentsline {paragraph}{Tundra}{18}{}%
-\contentsline {paragraph}{Jool}{19}{}%
+\contentsline {section}{\numberline {4.3}Implementation of Translation Technologies}{19}{}%
+\contentsline {paragraph}{Tayga}{19}{}%
+\contentsline {paragraph}{Tundra}{19}{}%
+\contentsline {paragraph}{Jool}{20}{}%
 \contentsline {section}{\numberline {4.4}Measurement Methodology}{20}{}%
 \contentsline {paragraph}{Throughput}{20}{}%
-\contentsline {paragraph}{RTT}{20}{}%
-\contentsline {chapter}{\numberline {5}Results}{21}{}%
-\contentsline {section}{\numberline {5.1}Throughput}{21}{}%
-\contentsline {paragraph}{Bare-metal results}{23}{}%
-\contentsline {section}{\numberline {5.2}RTT}{28}{}%
-\contentsline {section}{\numberline {5.3}Discussion}{33}{}%
-\contentsline {chapter}{\numberline {6}Conclusion}{35}{}%
-\contentsline {paragraph}{Summary of Key Findings}{35}{}%
-\contentsline {paragraph}{Future Work}{36}{}%
-\contentsline {chapter}{Appendix}{38}{}%
-\contentsline {section}{Bibliography}{38}{}%
-\contentsline {section}{Additional Plots}{43}{}%
-\contentsline {section}{List of Figures}{50}{}%
+\contentsline {paragraph}{RTT}{21}{}%
+\contentsline {chapter}{\numberline {5}Results}{22}{}%
+\contentsline {section}{\numberline {5.1}Throughput}{22}{}%
+\contentsline {paragraph}{Bare-metal results}{24}{}%
+\contentsline {section}{\numberline {5.2}RTT}{29}{}%
+\contentsline {section}{\numberline {5.3}Discussion}{34}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{36}{}%
+\contentsline {paragraph}{Summary of Key Findings}{36}{}%
+\contentsline {paragraph}{Future Work}{37}{}%
+\contentsline {chapter}{Appendix}{39}{}%
+\contentsline {section}{Bibliography}{39}{}%
+\contentsline {section}{Additional Plots}{44}{}%
+\contentsline {section}{List of Figures}{51}{}%
