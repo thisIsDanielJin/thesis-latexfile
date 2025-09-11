@@ -8,18 +8,18 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Jool network namespace architecture with dual veth pairs.}}{20}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces AWS cloud environment, KVM-clock, linear scale}}{23}{}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces AWS cloud environment, hpet, log scale}}{24}{}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces AWS Throughput Results, hpet, dual-y-axis, log scale}}{24}{}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Bare-metal host, tsc, linear scale}}{25}{}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Bare-metal host, hpet, linear scale}}{26}{}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Bare-metal host, hpet, dual-y-axis, linear scale}}{26}{}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Bare-metal network, hpet, log scale}}{27}{}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Bare-metal network, tsc, log scale}}{28}{}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Bare-metal network, hpet, dual-y-axis, log scale}}{28}{}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces AWS cloud environment, hpet, log scale}}{29}{}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Bare-metal host, hpet, linear scale}}{30}{}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Bare-metal network, hpet, log scale}}{31}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces AWS throughput, KVM-clock, linear scale}}{23}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces AWS throughput, hpet, log scale}}{24}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces AWS Throughput, hpet, dual-y-axis, log scale}}{24}{}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Bare-metal host, throughput, tsc, linear scale}}{25}{}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Bare-metal host, throughput, hpet, linear scale}}{26}{}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Bare-metal host, throughput, hpet, dual-y-axis, linear scale}}{26}{}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Bare-metal network, throughput, hpet, log scale}}{27}{}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Bare-metal network, throughput, tsc, log scale}}{28}{}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Bare-metal network, throughput, hpet, dual-y-axis, log scale}}{28}{}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces AWS RTT, hpet, log scale}}{29}{}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Bare-metal host, RTT, hpet, linear scale}}{30}{}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Bare-metal network, RTT, hpet, log scale}}{31}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1}{\ignorespaces RTT Comparison Summary}}{44}{}%
 \contentsline {figure}{\numberline {2}{\ignorespaces AWS HPET 30s Linear}}{44}{}%

@@ -8,7 +8,7 @@ The initial AWS measurement, which can be seen in Figure \ref{fig:AWS_tcp_sameSc
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/AWS_tcp_sameScale_kvm-clock_2min_linear.png}
-    \caption{AWS cloud environment, KVM-clock, linear scale}
+    \caption{AWS throughput, KVM-clock, linear scale}
     \label{fig:AWS_tcp_sameScale_kvm-clock_linear}
 
 \end{figure}
@@ -19,7 +19,7 @@ Switching to hpet (Figure \ref{fig:AWS_tcp_sameScale_hpet_log}) reduces anomalie
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/AWS_tcp_sameScale_hpet_2min_log.png}
-    \caption{AWS cloud environment, hpet, log scale}
+    \caption{AWS throughput, hpet, log scale}
     \label{fig:AWS_tcp_sameScale_hpet_log}
 
 \end{figure}
@@ -28,7 +28,7 @@ Switching to hpet (Figure \ref{fig:AWS_tcp_sameScale_hpet_log}) reduces anomalie
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/finalPlots/Jitterplots/AWS_tcp_dualAxis_hpet_2min_log.png}
-    \caption{AWS Throughput Results, hpet, dual-y-axis, log scale}
+    \caption{AWS Throughput, hpet, dual-y-axis, log scale}
     \label{fig:AWS_tcp_dualAxis_hpet_log}
 \end{figure}
 
@@ -41,7 +41,7 @@ On the bare-metal host (Figure \ref{fig:Local_tcp_sameScale_tsc_linear}), throug
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_tsc_2min_linear.png}
-    \caption{Bare-metal host, tsc, linear scale}
+    \caption{Bare-metal host, throughput, tsc, linear scale}
     \label{fig:Local_tcp_sameScale_tsc_linear}
 \end{figure}
 
@@ -50,7 +50,7 @@ For consistency we also switched the clocksource to hpet in the bare-metal host 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/SingleLocal_tcp_sameScale_hpet_2min_linear.png}
-    \caption{Bare-metal host, hpet, linear scale}
+    \caption{Bare-metal host, throughput, hpet, linear scale}
     \label{fig:Local_tcp_sameScale_hpet_linear}
 \end{figure}
 
@@ -59,7 +59,7 @@ Figure \ref{fig:Local_tcp_dualAxis_hpet_linear} illustrates, in contrast to the 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/finalPlots/Jitterplots/LocalSingle_tcp_dualAxis_hpet_2min_linear.png}
-    \caption{Bare-metal host, hpet, dual-y-axis, linear scale}
+    \caption{Bare-metal host, throughput, hpet, dual-y-axis, linear scale}
     \label{fig:Local_tcp_dualAxis_hpet_linear}
 \end{figure}
 
@@ -71,7 +71,7 @@ Moving on the bare-metal network setup (Figure \ref{fig:Dual_tcp_sameScale_hpet_
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_hpet_2min_log.png}
-    \caption{Bare-metal network, hpet, log scale}
+    \caption{Bare-metal network, throughput, hpet, log scale}
     \label{fig:Dual_tcp_sameScale_hpet_log}
 \end{figure}
 
@@ -80,7 +80,7 @@ The tsc results in Figure \ref{fig:Dual_tcp_sameScale_tsc_log} exhibit an artifa
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/finalPlots/combinedplots/DoubleLocal_tcp_sameScale_tsc_2min_log.png}
-    \caption{Bare-metal network, tsc, log scale}
+    \caption{Bare-metal network, throughput, tsc, log scale}
     \label{fig:Dual_tcp_sameScale_tsc_log}
 \end{figure}
 
@@ -88,7 +88,7 @@ Looking at the dual-y-axis plot in Figure \ref{fig:Double_tcp_dualAxis_hpet_log}
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/finalPlots/Jitterplots/LocalDouble_tcp_dualAxis_hpet_2min_log.png}
-    \caption{Bare-metal network, hpet, dual-y-axis, log scale}
+    \caption{Bare-metal network, throughput, hpet, dual-y-axis, log scale}
     \label{fig:Double_tcp_dualAxis_hpet_log}
 \end{figure}
 
@@ -101,7 +101,7 @@ The RTT results mirror the throughput analysis in showing that the translation c
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/plots/CombinedPlot/RTT/AWS_ping_rtt_Ping_30s_log.png}
-    \caption{AWS cloud environment, hpet, log scale}
+    \caption{AWS RTT, hpet, log scale}
     \label{fig:AWS_icmp_sameScale_hpet_log}
 
 \end{figure}
@@ -111,7 +111,7 @@ On the bare-metal host (Figure \ref{fig:Local_icmp_sameScale_hpet_linear}), RTTs
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/plots/CombinedPlot/RTT/Single_ping_rtt_Ping_30s_linear.png}
-    \caption{Bare-metal host, hpet, linear scale}
+    \caption{Bare-metal host, RTT, hpet, linear scale}
     \label{fig:Local_icmp_sameScale_hpet_linear}
 \end{figure}
 
@@ -121,7 +121,7 @@ The bare-metal network environment (Figure \ref{fig:Dual_icmp_sameScale_hpet_log
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{resources/plots/CombinedPlot/RTT/Double_ping_rtt_Ping_30s_log.png}
-    \caption{Bare-metal network, hpet, log scale}
+    \caption{Bare-metal network, RTT, hpet, log scale}
     \label{fig:Dual_icmp_sameScale_hpet_log}
 \end{figure}
 
@@ -140,21 +140,21 @@ The following tables~\ref{tab:rtt_comparison}, \ref{tab:throughput_comparison_aw
 AWS & IPv4 & jool & 0.057 & 0.064 & 0.064 & 0.079 & 0.005 & 0.073   \\
 AWS & IPv4 & tayga & 0.083 & 0.091 & 0.089 & 0.115 & 0.008 & 0.107   \\
 AWS & IPv4 & tundra & 0.091 & 0.099 & 0.098 & 0.118 & 0.006 & 0.110   \\
-AWS & IPv6 & tundra & 0.036 & 0.042 & 0.043 & 0.048 & 0.002 & 0.046   \\
-AWS & IPv6 & jool & 0.040 & 0.053 & 0.054 & 0.066 & 0.005 & 0.061   \\
-AWS & IPv6 & tayga & 0.033 & 0.042 & 0.043 & 0.049 & 0.004 & 0.048   \\
+AWS & Baseline & tundra & 0.036 & 0.042 & 0.043 & 0.048 & 0.002 & 0.046   \\
+AWS & Baseline & jool & 0.040 & 0.053 & 0.054 & 0.066 & 0.005 & 0.061   \\
+AWS & Baseline & tayga & 0.033 & 0.042 & 0.043 & 0.049 & 0.004 & 0.048   \\
 \hline
 Bare-metal host & IPv4 & jool & 0.179 & 0.189 & 0.181 & 0.317 & 0.026 & 0.218   \\
 Bare-metal host & IPv4 & tundra & 0.222 & 0.239 & 0.230 & 0.400 & 0.032 & 0.266   \\
-Bare-metal host & IPv6 & jool & 0.161 & 0.171 & 0.167 & 0.204 & 0.012 & 0.201   \\
-Bare-metal host & IPv6 & tundra & 0.086 & 0.131 & 0.132 & 0.164 & 0.014 & 0.153   \\
-Bare-metal host & IPv6 & tayga & 0.122 & 0.134 & 0.127 & 0.251 & 0.024 & 0.167   \\
+Bare-metal host & Baseline & jool & 0.161 & 0.171 & 0.167 & 0.204 & 0.012 & 0.201   \\
+Bare-metal host & Baseline & tundra & 0.086 & 0.131 & 0.132 & 0.164 & 0.014 & 0.153   \\
+Bare-metal host & Baseline & tayga & 0.122 & 0.134 & 0.127 & 0.251 & 0.024 & 0.167   \\
 \hline
 Bare-metal network & IPv4 & jool & 0.353 & 0.563 & 0.558 & 0.652 & 0.060 & 0.637   \\
 Bare-metal network & IPv4 & tundra & 0.584 & 0.666 & 0.615 & 0.846 & 0.091 & 0.823   \\
-Bare-metal network & IPv6 & jool & 0.483 & 0.532 & 0.529 & 0.564 & 0.018 & 0.560   \\
-Bare-metal network & IPv6 & tundra & 0.425 & 0.537 & 0.540 & 0.588 & 0.035 & 0.580   \\
-Bare-metal network & IPv6 & tayga & 0.403 & 0.539 & 0.540 & 0.577 & 0.037 & 0.575   \\
+Bare-metal network & Baseline & jool & 0.483 & 0.532 & 0.529 & 0.564 & 0.018 & 0.560   \\
+Bare-metal network & Baseline & tundra & 0.425 & 0.537 & 0.540 & 0.588 & 0.035 & 0.580   \\
+Bare-metal network & Baseline & tayga & 0.403 & 0.539 & 0.540 & 0.577 & 0.037 & 0.575   \\
 \hline
 \end{tabular}
 \end{table}
@@ -172,28 +172,28 @@ Bare-metal network & IPv6 & tayga & 0.403 & 0.539 & 0.540 & 0.577 & 0.037 & 0.57
 hpet & 30s & IPv4 & tayga & 0.176 & 0.187 & 0.186 & 0.209 & 0.005 & 0.193 \\
 hpet & 30s & IPv4 & tundra & 0.398 & 0.432 & 0.433 & 0.454 & 0.012 & 0.450 \\
 hpet & 30s & IPv4 & jool & 8.929 & 9.021 & 9.014 & 9.094 & 0.039 & 9.090 \\
-hpet & 30s & IPv6 & tayga & 9.921 & 10.062 & 10.083 & 10.160 & 0.069 & 10.140 \\
-hpet & 30s & IPv6 & jool & 9.362 & 9.418 & 9.398 & 9.516 & 0.050 & 9.511 \\
-hpet & 30s & IPv6 & tundra & 9.908 & 9.996 & 9.982 & 10.119 & 0.054 & 10.111 \\
+hpet & 30s & Baseline & tayga & 9.921 & 10.062 & 10.083 & 10.160 & 0.069 & 10.140 \\
+hpet & 30s & Baseline & jool & 9.362 & 9.418 & 9.398 & 9.516 & 0.050 & 9.511 \\
+hpet & 30s & Baseline & tundra & 9.908 & 9.996 & 9.982 & 10.119 & 0.054 & 10.111 \\
 hpet & 2min & IPv4 & jool & 8.884 & 8.964 & 8.958 & 9.082 & 0.043 & 9.037 \\
 hpet & 2min & IPv4 & tayga & 0.173 & 0.186 & 0.187 & 0.205 & 0.004 & 0.190 \\
 hpet & 2min & IPv4 & tundra & 0.416 & 0.447 & 0.445 & 0.515 & 0.016 & 0.477 \\
-hpet & 2min & IPv6 & tundra & 9.705 & 10.016 & 10.014 & 10.142 & 0.093 & 10.130 \\
-hpet & 2min & IPv6 & tayga & 9.714 & 10.079 & 10.111 & 10.188 & 0.094 & 10.180 \\
-hpet & 2min & IPv6 & jool & 9.276 & 9.451 & 9.445 & 9.530 & 0.056 & 9.519 \\
+hpet & 2min & Baseline & tundra & 9.705 & 10.016 & 10.014 & 10.142 & 0.093 & 10.130 \\
+hpet & 2min & Baseline & tayga & 9.714 & 10.079 & 10.111 & 10.188 & 0.094 & 10.180 \\
+hpet & 2min & Baseline & jool & 9.276 & 9.451 & 9.445 & 9.530 & 0.056 & 9.519 \\
 \hline
 kvm & 30s & IPv4 & tayga & 0.732 & 0.834 & 0.842 & 0.854 & 0.027 & 0.851 \\
 kvm & 30s & IPv4 & tundra & 1.205 & 1.236 & 1.235 & 1.286 & 0.021 & 1.270 \\
 kvm & 30s & IPv4 & jool & 0.001 & 15.995 & 17.840 & 18.967 & 4.426 & 18.929 \\
-kvm & 30s & IPv6 & tayga & 0.000 & 14.808 & 19.622 & 24.638 & 9.113 & 24.214 \\
-kvm & 30s & IPv6 & jool & 11.579 & 19.922 & 20.824 & 20.955 & 2.134 & 20.903 \\
-kvm & 30s & IPv6 & tundra & 14.209 & 23.299 & 24.482 & 24.732 & 2.653 & 24.688 \\
+kvm & 30s & Baseline & tayga & 0.000 & 14.808 & 19.622 & 24.638 & 9.113 & 24.214 \\
+kvm & 30s & Baseline & jool & 11.579 & 19.922 & 20.824 & 20.955 & 2.134 & 20.903 \\
+kvm & 30s & Baseline & tundra & 14.209 & 23.299 & 24.482 & 24.732 & 2.653 & 24.688 \\
 kvm & 2min & IPv4 & jool & 0.000 & 15.488 & 18.075 & 19.234 & 5.507 & 19.047 \\
 kvm & 2min & IPv4 & tayga & 0.703 & 0.838 & 0.841 & 0.861 & 0.019 & 0.854 \\
 kvm & 2min & IPv4 & tundra & 1.168 & 1.227 & 1.228 & 1.288 & 0.028 & 1.271 \\
-kvm & 2min & IPv6 & tundra & 0.000 & 17.034 & 21.558 & 29.127 & 9.261 & 24.690 \\
-kvm & 2min & IPv6 & tayga & 0.000 & 17.865 & 23.146 & 24.881 & 8.718 & 24.835 \\
-kvm & 2min & IPv6 & jool & 0.000 & 16.228 & 20.346 & 20.525 & 6.637 & 20.474 \\
+kvm & 2min & Baseline & tundra & 0.000 & 17.034 & 21.558 & 29.127 & 9.261 & 24.690 \\
+kvm & 2min & Baseline & tayga & 0.000 & 17.865 & 23.146 & 24.881 & 8.718 & 24.835 \\
+kvm & 2min & Baseline & jool & 0.000 & 16.228 & 20.346 & 20.525 & 6.637 & 20.474 \\
 \hline
 \end{tabular}
 \end{table}
@@ -211,25 +211,25 @@ kvm & 2min & IPv6 & jool & 0.000 & 16.228 & 20.346 & 20.525 & 6.637 & 20.474 \\
 \hline
 hpet & 30s & IPv4 & tundra & 0.495 & 0.518 & 0.520 & 0.537 & 0.008 & 0.527 \\
 hpet & 30s & IPv4 & jool & 6.677 & 6.746 & 6.757 & 6.786 & 0.028 & 6.771 \\
-hpet & 30s & IPv6 & tayga & 8.678 & 8.868 & 8.937 & 8.968 & 0.109 & 8.961 \\
-hpet & 30s & IPv6 & jool & 6.984 & 7.090 & 7.105 & 7.114 & 0.033 & 7.113 \\
-hpet & 30s & IPv6 & tundra & 8.706 & 8.900 & 8.905 & 9.038 & 0.100 & 9.019 \\
+hpet & 30s & Baseline & tayga & 8.678 & 8.868 & 8.937 & 8.968 & 0.109 & 8.961 \\
+hpet & 30s & Baseline & jool & 6.984 & 7.090 & 7.105 & 7.114 & 0.033 & 7.113 \\
+hpet & 30s & Baseline & tundra & 8.706 & 8.900 & 8.905 & 9.038 & 0.100 & 9.019 \\
 hpet & 2min & IPv4 & jool & 6.557 & 6.644 & 6.642 & 6.735 & 0.028 & 6.714 \\
 hpet & 2min & IPv4 & tundra & 0.493 & 0.510 & 0.510 & 0.535 & 0.007 & 0.521 \\
-hpet & 2min & IPv6 & tayga & 8.674 & 8.852 & 8.876 & 8.942 & 0.070 & 8.927 \\
-hpet & 2min & IPv6 & tundra & 8.670 & 8.860 & 8.891 & 8.977 & 0.080 & 8.948 \\
-hpet & 2min & IPv6 & jool & 7.033 & 7.092 & 7.092 & 7.121 & 0.015 & 7.112 \\
+hpet & 2min & Baseline & tayga & 8.674 & 8.852 & 8.876 & 8.942 & 0.070 & 8.927 \\
+hpet & 2min & Baseline & tundra & 8.670 & 8.860 & 8.891 & 8.977 & 0.080 & 8.948 \\
+hpet & 2min & Baseline & jool & 7.033 & 7.092 & 7.092 & 7.121 & 0.015 & 7.112 \\
 \hline
 tsc & 30s & IPv4 & tundra & 4.394 & 4.435 & 4.435 & 4.477 & 0.020 & 4.464 \\
 tsc & 30s & IPv4 & jool & 33.255 & 33.873 & 33.929 & 34.084 & 0.181 & 34.060 \\
-tsc & 30s & IPv6 & tayga & 41.221 & 42.328 & 42.521 & 42.888 & 0.550 & 42.885 \\
-tsc & 30s & IPv6 & jool & 35.586 & 35.879 & 35.932 & 36.082 & 0.139 & 36.034 \\
-tsc & 30s & IPv6 & tundra & 41.615 & 42.307 & 42.340 & 42.977 & 0.294 & 42.685 \\
+tsc & 30s & Baseline & tayga & 41.221 & 42.328 & 42.521 & 42.888 & 0.550 & 42.885 \\
+tsc & 30s & Baseline & jool & 35.586 & 35.879 & 35.932 & 36.082 & 0.139 & 36.034 \\
+tsc & 30s & Baseline & tundra & 41.615 & 42.307 & 42.340 & 42.977 & 0.294 & 42.685 \\
 tsc & 2min & IPv4 & jool & 26.289 & 33.813 & 34.015 & 34.131 & 1.008 & 34.105 \\
 tsc & 2min & IPv4 & tundra & 4.362 & 4.417 & 4.415 & 4.478 & 0.025 & 4.455 \\
-tsc & 2min & IPv6 & tayga & 40.713 & 42.063 & 42.229 & 42.839 & 0.585 & 42.763 \\
-tsc & 2min & IPv6 & tundra & 40.553 & 42.039 & 42.215 & 42.658 & 0.496 & 42.572 \\
-tsc & 2min & IPv6 & jool & 35.131 & 35.778 & 35.842 & 36.032 & 0.167 & 35.967 \\
+tsc & 2min & Baseline & tayga & 40.713 & 42.063 & 42.229 & 42.839 & 0.585 & 42.763 \\
+tsc & 2min & Baseline & tundra & 40.553 & 42.039 & 42.215 & 42.658 & 0.496 & 42.572 \\
+tsc & 2min & Baseline & jool & 35.131 & 35.778 & 35.842 & 36.032 & 0.167 & 35.967 \\
 \hline
 \end{tabular}
 \end{table}
@@ -246,25 +246,25 @@ tsc & 2min & IPv6 & jool & 35.131 & 35.778 & 35.842 & 36.032 & 0.167 & 35.967 \\
 \hline
 hpet & 30s & IPv4 & tundra & 0.524 & 0.541 & 0.538 & 0.566 & 0.010 & 0.559 \\
 hpet & 30s & IPv4 & jool & 0.540 & 0.584 & 0.587 & 0.608 & 0.019 & 0.608 \\
-hpet & 30s & IPv6 & tayga & 0.848 & 0.859 & 0.860 & 0.891 & 0.009 & 0.876 \\
-hpet & 30s & IPv6 & jool & 0.631 & 0.672 & 0.676 & 0.703 & 0.019 & 0.692 \\
-hpet & 30s & IPv6 & tundra & 0.837 & 0.856 & 0.849 & 0.891 & 0.012 & 0.876 \\
+hpet & 30s & Baseline & tayga & 0.848 & 0.859 & 0.860 & 0.891 & 0.009 & 0.876 \\
+hpet & 30s & Baseline & jool & 0.631 & 0.672 & 0.676 & 0.703 & 0.019 & 0.692 \\
+hpet & 30s & Baseline & tundra & 0.837 & 0.856 & 0.849 & 0.891 & 0.012 & 0.876 \\
 hpet & 2min & IPv4 & jool & 0.544 & 0.606 & 0.608 & 0.661 & 0.021 & 0.630 \\
 hpet & 2min & IPv4 & tundra & 0.514 & 0.538 & 0.535 & 0.566 & 0.010 & 0.556 \\
-hpet & 2min & IPv6 & tayga & 0.849 & 0.883 & 0.881 & 0.923 & 0.024 & 0.923 \\
-hpet & 2min & IPv6 & tundra & 0.839 & 0.885 & 0.891 & 0.923 & 0.023 & 0.912 \\
-hpet & 2min & IPv6 & jool & 0.641 & 0.696 & 0.692 & 0.745 & 0.020 & 0.724 \\
+hpet & 2min & Baseline & tayga & 0.849 & 0.883 & 0.881 & 0.923 & 0.024 & 0.923 \\
+hpet & 2min & Baseline & tundra & 0.839 & 0.885 & 0.891 & 0.923 & 0.023 & 0.912 \\
+hpet & 2min & Baseline & jool & 0.641 & 0.696 & 0.692 & 0.745 & 0.020 & 0.724 \\
 \hline
 tsc & 30s & IPv4 & tundra & 0.923 & 0.929 & 0.933 & 0.950 & 0.006 & 0.933 \\
 tsc & 30s & IPv4 & jool & 0.923 & 0.929 & 0.933 & 0.954 & 0.007 & 0.933 \\
-tsc & 30s & IPv6 & tayga & 0.923 & 0.929 & 0.933 & 0.959 & 0.008 & 0.933 \\
-tsc & 30s & IPv6 & jool & 0.923 & 0.929 & 0.933 & 0.949 & 0.006 & 0.933 \\
-tsc & 30s & IPv6 & tundra & 0.923 & 0.929 & 0.933 & 0.959 & 0.008 & 0.933 \\
+tsc & 30s & Baseline & tayga & 0.923 & 0.929 & 0.933 & 0.959 & 0.008 & 0.933 \\
+tsc & 30s & Baseline & jool & 0.923 & 0.929 & 0.933 & 0.949 & 0.006 & 0.933 \\
+tsc & 30s & Baseline & tundra & 0.923 & 0.929 & 0.933 & 0.959 & 0.008 & 0.933 \\
 tsc & 2min & IPv4 & jool & 0.923 & 0.929 & 0.933 & 0.958 & 0.006 & 0.933 \\
 tsc & 2min & IPv4 & tundra & 0.923 & 0.929 & 0.933 & 0.956 & 0.006 & 0.933 \\
-tsc & 2min & IPv6 & tayga & 0.923 & 0.929 & 0.933 & 0.955 & 0.006 & 0.933 \\
-tsc & 2min & IPv6 & tundra & 0.923 & 0.929 & 0.933 & 0.957 & 0.006 & 0.933 \\
-tsc & 2min & IPv6 & jool & 0.923 & 0.929 & 0.933 & 0.955 & 0.006 & 0.933 \\
+tsc & 2min & Baseline & tayga & 0.923 & 0.929 & 0.933 & 0.955 & 0.006 & 0.933 \\
+tsc & 2min & Baseline & tundra & 0.923 & 0.929 & 0.933 & 0.957 & 0.006 & 0.933 \\
+tsc & 2min & Baseline & jool & 0.923 & 0.929 & 0.933 & 0.955 & 0.006 & 0.933 \\
 \hline
 \end{tabular}
 \end{table}
