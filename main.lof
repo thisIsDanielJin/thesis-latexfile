@@ -1,12 +1,13 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces APNIC IPv4 address exhaustion timeline\blx@tocontentsinit {0}\cite {apnic_ipv4_exhaustion}.}}{5}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces IPv6 connectivity among Google users over time\blx@tocontentsinit {0}\cite {google_ipv6_statistics}.}}{6}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces NAT64/DNS64 architecture example showing the translation process.}}{10}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces APNIC IPv4 address exhaustion timeline\blx@tocontentsinit {0}\cite {apnic_ipv4_exhaustion}.}}{4}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces IPv6 connectivity among Google users over time\blx@tocontentsinit {0}\cite {google_ipv6_statistics}.}}{5}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces NAT64/DNS64 architecture example showing the translation process.}}{9}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Jool network namespace architecture with dual veth pairs.}}{20}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Tayga IPv4 packet flow diagram showing the translation process.}}{19}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Jool network namespace architecture with dual veth pairs.}}{20}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces AWS throughput, KVM-clock, linear scale}}{23}{}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces AWS throughput, hpet, log scale}}{24}{}%

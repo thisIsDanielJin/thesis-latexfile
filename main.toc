@@ -4,30 +4,30 @@
 \contentsline {paragraph}{Problem Statement}{1}{}%
 \contentsline {paragraph}{Industry collaboration }{2}{}%
 \contentsline {paragraph}{Thesis Structure}{2}{}%
-\contentsline {chapter}{\numberline {2}Background}{4}{}%
-\contentsline {section}{\numberline {2.1}IPv4 exhaustion and transition to IPv6}{4}{}%
-\contentsline {section}{\numberline {2.2}IPv6 transition mechanisms}{7}{}%
-\contentsline {paragraph}{Dual-Stack Architecture}{7}{}%
-\contentsline {paragraph}{NAT64/DNS64 Principles}{8}{}%
-\contentsline {paragraph}{Client-Side Translation: The role of CLAT and 464XLAT}{10}{}%
-\contentsline {section}{\numberline {2.3}Linux implementations of CLAT}{12}{}%
-\contentsline {paragraph}{Tayga}{12}{}%
-\contentsline {paragraph}{Tundra}{13}{}%
-\contentsline {paragraph}{Jool}{13}{}%
-\contentsline {chapter}{\numberline {3}Related Work}{15}{}%
-\contentsline {chapter}{\numberline {4}Evaluation}{16}{}%
-\contentsline {paragraph}{Time Stamp Counter (tsc)}{16}{}%
-\contentsline {paragraph}{High Precision Event Timer (hpet)}{16}{}%
-\contentsline {paragraph}{KVM Clock (kvm-clock)}{17}{}%
-\contentsline {section}{\numberline {4.1}Test environments}{17}{}%
-\contentsline {paragraph}{AWS}{17}{}%
-\contentsline {paragraph}{Bare-metal host}{17}{}%
-\contentsline {paragraph}{Bare-metal network}{17}{}%
+\contentsline {chapter}{\numberline {2}Background}{3}{}%
+\contentsline {section}{\numberline {2.1}IPv4 exhaustion and transition to IPv6}{3}{}%
+\contentsline {section}{\numberline {2.2}IPv6 transition mechanisms}{6}{}%
+\contentsline {paragraph}{Dual-Stack Architecture}{6}{}%
+\contentsline {paragraph}{NAT64/DNS64 Principles}{7}{}%
+\contentsline {paragraph}{Client-Side Translation: The role of CLAT and 464XLAT}{9}{}%
+\contentsline {section}{\numberline {2.3}Linux implementations of CLAT}{11}{}%
+\contentsline {paragraph}{Tayga}{11}{}%
+\contentsline {paragraph}{Tundra}{12}{}%
+\contentsline {paragraph}{Jool}{12}{}%
+\contentsline {chapter}{\numberline {3}Related Work}{14}{}%
+\contentsline {chapter}{\numberline {4}Evaluation}{15}{}%
+\contentsline {paragraph}{Time Stamp Counter (tsc)}{15}{}%
+\contentsline {paragraph}{High Precision Event Timer (hpet)}{15}{}%
+\contentsline {paragraph}{KVM Clock (kvm-clock)}{16}{}%
+\contentsline {section}{\numberline {4.1}Test environments}{16}{}%
+\contentsline {paragraph}{AWS}{16}{}%
+\contentsline {paragraph}{Bare-metal host}{16}{}%
+\contentsline {paragraph}{Bare-metal network}{16}{}%
 \contentsline {section}{\numberline {4.2}Networking Namespace Configuration}{18}{}%
-\contentsline {section}{\numberline {4.3}Implementation of Translation Technologies}{19}{}%
-\contentsline {paragraph}{Tayga}{19}{}%
+\contentsline {section}{\numberline {4.3}Implementation of Translation Technologies}{18}{}%
+\contentsline {paragraph}{Tayga}{18}{}%
 \contentsline {paragraph}{Tundra}{19}{}%
-\contentsline {paragraph}{Jool}{20}{}%
+\contentsline {paragraph}{Jool}{19}{}%
 \contentsline {section}{\numberline {4.4}Measurement Methodology}{20}{}%
 \contentsline {paragraph}{Throughput}{20}{}%
 \contentsline {paragraph}{RTT}{21}{}%

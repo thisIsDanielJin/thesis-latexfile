@@ -26,12 +26,11 @@ describes IPv6 transition mechanisms and introduces the principles of client-sid
 The chapter closes with a description of the Linux components used in the experiments: Jool, Tayga and Tundra. Chapter 3 presents 
 related work and identifies the specific gap this study addresses. 
 Chapter 4 then explains the experiment design by introducing the three test environments: an AWS cloud setup, 
-a single Ubuntu host with translators running in separate network namespaces, and 
-a dual-host Ubuntu setup connected via Ethernet with the iperf server on the second machine. Documenting how Tayga, Tundra, and Jool are set up, 
+a bare-metal host with translators running in separate network namespaces, and 
+a bare-metal network connected via Ethernet with the iperf server on the second machine. Documenting how Tayga, Tundra, and Jool are set up, 
 how namespaces and routing are configured, how measurements are taken for TCP throughput and RTT and discussing practical 
 challenges encountered during setup. 
 Chapter 5 presents the evaluation, analyzing the translators against the 
 Dual-Stack baseline and synthesizing findings across environments. Finally, Chapter 6 
 concludes the thesis by summarizing the main findings with respect to the central question and 
-suggesting directions for future work, while the document ends with references and an appendix containing configuration files, scripts and 
-further plots to support reproducibility.
+suggesting directions for future work, while the document ends with references and an appendix containing additional plots.
